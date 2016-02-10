@@ -2,7 +2,7 @@
 layout: post
 title:  "This site is born"
 date:   2016-02-10 13:00:00
-
+categories: jekyll github
 ---
 
 This is a test paragraph in Markdown.
@@ -10,7 +10,7 @@ This is a test paragraph in Markdown.
 Here's another.
 
 {% highlight html %}
-<p class="testing">Here's some HTML to test</p>
+<p class="testing	">Here's some HTML to test</p>
 {% endhighlight %}
 
 {% highlight css %}
@@ -22,7 +22,7 @@ h1 {
 
 <!-- 
 
-categories: jekyll update
+
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 

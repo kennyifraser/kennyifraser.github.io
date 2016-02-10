@@ -1,13 +1,20 @@
 # Site settings
 title: Kenny Fraser
 email: me@kennyfraser.com
-description: Kenny Fraser is a freelance web designer, developer and marketer living in the Scottish Highlands.
+phone: 0131 20 80 206
+description: Kenny Fraser is a freelance Front End Web Developer in the Scottish Highlands.
 # >  this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://kennyifraser.github.io" # the base hostname & protocol for your site
+codepen_username: kennyfraserdotcom
+facebook_username: kennyifraser
+github_username: kennyifraser
+googleplus_username: +KennyFraserDotcom
+gravatar_username: kennyifraser
+linkedin_username: kennyfraser
+pph_username: kenny
+tripadvisor_username: kennyfraser
 twitter_username: kennyfraser
-github_username:  kennyifraser
-facebook_username:  kennyifraser
 
 # Build settings
 markdown: kramdown
