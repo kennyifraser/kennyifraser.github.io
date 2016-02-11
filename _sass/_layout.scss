@@ -109,7 +109,7 @@
 
 .social-media-list li {
     display: inline-block;
-    margin: 0 $spacing-unit $spacing-unit/2;
+    margin: $spacing-unit/2 $spacing-unit/2 0 0;
 }
 
 .footer-col-wrapper {
@@ -123,11 +123,18 @@
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+    div {
+        @extend %vertical-rhythm;
+    }
 }
 
 .footer-col-1 {
     width: -webkit-calc(33% - (#{$spacing-unit} / 2));
     width:         calc(33% - (#{$spacing-unit} / 2));
+    img {
+        border-radius: $spacing-unit;
+        width: 120px;
+    }
 }
 
 .footer-col-2 {

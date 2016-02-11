@@ -2,123 +2,131 @@
 
   <div class="wrapper">
 
-    <!-- <h2 class="footer-heading">{{ site.title }}</h2> -->
+    <!-- <ul class="contact-list"> -->
 
-    <div class="footer-col-wrapper">
+    <div class="footer-col-wrapper" id="contact">
       <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-
-          {% if site.email %}
-          <li>
-            <a href="mailto:{{ site.email }}" title="send Kenny Fraser an email">
-              <i class="fa fa-envelope-o fa-2x"></i>
-              {{ site.email }}
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.phone %}
-          <li>
-            <a href="tel:{{ site.phone }}" title="call Kenny Fraser">
-              <i class="fa fa-phone fa-2x"></i>
-              {{ site.phone }}
-            </a>
-          </li>
-          {% endif %}
-
-          <li>
-            <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="subscribe to this site's RSS feed">
-              <i class="fa fa-rss fa-2x"></i>
-              subscribe to RSS
-            </a>
-          </li>
-
-        </ul>
+        <a href="{{ 'about' | prepend: site.baseurl }}">  
+          <img src="https://pbs.twimg.com/profile_images/459244576071360512/M5Y-cOqq_400x400.jpeg">
+        </a>
       </div>
-
       <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-
-          {% if site.twitter_username %}
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}" title="Kenny Fraser on Twitter" rel="external me" itemprop="url">
-              <i class="fa fa-twitter fa-2x"></i>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.facebook_username %}
-          <li>
-            <a href="https://www.facebook.com/{{ site.facebook_username }}" title="Kenny Fraser on Facebook" rel="external me" itemprop="url">
-              <i class="fa fa-facebook-square fa-2x"></i>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.linkedin_username %}
-          <li>
-            <a href="http://linkedin.com/in/{{ site.linkedin_username }}" title="Kenny Fraser on LinkedIn" rel="external me" itemprop="url">
-              <i class="fa fa-linkedin fa-2x"></i>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.googleplus_username %}
-          <li>
-            <a href="http://google.com/{{ site.googleplus_username }}" title="Kenny Fraser on Google Plus" rel="external me" itemprop="url">
-              <i class="fa fa-google-plus fa-2x"></i>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.github_username %}
-          <li>
-            <a href="https://github.com/{{ site.github_username }}" title="Kenny Fraser on GitHub" rel="external me" itemprop="url">
-              <i class="fa fa-github fa-2x"></i>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.codepen_username %}
-          <li>
-            <a href="http://codepen.io/{{ site.codepen_username }}" title="Kenny Fraser on CodePen" rel="external me" itemprop="url">
-              <i class="fa fa-codepen fa-2x"></i>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.pph_username %}
-          <li>
-            <a href="http://pph.me/{{ site.pph_username }}" title="Kenny Fraser on PeoplePerHour" rel="external me" itemprop="url">
-              <i class="fa fa-smile-o fa-2x"></i>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.gravatar_username %}
-          <li>
-            <a href="http://en.gravatar.com/{{ site.gravatar_username }}" title="Kenny Fraser on Gravatar" rel="external me" itemprop="url">
-              <i class="fa fa-google fa-2x"></i>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.tripadvisor_username %}
-          <li>
-            <a href="http://tripadvisor.co.uk/members/{{ site.tripadvisor_username }}" title="Kenny Fraser on TripAdvisor" rel="external me" itemprop="url">
-              <i class="fa fa-tripadvisor fa-2x"></i>
-            </a>
-          </li>
-          {% endif %}
-
-        </ul>
+        {% if site.email %}
+        <div>
+          <a href="mailto:{{ site.email }}" title="send Kenny Fraser an email">
+            <i class="fa fa-envelope-o fa-2x"></i>
+            {{ site.email }}
+          </a>
+        </div>
+        {% endif %}
+        {% if site.phone %}
+        <div>
+          <a href="tel:{{ site.phone }}" title="call Kenny Fraser">
+            <i class="fa fa-phone fa-2x"></i>
+            {{ site.phone }}
+          </a>
+        </div>
+        {% endif %}
       </div>
-
-      <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
+      <div class="footer-col  footer-col-3">  
+        <div>
+          <a href="{{ '/'' | prepend: site.baseurl }}" title="posts written by me">
+            <i class="fa fa-book fa-2x"></i>articles
+          </a>
+        </div>
+        <div>
+          <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="subscribe to this site's RSS feed">
+            <i class="fa fa-rss fa-2x"></i>
+            subscribe to RSS
+          </a>
+        </div>
       </div>
-    </div>
+    </div> 
 
-  </div>
+    <!-- </ul> -->
+
+    <ul class="social-media-list">
+
+      {% if site.twitter_username %}
+      <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}" title="Kenny Fraser on Twitter" rel="external me" itemprop="url">
+          <i class="fa fa-twitter fa-2x"></i>
+        </a>
+      </li>
+      {% endif %}
+
+      {% if site.facebook_username %}
+      <li>
+        <a href="https://www.facebook.com/{{ site.facebook_username }}" title="Kenny Fraser on Facebook" rel="external me" itemprop="url">
+          <i class="fa fa-facebook-square fa-2x"></i>
+        </a>
+      </li>
+      {% endif %}
+
+      {% if site.linkedin_username %}
+      <li>
+        <a href="http://linkedin.com/in/{{ site.linkedin_username }}" title="Kenny Fraser on LinkedIn" rel="external me" itemprop="url">
+          <i class="fa fa-linkedin fa-2x"></i>
+        </a>
+      </li>
+      {% endif %}
+
+      {% if site.googleplus_username %}
+      <li>
+        <a href="http://google.com/{{ site.googleplus_username }}" title="Kenny Fraser on Google Plus" rel="external me" itemprop="url">
+          <i class="fa fa-google-plus fa-2x"></i>
+        </a>
+      </li>
+      {% endif %}
+
+      {% if site.github_username %}
+      <li>
+        <a href="https://github.com/{{ site.github_username }}" title="Kenny Fraser on GitHub" rel="external me" itemprop="url">
+          <i class="fa fa-github fa-2x"></i>
+        </a>
+      </li>
+      {% endif %}
+
+      {% if site.codepen_username %}
+      <li>
+        <a href="http://codepen.io/{{ site.codepen_username }}" title="Kenny Fraser on CodePen" rel="external me" itemprop="url">
+          <i class="fa fa-codepen fa-2x"></i>
+        </a>
+      </li>
+      {% endif %}
+
+      {% if site.pph_username %}
+      <li>
+        <a href="http://pph.me/{{ site.pph_username }}" title="Kenny Fraser on PeoplePerHour" rel="external me" itemprop="url">
+          <i class="fa fa-smile-o fa-2x"></i>
+        </a>
+      </li>
+      {% endif %}
+
+      {% if site.gravatar_username %}
+      <li>
+        <a href="http://en.gravatar.com/{{ site.gravatar_username }}" title="Kenny Fraser on Gravatar" rel="external me" itemprop="url">
+          <i class="fa fa-google fa-2x"></i>
+        </a>
+      </li>
+      {% endif %}
+
+      {% if site.tripadvisor_username %}
+      <li>
+        <a href="http://tripadvisor.co.uk/members/{{ site.tripadvisor_username }}" title="Kenny Fraser on TripAdvisor" rel="external me" itemprop="url">
+          <i class="fa fa-tripadvisor fa-2x"></i>
+        </a>
+      </li>
+      {% endif %}
+
+    </ul>
+
+    <p class="text">{{ site.description }}</p>
+
+    <!-- 
+    <h2 class="footer-heading">{{ site.title }}</h2>
+    -->
+
+  </div> <!-- wrapper -->
 
 </footer>
