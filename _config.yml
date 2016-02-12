@@ -7,14 +7,16 @@ description: Kenny Fraser is a freelance Front End Web Developer in the Scottish
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://kennyifraser.github.io" # the base hostname & protocol for your site
 codepen_username: kennyfraserdotcom
+ebay_username: kennyifraser
 facebook_username: kennyifraser
 github_username: kennyifraser
 googleplus_username: +KennyFraserDotcom
-# gravatar_username: kennyifraser
+gravatar_username: kennyifraser
 linkedin_username: kennyfraser
 pph_username: kenny
 tripadvisor_username: kennyfraser
 twitter_username: kennyfraser
+youtube_username: kennyfraserdotcom
 
 # Build settings
 markdown: kramdown
