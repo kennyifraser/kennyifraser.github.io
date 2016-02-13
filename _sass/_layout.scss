@@ -132,7 +132,7 @@
     width: -webkit-calc(33% - (#{$spacing-unit} / 2));
     width:         calc(33% - (#{$spacing-unit} / 2));
     img {
-        border-radius: $spacing-unit;
+        border-radius: 50%;
         width: 120px;
     }
 }

@@ -237,7 +237,7 @@ pre {
   width: -webkit-calc(33% - (30px / 2));
   width: calc(33% - (30px / 2)); }
   .footer-col-1 img {
-    border-radius: 30px;
+    border-radius: 50%;
     width: 120px; }
 
 .footer-col-2 {
