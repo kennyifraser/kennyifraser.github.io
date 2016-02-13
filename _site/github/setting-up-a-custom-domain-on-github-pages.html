@@ -6,7 +6,7 @@
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>About</title>
+    <title>Setting up a custom domain on GitHub Pages</title>
     <meta name="description" content="Kenny Fraser is a freelance Front End Web Developer in the Scottish Highlands.">
 
     <link rel="shortcut icon" type=image/x-icon href="/img/favicon.ico">
@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://kennyfraser.com/about/">
+    <link rel="canonical" href="http://kennyfraser.com/github/setting-up-a-custom-domain-on-github-pages">
 </head>
 
 
@@ -65,24 +65,30 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title">Setting up a custom domain on GitHub Pages</h1>
+    <p class="post-meta">Feb 13, 2016</p>
   </header>
 
   <article class="post-content">
-    <p>I’m a freelance website designer and front end developer with over 17 years of operational and marketing experience relating to small businesses in the UK.</p>
+    <p>This wasn’t as easy as I’d expected, but got there in the end.  What I wanted was <em>http://kennyfraser.com</em> to be the definitive URL of this site, and <em>http://www.kennyfraser.com</em> to redirect there.</p>
 
-<p>In 1999 I created the Scottish and Celtic music specialist retail website <a href="http://www.musicscotland.com/">Music Scotland</a> and ran this business as owner-manager. In 2011 it was sold as a going concern to another Scottish music store, Oban Music. Music Scotland has sent CDs, DVDs and books to tens of thousands of customers worldwide - music mainly generated in Scotland by Scottish artists.</p>
+<p><a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">Using the instructions here</a> I had to <a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/">add a CNAME <em>file</em> to my GitHub User repository</a> as well as <a href="https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/">configure a CNAME <em>record</em></a> at the DNS service provider (Fasthosts).</p>
 
-<p>Since then I’ve been supporting small business clients running their own websites.</p>
+<p>The CNAME file contents are just:</p>
 
-<p>I also own and manage a <a href="http://mull.co">self catering holiday house in Tobermory on the Isle of Mull</a> called Back Brae Lodge. In a former life I was an itinerant musician with <a href="http://salsaceltica.com">Salsa Celtica</a> and other bands. In an even former life, <a href="http://www.ed.ac.uk/">Edinburgh University</a> gave me a degree in Biochemistry.</p>
+<figure class="highlight"><pre><code class="language-html" data-lang="html">kennyfraser.com</code></pre></figure>
 
-<p>I live on the rural <a href="http://www.black-isle.info/">Black Isle</a>, near Inverness in the Scottish Highlands, with my wife and two children.</p>
+<p>This is what worked in the DNS provider’s records:</p>
+
+<p><img src="/img/CNAME-records-fasthosts-github-pages.png" alt="CNAME records at Fasthosts" /></p>
+
+<p>Both blank and <em>www</em> Host Names point to my <em>username.github.io</em> and neither appear in the A records. As far as I’m aware, these are both <a href="https://help.github.com/articles/about-custom-domains-for-github-pages-sites/"><em>custom subdomains</em> (for best performance) and not <em>apex domains</em></a> as they’re configured through CNAME and not A records.</p>
+
+<p>GitHub Pages <a href="https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/#configuring-a-www-subdomain">automatically creates a redirect</a> between these <em>www</em> and <em>non-www</em> versions of the domain, depending on the contents of the CNAME <em>file</em>.</p>
 
   </article>
 
 </div>
-
       </div>
     </div>
 

@@ -5,7 +5,7 @@ phone: 0131 208 0206
 description: Kenny Fraser is a freelance Front End Web Developer in the Scottish Highlands.
 # >  this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://kennyifraser.github.io" # the base hostname & protocol for your site
+url: "http://kennyfraser.com" # the base hostname & protocol for your site
 codepen_username: kennyfraserdotcom
 ebay_username: kennyifraser
 facebook_username: kennyifraser
