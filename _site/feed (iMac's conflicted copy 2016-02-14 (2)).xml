@@ -3,10 +3,10 @@
   <channel>
     <title>Kenny Fraser</title>
     <description>Kenny Fraser is a freelance Front End Web Developer in the Scottish Highlands.</description>
-    <link>http://kennyfraser.com/</link>
-    <atom:link href="http://kennyfraser.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Feb 2016 15:08:59 +0000</pubDate>
-    <lastBuildDate>Sun, 14 Feb 2016 15:08:59 +0000</lastBuildDate>
+    <link>http://kennyifraser.github.io/</link>
+    <atom:link href="http://kennyifraser.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 14 Feb 2016 14:48:29 +0000</pubDate>
+    <lastBuildDate>Sun, 14 Feb 2016 14:48:29 +0000</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -28,8 +28,8 @@
 &lt;p&gt;GitHub Pages &lt;a href=&quot;https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/#configuring-a-www-subdomain&quot;&gt;automatically creates a redirect&lt;/a&gt; between these &lt;em&gt;www&lt;/em&gt; and &lt;em&gt;non-www&lt;/em&gt; versions of the domain, depending on the contents of the CNAME &lt;em&gt;file&lt;/em&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 13 Feb 2016 21:00:00 +0000</pubDate>
-        <link>http://kennyfraser.com/github/setting-up-a-custom-domain-on-github-pages</link>
-        <guid isPermaLink="true">http://kennyfraser.com/github/setting-up-a-custom-domain-on-github-pages</guid>
+        <link>http://kennyifraser.github.io/github/setting-up-a-custom-domain-on-github-pages</link>
+        <guid isPermaLink="true">http://kennyifraser.github.io/github/setting-up-a-custom-domain-on-github-pages</guid>
         
         
       </item>
@@ -69,8 +69,8 @@
 &lt;p&gt;Eduardo Bouças has written a good &lt;a href=&quot;https://davidwalsh.name/introduction-static-site-generators&quot;&gt;comparison of static vs dynamic site generators&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Feb 2016 22:30:00 +0000</pubDate>
-        <link>http://kennyfraser.com/jekyll/new-portfolio-blog-site-on-github-pages</link>
-        <guid isPermaLink="true">http://kennyfraser.com/jekyll/new-portfolio-blog-site-on-github-pages</guid>
+        <link>http://kennyifraser.github.io/jekyll/new-portfolio-blog-site-on-github-pages</link>
+        <guid isPermaLink="true">http://kennyifraser.github.io/jekyll/new-portfolio-blog-site-on-github-pages</guid>
         
         
       </item>

@@ -142,15 +142,12 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
-footer a, header a {
-  border-bottom: none; }
-  footer a:hover, header a:hover {
-    border-bottom: none; }
-
 /**
  * Site header
  */
 .site-header {
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   position: relative; }
 
@@ -160,6 +157,8 @@ footer a, header a {
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left; }
+  .site-title, .site-title:visited {
+    color: #424242; }
 
 .site-nav {
   float: right;
@@ -167,6 +166,7 @@ footer a, header a {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
+    color: #dde;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
@@ -206,7 +206,7 @@ footer a, header a {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #aab;
+  border-top: 1px solid #e8e8e8;
   padding: 30px 0; }
 
 .footer-heading {
@@ -320,8 +320,7 @@ footer a, header a {
  * Syntax highlighting styles
  */
 .highlight {
-  background: #fff;
-  color: #001; }
+  background: #fff; }
   .highlight .c {
     color: #998;
     font-style: italic; }
