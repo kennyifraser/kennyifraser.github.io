@@ -17,16 +17,14 @@
         {% if site.email %}
         <div>
           <a href="mailto:{{ site.email }}" title="send Kenny Fraser an email">
-            <i class="fa fa-envelope-o fa-2x"></i>
-            {{ site.email }}
+            <i class="fa fa-envelope-o fa-2x"></i>&nbsp;{{ site.email }}
           </a>
         </div>
         {% endif %}
         {% if site.phone %}
         <div>
           <a href="tel:{{ site.phone }}" title="call Kenny Fraser">
-            <i class="fa fa-phone fa-2x"></i>
-            {{ site.phone }}
+            <i class="fa fa-phone fa-2x"></i>&nbsp;{{ site.phone }}
           </a>
         </div>
         {% endif %}
@@ -34,13 +32,12 @@
       <div class="footer-col  footer-col-3">  
         <div>
           <a href="{{ '/'' | prepend: site.baseurl }}" title="posts written by me">
-            <i class="fa fa-book fa-2x"></i>articles
+            <i class="fa fa-book fa-2x"></i>&nbsp;articles
           </a>
         </div>
         <div>
           <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="subscribe to this site's RSS feed">
-            <i class="fa fa-rss fa-2x"></i>
-            subscribe to RSS
+            <i class="fa fa-rss fa-2x"></i>&nbsp;subscribe to RSS
           </a>
         </div>
       </div>
@@ -52,7 +49,7 @@
 
       {% if site.twitter_username %}
       <li>
-        <a href="https://twitter.com/{{ site.twitter_username }}" title="Kenny Fraser on Twitter" rel="external me nofollow" itemprop="url">
+        <a href="https://twitter.com/{{ site.twitter_username }}" title="Kenny Fraser on Twitter" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-twitter fa-2x"></i>
         </a>
       </li>
@@ -60,7 +57,7 @@
 
       {% if site.facebook_username %}
       <li>
-        <a href="https://www.facebook.com/{{ site.facebook_username }}" title="Kenny Fraser on Facebook" rel="external me nofollow" itemprop="url">
+        <a href="https://www.facebook.com/{{ site.facebook_username }}" title="Kenny Fraser on Facebook" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-facebook-square fa-2x"></i>
         </a>
       </li>
@@ -68,7 +65,7 @@
 
       {% if site.linkedin_username %}
       <li>
-        <a href="http://linkedin.com/in/{{ site.linkedin_username }}" title="Kenny Fraser on LinkedIn" rel="external me nofollow" itemprop="url">
+        <a href="http://linkedin.com/in/{{ site.linkedin_username }}" title="Kenny Fraser on LinkedIn" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-linkedin fa-2x"></i>
         </a>
       </li>
@@ -76,7 +73,7 @@
 
       {% if site.googleplus_username %}
       <li>
-        <a href="http://google.com/{{ site.googleplus_username }}" title="Kenny Fraser on Google Plus" rel="external me nofollow" itemprop="url">
+        <a href="http://google.com/{{ site.googleplus_username }}" title="Kenny Fraser on Google Plus" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-google-plus fa-2x"></i>
         </a>
       </li>
@@ -84,7 +81,7 @@
 
       {% if site.youtube_username %}
       <li>
-        <a href="https://www.youtube.com/user/{{ site.youtube_username }}" title="Kenny Fraser on YouTube" rel="external me nofollow" itemprop="url">
+        <a href="https://www.youtube.com/user/{{ site.youtube_username }}" title="Kenny Fraser on YouTube" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-youtube-play fa-2x"></i>
         </a>
       </li>
@@ -92,7 +89,7 @@
 
       {% if site.github_username %}
       <li>
-        <a href="https://github.com/{{ site.github_username }}" title="Kenny Fraser on GitHub" rel="external me nofollow" itemprop="url">
+        <a href="https://github.com/{{ site.github_username }}" title="Kenny Fraser on GitHub" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-github fa-2x"></i>
         </a>
       </li>
@@ -100,7 +97,7 @@
 
       {% if site.codepen_username %}
       <li>
-        <a href="http://codepen.io/{{ site.codepen_username }}" title="Kenny Fraser on CodePen" rel="external me nofollow" itemprop="url">
+        <a href="http://codepen.io/{{ site.codepen_username }}" title="Kenny Fraser on CodePen" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-codepen fa-2x"></i>
         </a>
       </li>
@@ -108,7 +105,7 @@
 
       {% if site.pph_username %}
       <li>
-        <a href="http://pph.me/{{ site.pph_username }}" title="Kenny Fraser on PeoplePerHour" rel="external me nofollow" itemprop="url">
+        <a href="http://pph.me/{{ site.pph_username }}" title="Kenny Fraser on PeoplePerHour" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-smile-o fa-2x"></i>
         </a>
       </li>
@@ -116,7 +113,7 @@
 
       {% if site.tripadvisor_username %}
       <li>
-        <a href="http://tripadvisor.co.uk/members/{{ site.tripadvisor_username }}" title="Kenny Fraser on TripAdvisor" rel="external me nofollow" itemprop="url">
+        <a href="http://tripadvisor.co.uk/members/{{ site.tripadvisor_username }}" title="Kenny Fraser on TripAdvisor" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-tripadvisor fa-2x"></i>
         </a>
       </li>
@@ -124,7 +121,7 @@
 
       {% if site.gravatar_username %}
       <li>
-        <a href="http://en.gravatar.com/{{ site.gravatar_username }}" title="Kenny Fraser on Gravatar" rel="external me nofollow" itemprop="url">
+        <a href="http://en.gravatar.com/{{ site.gravatar_username }}" title="Kenny Fraser on Gravatar" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-external-link fa-2x"></i>&nbsp;Gravatar
         </a>
       </li>
@@ -132,7 +129,7 @@
 
       {% if site.ebay_username %}
       <li>
-        <a href="http://www.ebay.co.uk/usr/{{ site.ebay_username }}" title="Kenny Fraser on eBay" rel="external me nofollow" itemprop="url">
+        <a href="http://www.ebay.co.uk/usr/{{ site.ebay_username }}" title="Kenny Fraser on eBay" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-external-link fa-2x"></i>&nbsp;eBay
         </a>
       </li>
@@ -143,19 +140,19 @@
     <ul class="social-media-list">
 
       <li>
-        <a href="http://mull.co" title="Self catering holiday cottage in Tobermory on Mull" rel="external" itemprop="url">
+        <a href="http://mull.co" title="Self catering holiday cottage in Tobermory on Mull" rel="external" itemprop="sameAs">
           <i class="fa fa-bed fa-2x"></i>&nbsp;Back Brae Lodge, Tobermory
         </a>
       </li>
 
       <li>
-        <a href="https://www.tripadvisor.co.uk/VacationRentals-g551869-Reviews-Tobermory_Isle_of_Mull_The_Hebrides_Scotland-Vacation_Rentals.html" title="Self catering holiday cottage in Tobermory on Mull" rel="external nofollow" itemprop="url">
+        <a href="https://www.tripadvisor.co.uk/VacationRentals-g551869-Reviews-Tobermory_Isle_of_Mull_The_Hebrides_Scotland-Vacation_Rentals.html" title="Self catering holiday cottage in Tobermory on Mull" rel="external nofollow" itemprop="sameAs">
           <i class="fa fa-tripadvisor fa-2x"></i>&nbsp;BBL on TripAdvisor
         </a>
       </li>  
 
       <li>
-        <a href="https://www.airbnb.co.uk/rooms/707119" title="Self catering holiday cottage in Tobermory on Mull" rel="external nofollow" itemprop="url">
+        <a href="https://www.airbnb.co.uk/rooms/707119" title="Self catering holiday cottage in Tobermory on Mull" rel="external nofollow" itemprop="sameAs">
           <i class="fa fa-external-link fa-2x"></i>&nbsp;BBL on Airbnb
         </a>
       </li>    

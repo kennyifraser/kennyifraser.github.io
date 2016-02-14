@@ -17,7 +17,7 @@ The CNAME file contents are just:
 kennyfraser.com
 {% endhighlight %}
 
-This is what worked in the DNS provider's records:
+This is what eventually worked in the DNS provider's records:
 
 ![CNAME records at Fasthosts](/img/CNAME-records-fasthosts-github-pages.png)
 
