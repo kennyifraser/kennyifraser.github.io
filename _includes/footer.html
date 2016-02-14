@@ -2,33 +2,40 @@
 
   <div class="wrapper">
 
-    <p class="text">{{ site.description }}</p>
+    <p class="text" itemprop="description">{{ site.description }}</p>
 
     <!-- <ul class="contact-list"> -->
 
     <div class="footer-col-wrapper" id="contact">
       <div class="footer-col  footer-col-1">
         <a href="{{ '/about' | prepend: site.baseurl }}">  
-        <img src="https://secure.gravatar.com/avatar/f6d070fe4518a823b0905bbbfb5539cd?size=400">
+        <img src="https://secure.gravatar.com/avatar/f6d070fe4518a823b0905bbbfb5539cd?size=400" itemprop="image">
           <!-- <img src="https://pbs.twimg.com/profile_images/459244576071360512/M5Y-cOqq_400x400.jpeg"> -->
         </a>
       </div>
       <div class="footer-col  footer-col-2">
         {% if site.email %}
         <div>
-          <a href="mailto:{{ site.email }}" title="send Kenny Fraser an email" itemprop="email">
-            <i class="fa fa-envelope-o fa-2x"></i>&nbsp;{{ site.email }}
+          <a href="mailto:{{ site.email }}" title="send Kenny Fraser an email">
+            <i class="fa fa-envelope-o fa-2x"></i>&nbsp;<span itemprop="email">{{ site.email }}</span>
           </a>
         </div>
         {% endif %}
         {% if site.phone %}
         <div>
-          <a href="tel:{{ site.phone }}" title="call Kenny Fraser" itemprop="telephone">
-            <i class="fa fa-phone fa-2x"></i>&nbsp;{{ site.phone }}
+          <a href="tel:{{ site.phone }}" title="call Kenny Fraser">
+            <i class="fa fa-phone fa-2x"></i>&nbsp;<span itemprop="telephone">{{ site.phone }}</span>
           </a>
         </div>
         {% endif %}
+        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="addressLocality">Fortrose</span>, 
+          <span itemprop="addressRegion">Ross-shire</span>,  
+          Scotland, 
+          <span itemprop="addressCountry">UK</span>
+        </div>
       </div>
+
       <div class="footer-col  footer-col-3">  
         <div>
           <a href="{{ '/'' | prepend: site.baseurl }}" title="posts written by me">

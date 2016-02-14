@@ -127,33 +127,40 @@
 
   <div class="wrapper">
 
-    <p class="text">Kenny Fraser is a freelance Front End Web Developer in the Scottish Highlands.</p>
+    <p class="text" itemprop="description">Kenny Fraser is a freelance Front End Web Developer in the Scottish Highlands.</p>
 
     <!-- <ul class="contact-list"> -->
 
     <div class="footer-col-wrapper" id="contact">
       <div class="footer-col  footer-col-1">
         <a href="/about">  
-        <img src="https://secure.gravatar.com/avatar/f6d070fe4518a823b0905bbbfb5539cd?size=400">
+        <img src="https://secure.gravatar.com/avatar/f6d070fe4518a823b0905bbbfb5539cd?size=400" itemprop="image">
           <!-- <img src="https://pbs.twimg.com/profile_images/459244576071360512/M5Y-cOqq_400x400.jpeg"> -->
         </a>
       </div>
       <div class="footer-col  footer-col-2">
         
         <div>
-          <a href="mailto:me@kennyfraser.com" title="send Kenny Fraser an email" itemprop="email">
-            <i class="fa fa-envelope-o fa-2x"></i>&nbsp;me@kennyfraser.com
+          <a href="mailto:me@kennyfraser.com" title="send Kenny Fraser an email">
+            <i class="fa fa-envelope-o fa-2x"></i>&nbsp;<span itemprop="email">me@kennyfraser.com</span>
           </a>
         </div>
         
         
         <div>
-          <a href="tel:0131 208 0206" title="call Kenny Fraser" itemprop="telephone">
-            <i class="fa fa-phone fa-2x"></i>&nbsp;0131 208 0206
+          <a href="tel:0131 208 0206" title="call Kenny Fraser">
+            <i class="fa fa-phone fa-2x"></i>&nbsp;<span itemprop="telephone">0131 208 0206</span>
           </a>
         </div>
         
+        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="addressLocality">Fortrose</span>, 
+          <span itemprop="addressRegion">Ross-shire</span>,  
+          Scotland, 
+          <span itemprop="addressCountry">UK</span>
+        </div>
       </div>
+
       <div class="footer-col  footer-col-3">  
         <div>
           <a href="/" title="posts written by me">
