@@ -15,8 +15,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  color: #111;
-  background-color: #fdfdfd;
+  color: #dde;
+  background-color: #001;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -65,13 +65,12 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
-  text-decoration: none; }
-  a:visited {
-    color: #1756a9; }
+  color: #aab;
+  text-decoration: none;
+  border-bottom: 1px dotted #aab; }
   a:hover {
-    color: #111;
-    text-decoration: underline; }
+    color: #dde;
+    border-bottom: 1px solid #dde; }
 
 /**
  * Blockquotes
@@ -143,6 +142,11 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
+footer a, header a {
+  border-bottom: none; }
+  footer a:hover, header a:hover {
+    border-bottom: none; }
+
 /**
  * Site header
  */
@@ -158,8 +162,6 @@ pre {
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left; }
-  .site-title, .site-title:visited {
-    color: #424242; }
 
 .site-nav {
   float: right;
@@ -167,7 +169,6 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
@@ -176,7 +177,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 30px;
-      background-color: #fdfdfd;
+      background-color: #001;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -321,7 +322,8 @@ pre {
  * Syntax highlighting styles
  */
 .highlight {
-  background: #fff; }
+  background: #fff;
+  color: #001; }
   .highlight .c {
     color: #998;
     font-style: italic; }
