@@ -3,7 +3,6 @@ layout: page
 title: Clients
 permalink: /clients/
 ---
-
 ##SellerDeck Responsive Design Projects
 
 ###<a href="http://www.musicscotland.com" title="Music Scotland Scottish Music" rel="external nofollow">Music Scotland</a>
