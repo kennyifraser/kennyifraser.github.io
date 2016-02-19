@@ -69,7 +69,7 @@ B&amp;B accommodation on the Black Isle, between Dingwall and Inverness. Design 
 
 ## Other clients
 
-People I worked with in the early days of website promotion in the Scottish cultural arena have included:
+People I worked with in the early days of website promotion in the Scottish cultural arena included:
  
 - <a href="http://www.carnyxscotland.co.uk/" rel="external nofollow">Carnyx &amp; Co</a>
 - <a href="http://www.ceolas.co.uk/" rel="external nofollow">Ceolas</a>
