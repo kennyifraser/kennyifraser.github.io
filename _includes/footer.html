@@ -2,8 +2,6 @@
 
   <div class="wrapper">
 
-    <p class="text" itemprop="description">{{ site.description }}</p>
-
     <!-- <ul class="contact-list"> -->
 
     <div class="footer-col-wrapper" id="contact">
@@ -28,12 +26,6 @@
           </a>
         </div>
         {% endif %}
-        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-          <span itemprop="addressLocality">Fortrose</span>, 
-          <span itemprop="addressRegion">Ross-shire</span>,  
-          Scotland, 
-          <span itemprop="addressCountry">GB</span>
-        </div>
       </div>
 
       <div class="footer-col  footer-col-3">  
@@ -165,6 +157,8 @@
       </li>    
 
     </ul>
+
+    <p class="text" itemprop="description">{{ site.description }}</p>
 
   </div> <!-- wrapper -->
 

@@ -8,7 +8,12 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 /**
  * Basic styling
@@ -20,6 +25,8 @@ body {
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
+    background-image: $background-image;
+    background-attachment: fixed;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -156,13 +163,22 @@ pre {
  * Wrapper
  */
 .wrapper {
+    background-color: $secondary-color;
+    border-radius: $spacing-unit;
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding: $spacing-unit;
+    // padding-right: $spacing-unit;
+    // padding-left: $spacing-unit;
     @extend %clearfix;
+
+    header & {
+        border-radius: 0;
+        padding: 0 $spacing-unit;
+    }
+
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(800px - (#{$spacing-unit}));
@@ -171,6 +187,7 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
+
 
 
 
@@ -203,4 +220,11 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+hr {
+    background-color: $grey-color-dark;
+    border: none;
+    height: 2px;
+    margin-bottom: $spacing-unit;
 }

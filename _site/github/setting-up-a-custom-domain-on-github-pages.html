@@ -54,6 +54,10 @@
           
         
           
+          <a class="page-link" href="/clients/">Clients</a>
+          
+        
+          
         
           
           <a class="page-link" href="/hire-me/">Hire Me</a>
@@ -68,9 +72,9 @@
 
   </div>
 
-  <div class="wrapper">
+<!--   <div class="wrapper">
     <div itemprop="affiliation">Web Business Services</div>
-  </div>
+  </div> -->
 
 </header>
 
@@ -79,17 +83,17 @@
   <div class="wrapper">
     <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">Setting up a custom domain on GitHub Pages</h1>
-    <p class="post-meta">Feb 13, 2016</p>
-  </header>
+	<header class="post-header">
+	<h1 class="post-title">Setting up a custom domain on GitHub Pages</h1>
+	<p class="post-meta">Feb 13, 2016</p>
+	</header>
 
-  <article class="post-content">
-    <p>This wasn’t as easy as I’d expected, but got there in the end.  What I wanted was <em>http://kennyfraser.com</em> to be the definitive URL of this site, and <em>http://www.kennyfraser.com</em> to redirect there.</p>
+	<article class="post-content">
+	<p>What I wanted was <em>http://kennyfraser.com</em> to be the definitive URL of this site, and <em>http://www.kennyfraser.com</em> to redirect there.</p>
 
 <p><a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">Using the instructions here</a> I had to <a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/">add a CNAME <em>file</em> to my GitHub User repository</a> as well as <a href="https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/">configure a CNAME <em>record</em></a> at the DNS service provider (Fasthosts).</p>
 
-<p>The CNAME file contents are just:</p>
+<p>The GitHub CNAME file contents are just:</p>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html">kennyfraser.com</code></pre></figure>
 
@@ -101,7 +105,11 @@
 
 <p>GitHub Pages <a href="https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/#configuring-a-www-subdomain">automatically creates a redirect</a> between these <em>www</em> and <em>non-www</em> versions of the domain, depending on the contents of the CNAME <em>file</em>.</p>
 
-  </article>
+	</article>
+
+	<hr>
+
+	<p>There are no comments - <a href="https://twitter.com/intent/tweet?screen_name=kennyfraser">tweet me</a> instead.</p>
 
 </div>
   </div>
@@ -110,8 +118,6 @@
 <footer class="site-footer">
 
   <div class="wrapper">
-
-    <p class="text" itemprop="description">Kenny Fraser is a freelance Front End Web Developer in the Scottish Highlands.</p>
 
     <!-- <ul class="contact-list"> -->
 
@@ -137,12 +143,6 @@
           </a>
         </div>
         
-        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-          <span itemprop="addressLocality">Fortrose</span>, 
-          <span itemprop="addressRegion">Ross-shire</span>,  
-          Scotland, 
-          <span itemprop="addressCountry">GB</span>
-        </div>
       </div>
 
       <div class="footer-col  footer-col-3">  
@@ -274,6 +274,8 @@
       </li>    
 
     </ul>
+
+    <p class="text" itemprop="description">Kenny Fraser is a freelance Front End Web Developer in the Scottish Highlands.</p>
 
   </div> <!-- wrapper -->
 

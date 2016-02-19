@@ -5,17 +5,17 @@
     <description>Kenny Fraser is a freelance Front End Web Developer in the Scottish Highlands.</description>
     <link>http://kennyfraser.com/</link>
     <atom:link href="http://kennyfraser.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Feb 2016 16:16:21 +0000</pubDate>
-    <lastBuildDate>Sun, 14 Feb 2016 16:16:21 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Feb 2016 23:18:23 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Feb 2016 23:18:23 +0000</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
         <title>Setting up a custom domain on GitHub Pages</title>
-        <description>&lt;p&gt;This wasn’t as easy as I’d expected, but got there in the end.  What I wanted was &lt;em&gt;http://kennyfraser.com&lt;/em&gt; to be the definitive URL of this site, and &lt;em&gt;http://www.kennyfraser.com&lt;/em&gt; to redirect there.&lt;/p&gt;
+        <description>&lt;p&gt;What I wanted was &lt;em&gt;http://kennyfraser.com&lt;/em&gt; to be the definitive URL of this site, and &lt;em&gt;http://www.kennyfraser.com&lt;/em&gt; to redirect there.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/&quot;&gt;Using the instructions here&lt;/a&gt; I had to &lt;a href=&quot;https://help.github.com/articles/adding-a-cname-file-to-your-repository/&quot;&gt;add a CNAME &lt;em&gt;file&lt;/em&gt; to my GitHub User repository&lt;/a&gt; as well as &lt;a href=&quot;https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/&quot;&gt;configure a CNAME &lt;em&gt;record&lt;/em&gt;&lt;/a&gt; at the DNS service provider (Fasthosts).&lt;/p&gt;
 
-&lt;p&gt;The CNAME file contents are just:&lt;/p&gt;
+&lt;p&gt;The GitHub CNAME file contents are just:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;kennyfraser.com&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 

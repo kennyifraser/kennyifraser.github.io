@@ -12,7 +12,17 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #dde; // default #111;
-$background-color: #001; // default #fdfdfd;
+
+$background-color: hsla(240,20%,10%,1);
+$secondary-color: hsla(240,10%,12%,.5);
+
+$stripe-width: 8px;
+$background-image: repeating-linear-gradient(
+					160deg, 
+					transparent, 
+					transparent $stripe-width, 
+					$secondary-color $stripe-width, 
+					$secondary-color $stripe-width * 2);
 $brand-color:      #aab; // default #2a7ae2;
 $code-color:	   $background-color;
 
