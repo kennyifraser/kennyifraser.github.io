@@ -92,7 +92,7 @@
 	<article class="post-content">
 		<p>What I wanted was <em>http://kennyfraser.com</em> to be the definitive URL of this site, and <em>http://www.kennyfraser.com</em> to redirect there.</p>
 
-<p><a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">Using the instructions here</a> I had to <a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/">add a CNAME <em>file</em> to my GitHub User repository</a> as well as <a href="https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/">configure a CNAME <em>record</em></a> at the DNS service provider (Fasthosts).</p>
+<p><a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/">Using the instructions here</a> I had to <a href="https://help.github.com/articles/setting-up-your-pages-site-repository/">add a CNAME <em>file</em> to my GitHub User repository</a> as well as <a href="https://help.github.com/articles/setting-up-a-custom-subdomain/">configure a CNAME <em>record</em></a> at the DNS service provider (Fasthosts).</p>
 
 <p>The GitHub CNAME file contents are just:</p>
 
@@ -104,7 +104,7 @@
 
 <p>Both blank and <em>www</em> Host Names point to my <em>username.github.io</em> and neither appear in the A records. As far as I’m aware, these are both <a href="https://help.github.com/articles/about-custom-domains-for-github-pages-sites/"><em>custom subdomains</em> (for best performance) and not <em>apex domains</em></a> as they’re configured through CNAME and not A records.</p>
 
-<p>GitHub Pages <a href="https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/#configuring-a-www-subdomain">automatically creates a redirect</a> between these <em>www</em> and <em>non-www</em> versions of the domain, depending on the contents of the CNAME <em>file</em>.</p>
+<p>GitHub Pages <a href="https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/">automatically creates a redirect</a> between these <em>www</em> and <em>non-www</em> versions of the domain, depending on the contents of the CNAME <em>file</em>.</p>
 
 	</article>
 
@@ -227,6 +227,14 @@
       <li>
         <a href="http://tripadvisor.co.uk/members/kennyfraser" title="Kenny Fraser on TripAdvisor" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-tripadvisor fa-2x"></i>
+        </a>
+      </li>
+      
+
+      
+      <li>
+        <a href="http://www.allmusic.com/artist/kenny-fraser-mn0001285382" title="Kenny Fraser on AllMusic" rel="external me nofollow" itemprop="sameAs">
+          <i class="fa fa-external-link fa-2x"></i>&nbsp;AllMusic
         </a>
       </li>
       

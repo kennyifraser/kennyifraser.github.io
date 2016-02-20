@@ -113,6 +113,14 @@
       </li>
       {% endif %}
 
+      {% if site.allmusic_username %}
+      <li>
+        <a href="http://www.allmusic.com/artist/{{ site.allmusic_username }}" title="Kenny Fraser on AllMusic" rel="external me nofollow" itemprop="sameAs">
+          <i class="fa fa-external-link fa-2x"></i>&nbsp;AllMusic
+        </a>
+      </li>
+      {% endif %}
+
       {% if site.gravatar_username %}
       <li>
         <a href="http://en.gravatar.com/{{ site.gravatar_username }}" title="Kenny Fraser on Gravatar" rel="external me nofollow" itemprop="sameAs">

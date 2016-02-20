@@ -17,7 +17,7 @@ Current availability: *within one month*
 
 I look forward to working with new clients - [contact me](#contact) if you think I may be able to help you.
 
-I design and build [responsive websites](https://en.wikipedia.org/wiki/Responsive_web_design) with a [mobile first](http://www.lukew.com/resources/mobile_first.asp) approach, that adapt to the screen size of a wide range of devices. Sometimes I re-design existing sites, or rescue business owners with specific problems or who are plain lost.
+I design and build [responsive websites](https://en.wikipedia.org/wiki/Responsive_web_design) with a [mobile first](http://www.lukew.com/resources/mobile_first.asp) approach, that adapt to the screen size of a wide range of devices. Sometimes I re-design existing sites, or rescue business owners who have specific website problems or are plain lost.
 
 I endeavour to code to [web standard best practices](http://en.wikipedia.org/wiki/Web_standards) using modern [HTML5](http://en.wikipedia.org/wiki/HTML5) and [CSS3](http://en.wikipedia.org/wiki/CSS) specifications.  I also work with [PHP](http://php.net/manual/en/intro-whatis.php), [JavaScript](http://javascript.about.com/od/reference/p/javascript.htm) and [jQuery](https://jquery.com/) where necessary.
 
@@ -25,7 +25,9 @@ I'm often integrating code into popular [content management systems](http://en.w
 
 Some of my recent projects have involved implemention of responsive re-designs for [SellerDeck ecommerce websites](http://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop), software I've used since it was Actinic Catalog in the early 2000s.  If you're looking for a custom responsive design for a SellerDeck 2016 website, I can probably help you.
 
-See a list of my [recent clients](/clients).
+I work remotely as standard, with communication via [Skype](http://www.skype.com/en/) and [Remote Desktop](http://windows.microsoft.com/en-gb/windows/connect-using-remote-desktop-connection/) (or equivalent software), telephone, email or online chat.  Face-to-face meetings can be arranged where travel costs are covered.  I offer all clients free access to a separate project in my [Basecamp](https://basecamp.com/) account, and recommend all work is channelled through there. I use [GitHub](https://github.com/kennyifraser) for code sharing and version control.
+
+See a list of [recent clients](/clients).
 
 ---
 

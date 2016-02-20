@@ -6,6 +6,7 @@ description: Kenny Fraser is a freelance Front End Web Developer in the Scottish
 # >  this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://kennyfraser.com" # the base hostname & protocol for your site
+allmusic_username: kenny-fraser-mn0001285382
 codepen_username: kennyfraserdotcom
 ebay_username: kennyifraser
 facebook_username: kennyifraser

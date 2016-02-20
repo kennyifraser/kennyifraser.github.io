@@ -5,15 +5,15 @@
     <description>Kenny Fraser is a freelance Front End Web Developer in the Scottish Highlands.</description>
     <link>http://kennyfraser.com/</link>
     <atom:link href="http://kennyfraser.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Feb 2016 16:40:48 +0000</pubDate>
-    <lastBuildDate>Sat, 20 Feb 2016 16:40:48 +0000</lastBuildDate>
+    <pubDate>Sat, 20 Feb 2016 18:08:13 +0000</pubDate>
+    <lastBuildDate>Sat, 20 Feb 2016 18:08:13 +0000</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
         <title>Setting up a custom domain on GitHub Pages</title>
         <description>&lt;p&gt;What I wanted was &lt;em&gt;http://kennyfraser.com&lt;/em&gt; to be the definitive URL of this site, and &lt;em&gt;http://www.kennyfraser.com&lt;/em&gt; to redirect there.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/&quot;&gt;Using the instructions here&lt;/a&gt; I had to &lt;a href=&quot;https://help.github.com/articles/adding-a-cname-file-to-your-repository/&quot;&gt;add a CNAME &lt;em&gt;file&lt;/em&gt; to my GitHub User repository&lt;/a&gt; as well as &lt;a href=&quot;https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider/&quot;&gt;configure a CNAME &lt;em&gt;record&lt;/em&gt;&lt;/a&gt; at the DNS service provider (Fasthosts).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/using-a-custom-domain-with-github-pages/&quot;&gt;Using the instructions here&lt;/a&gt; I had to &lt;a href=&quot;https://help.github.com/articles/setting-up-your-pages-site-repository/&quot;&gt;add a CNAME &lt;em&gt;file&lt;/em&gt; to my GitHub User repository&lt;/a&gt; as well as &lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-subdomain/&quot;&gt;configure a CNAME &lt;em&gt;record&lt;/em&gt;&lt;/a&gt; at the DNS service provider (Fasthosts).&lt;/p&gt;
 
 &lt;p&gt;The GitHub CNAME file contents are just:&lt;/p&gt;
 
@@ -25,7 +25,7 @@
 
 &lt;p&gt;Both blank and &lt;em&gt;www&lt;/em&gt; Host Names point to my &lt;em&gt;username.github.io&lt;/em&gt; and neither appear in the A records. As far as I’m aware, these are both &lt;a href=&quot;https://help.github.com/articles/about-custom-domains-for-github-pages-sites/&quot;&gt;&lt;em&gt;custom subdomains&lt;/em&gt; (for best performance) and not &lt;em&gt;apex domains&lt;/em&gt;&lt;/a&gt; as they’re configured through CNAME and not A records.&lt;/p&gt;
 
-&lt;p&gt;GitHub Pages &lt;a href=&quot;https://help.github.com/articles/tips-for-configuring-an-a-record-with-your-dns-provider/#configuring-a-www-subdomain&quot;&gt;automatically creates a redirect&lt;/a&gt; between these &lt;em&gt;www&lt;/em&gt; and &lt;em&gt;non-www&lt;/em&gt; versions of the domain, depending on the contents of the CNAME &lt;em&gt;file&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;GitHub Pages &lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/&quot;&gt;automatically creates a redirect&lt;/a&gt; between these &lt;em&gt;www&lt;/em&gt; and &lt;em&gt;non-www&lt;/em&gt; versions of the domain, depending on the contents of the CNAME &lt;em&gt;file&lt;/em&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 13 Feb 2016 21:00:00 +0000</pubDate>
         <link>http://kennyfraser.com/github/setting-up-a-custom-domain-on-github-pages</link>
