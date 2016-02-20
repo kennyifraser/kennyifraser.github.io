@@ -101,16 +101,15 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
-    border-bottom: 1px dotted $brand-color;
-
-    // &:visited {
-    //     color: darken($brand-color, 15%);
-    // }
-
     &:hover {
         color: $text-color;
-        border-bottom: 1px solid $text-color;
-        // text-decoration: underline;
+    }
+
+    .page-content p & {
+        border-bottom: 1px dotted $brand-color;
+        &:hover {
+            border-bottom: 1px solid $text-color;
+        }
     }
 }
 
