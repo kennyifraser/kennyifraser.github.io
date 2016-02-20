@@ -166,16 +166,17 @@ pre {
  * Wrapper
  */
 .wrapper {
+    @extend %clearfix;
     background-color: lighten($secondary-color,20%);
-    border-radius: $spacing-unit;
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding: $spacing-unit;
-    // padding-right: $spacing-unit;
-    // padding-left: $spacing-unit;
-    @extend %clearfix;
+
+    @media screen and (min-width: 768px)  {
+        border-radius: $spacing-unit;
+    }
 
     header & {
         border-radius: 0;
