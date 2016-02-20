@@ -255,3 +255,9 @@ footer, header {
         }
     }
 }
+
+@include media-query($on-palm) {
+    .twitter-widget {
+        margin: 0 $spacing-unit;
+    }
+}
