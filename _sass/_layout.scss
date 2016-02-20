@@ -101,7 +101,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 2px solid $grey-color-dark;
+    // border-top: 2px solid $grey-color-dark;
     padding: $spacing-unit 0;
 }
 
@@ -259,5 +259,15 @@
 @include media-query($on-palm) {
     .twitter-widget {
         margin: 0 $spacing-unit;
+    }
+}
+
+.home {
+    nav {
+        margin-bottom: $spacing-unit;
+        a {
+            display: inline-block;
+            margin-right: $spacing-unit;
+        }
     }
 }

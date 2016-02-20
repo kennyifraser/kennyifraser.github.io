@@ -166,29 +166,27 @@ pre {
  */
 .wrapper {
     @extend %clearfix;
-    background-color: lighten($secondary-color,20%);
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding: $spacing-unit;
-
-    @media screen and (min-width: 768px)  {
-        border-radius: $spacing-unit;
-    }
-
-    header & {
-        border-radius: 0;
-        padding: 0 $spacing-unit;
-    }
-
-
+    margin: 0 auto;
     @include media-query($on-laptop) {
         max-width: -webkit-calc(800px - (#{$spacing-unit}));
         max-width:         calc(800px - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
+    .page-content & {
+        background-color: lighten($secondary-color,20%);
+        padding: $spacing-unit;
+        @media screen and (min-width: 768px)  {
+            border-radius: $spacing-unit;
+        }
+    }
+    // header & {
+    //     border-radius: 0;
+    //     padding: 0 $spacing-unit;
+    // }
+
 }
 
 

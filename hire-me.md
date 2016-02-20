@@ -13,17 +13,23 @@ Current availability: *within one month*
 
 ---
 
-I'm looking forward to working with new clients - [contact me](#contact) if you think I may be able to help you.
+# Can I Help?
 
-I design and build [responsive websites](https://en.wikipedia.org/wiki/Responsive_web_design) with a [mobile first](http://www.lukew.com/resources/mobile_first.asp) approach, that adapt to the screen size of a wide range of devices. I endeavour to code to [web standard best practices](http://en.wikipedia.org/wiki/Web_standards) using [HTML5](http://en.wikipedia.org/wiki/HTML5) and [CSS3](http://en.wikipedia.org/wiki/CSS) specifications.
+I look forward to working with new clients - [contact me](#contact) if you think I may be able to help you.
 
-I'm often working with popular [content management systems](http://en.wikipedia.org/wiki/Web_content_management_system) including [ExpressionEngine](http://ellislab.com/expressionengine), [Statamic](http://www.statamic.com), [Jekyll](http://jekyllrb.com/) and [WordPress](http://wordpress.org/). These can be dynamic or static; using PHP and a MySQL database or not. 
+I design and build [responsive websites](https://en.wikipedia.org/wiki/Responsive_web_design) with a [mobile first](http://www.lukew.com/resources/mobile_first.asp) approach, that adapt to the screen size of a wide range of devices. Sometimes I re-design existing sites, or rescue business owners with specific problems or who are plain lost.
+
+I endeavour to code to [web standard best practices](http://en.wikipedia.org/wiki/Web_standards) using modern [HTML5](http://en.wikipedia.org/wiki/HTML5) and [CSS3](http://en.wikipedia.org/wiki/CSS) specifications.  I also work with [PHP](http://php.net/manual/en/intro-whatis.php), [JavaScript](http://javascript.about.com/od/reference/p/javascript.htm) and [jQuery](https://jquery.com/) where necessary.
+
+I'm often integrating code into popular [content management systems](http://en.wikipedia.org/wiki/Web_content_management_system) including [ExpressionEngine](http://ellislab.com/expressionengine), [Statamic](http://www.statamic.com), [Jekyll](http://jekyllrb.com/) and [WordPress](http://wordpress.org/), which make it easier for a non-technical end user to add content. Despite this appearing to be a great advantage, this approach isn't appropriate for all circumstances. 
 
 Some of my recent projects have involved implemention of responsive re-designs for [SellerDeck ecommerce websites](http://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop), software I've used since it was Actinic Catalog in the early 2000s.  If you're looking for a custom responsive design for a SellerDeck 2016 website, I can probably help you.
 
+See a list of my [recent clients](/clients).
+
 ---
 
-# Smaller Projects 
+# Shorter Projects or Introductory Sessions 
 
 - investigate
 - analyse
@@ -32,9 +38,11 @@ Some of my recent projects have involved implemention of responsive re-designs f
 - advise
 - document
 
-For these I can offer a half-day rate.
+For new projects I can offer a *discovery session* to find out about your needs and investigate any current web-based setup that you may have. After this I'd be able to advise on what I could do for you going forward.
 
-# Larger or Ongoing Projects 
+After discussion of the project, I am able to offer a fixed quote in advance for a well-defined scope of work. 
+
+# Longer or Ongoing Projects 
 
 - design
 - build
@@ -43,10 +51,8 @@ For these I can offer a half-day rate.
 - train
 - support
 
-For me to be able to offer a fixed quote would require a very well-defined project scope. 
-
-An alternative is a weekly rate for a 'sprint' of work towards an end goal, generally following [Agile](https://en.wikipedia.org/wiki/Agile_software_development) principles.
+For longer-term projects, a weekly rate for a 'sprint' of work towards an end goal is generally preferable, broadly following [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development#The_Agile_Manifesto) principles.
 
 I would consider a monthly retainer basis for regular, well-defined work or consultation.
 
-Depending on timescale, these projects would be under a mutually-agreed contract.
+Depending on timescale and budget, these projects would normally be under a mutually-agreed contract, based on either your or my template.

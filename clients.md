@@ -3,6 +3,10 @@ layout: page
 title: Clients
 permalink: /clients/
 ---
+People I've worked with over the past few years with various aspects of front end development and marketing of their websites.  I've contributed to design and responsive layouts for most of the sites listed, sometimes the entire design.  If you think you're looking for something similar, [hire me](/hire-me).
+
+---
+
 ## SellerDeck Ecommerce CMS Projects
 
 ### <a href="http://www.musicscotland.com" title="Music Scotland Scottish Music" rel="external nofollow">Music Scotland</a>
@@ -15,7 +19,7 @@ London-based lighting company dealing in commercial lighting for shops, stores, 
 
 ### <a href="http://www.sterlingshop.co.uk/" title="Sterling Shop" rel="external nofollow">Sterling Shop</a>
 
-Bradford-based company dealing in security products such as paulocks, chains, cashboxes, door and window locks. Upgrade of existing Sterling Shop store to SellerDeck 2014, with third-party add-ons. Implementation of a customised responsive design for all screen sizes.
+Bradford-based company dealing in security products such as padlocks, chains, cashboxes, door and window locks. Upgrade of existing Sterling Shop store to SellerDeck 2014, with third-party add-ons. Implementation of a customised responsive design for all screen sizes.
 
 ### <a href="http://www.forfoodsmokers.co.uk/" title="For Food Smokers" rel="external nofollow">For More Ltd</a>
 
@@ -27,11 +31,11 @@ Surrey-based dealer in house and garden products. Upgrade of three separate stor
 
 ### <a href="http://mull.co" title="Back Brae Lodge, Tobermory" rel="external">Back Brae Lodge</a>
 
-Self catering holiday accommodation, Tobermory, Isle of Mull.  A responsive design, adapting from mobile to widescreen. Design, development, content management, payment service integration, email marketing and AdWords.
+Self catering holiday accommodation, Tobermory, Isle of Mull.  A responsive design, adapting from mobile to widescreen. Design, development, content management, shopping cart and payment service integration, email marketing and AdWords.
 
 ### <a href="http://www.greentrax.com" title="Greentrax Recordings" rel="external nofollow">Greentrax Recordings</a>
 
-Independent Scottish music label.  Responsive re-design launched December 2012 with shopping cart. Design, development, payment service integration, content management, email marketing and support.
+Independent Scottish music label.  Responsive re-design launched December 2012 with shopping cart. Design, development, shopping cart and payment service integration, content management, email marketing and support.
 
 ---
 
@@ -39,7 +43,7 @@ Independent Scottish music label.  Responsive re-design launched December 2012 w
 
 ### <a href="http://www.highland-innovation.com" title="Highland Innovation Centre Ltd" rel="external nofollow">Highland Innovation Centre Ltd</a>
 
-Creation of fully responsive multi-domain profile site for this Scottish-based medical scientific device company.  Design & PHP.
+Complete design of a fully responsive multi-domain profile site for this Scottish-based medical scientific device company.
 
 ---
 
@@ -47,7 +51,7 @@ Creation of fully responsive multi-domain profile site for this Scottish-based m
 
 ### <a href="http://m.brightseeds.co.uk/" title="Bright Seeds Tractorman's Guide" rel="external nofollow">Bright Seeds Tractorman's Guide</a>
 
-Applications for <a href="http://m.brightseeds.co.uk/" title="Bright Seeds Tractorman's Guide web app" rel="external nofollow">mobile web</a>, <a href="https://itunes.apple.com/us/app/bright-seeds/id1008080993" title="Bright Seeds Tractorman's Guide for iOS" rel="external nofollow">iOS Apple App Store</a> and <a href="https://play.google.com/store/apps/details?id=co.uk.brightseeds.ios" title="Bright Seeds Tractorman's Guide for Android" rel="external nofollow">Android Google Play Store</a>. A catalogue of seed crops. Hybrid apps built with HTML5, jQuery Mobile and PHP.
+Applications for <a href="http://m.brightseeds.co.uk/" title="Bright Seeds Tractorman's Guide web app" rel="external nofollow">mobile web</a>, <a href="https://itunes.apple.com/us/app/bright-seeds/id1008080993" title="Bright Seeds Tractorman's Guide for iOS" rel="external nofollow">Apple iOS App Store</a> and <a href="https://play.google.com/store/apps/details?id=co.uk.brightseeds.ios" title="Bright Seeds Tractorman's Guide for Android" rel="external nofollow">Android Google Play Store</a>. A catalogue of seed crops. Hybrid apps built with HTML5, jQuery Mobile and PHP.
 
 ---
 
@@ -55,7 +59,7 @@ Applications for <a href="http://m.brightseeds.co.uk/" title="Bright Seeds Tract
 
 ### <a href="http://chromatinlab.org" title="Prof Nick Gilbert's Chromatin Lab" rel="external nofollow">Prof Nick Gilbert's Chromatin Lab</a>
 
-Genetics research team in Edinburgh.  Design, development, content management.
+Genetics research team in Edinburgh.  Responsive design, development, content management.
 
 ---
 

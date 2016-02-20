@@ -29,7 +29,7 @@ My GitHub command line skills aren't yet fully formed, so I'm using [GitHub Desk
 - quick and easy publishing with *Sync*
 - speedy and reliable hosting
 
-Will I run into limitations later? Probably. But right now things are *quick and easy* - I like it.
+Will I run into limitations later? Probably. But right now things are *quick and easy* - I like it. 
 
 [![Jekyll static site generator](/img/jekyll-logo.png)](http://jekyllrb.com/)
 
