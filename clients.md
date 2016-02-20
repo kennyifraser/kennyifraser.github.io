@@ -3,7 +3,7 @@ layout: page
 title: Clients
 permalink: /clients/
 ---
-## SellerDeck Responsive Design Projects
+## SellerDeck Ecommerce CMS Projects
 
 ### <a href="http://www.musicscotland.com" title="Music Scotland Scottish Music" rel="external nofollow">Music Scotland</a>
 
@@ -23,7 +23,7 @@ Surrey-based dealer in house and garden products. Upgrade of three separate stor
 
 ---
 
-## ExpressionEngine Projects
+## ExpressionEngine CMS Projects
 
 ### <a href="http://mull.co" title="Back Brae Lodge, Tobermory" rel="external">Back Brae Lodge</a>
 
@@ -35,24 +35,32 @@ Independent Scottish music label.  Responsive re-design launched December 2012 w
 
 ---
 
-## Other Projects
+## Static Site Projects
 
 ### <a href="http://www.highland-innovation.com" title="Highland Innovation Centre Ltd" rel="external nofollow">Highland Innovation Centre Ltd</a>
 
-Creation of fully responsive multi-domain profile site for this Scottish-based medical scientific device company.  Built with HTML5, CSS3 and PHP.
+Creation of fully responsive multi-domain profile site for this Scottish-based medical scientific device company.  Design & PHP.
+
+---
+
+## Web & Native Apps
 
 ### <a href="http://m.brightseeds.co.uk/" title="Bright Seeds Tractorman's Guide" rel="external nofollow">Bright Seeds Tractorman's Guide</a>
 
 Applications for <a href="http://m.brightseeds.co.uk/" title="Bright Seeds Tractorman's Guide web app" rel="external nofollow">mobile web</a>, <a href="https://itunes.apple.com/us/app/bright-seeds/id1008080993" title="Bright Seeds Tractorman's Guide for iOS" rel="external nofollow">iOS Apple App Store</a> and <a href="https://play.google.com/store/apps/details?id=co.uk.brightseeds.ios" title="Bright Seeds Tractorman's Guide for Android" rel="external nofollow">Android Google Play Store</a>. A catalogue of seed crops. Hybrid apps built with HTML5, jQuery Mobile and PHP.
 
+---
+
+## Statamic CMS Projects
+
 ### <a href="http://chromatinlab.org" title="Prof Nick Gilbert's Chromatin Lab" rel="external nofollow">Prof Nick Gilbert's Chromatin Lab</a>
 
 Genetics research team in Edinburgh.  Design, development, content management.
-		
-### <a href="http://originalscottishart.com" title="William Shannon Fine Art" rel="external nofollow">William Shannon Fine Art</a>
 
-Easter Ross art dealer. WordPress content management, payment service integration, design and PHP.
- 
+---
+
+## Other Ecommerce Projects
+
 ### <a href="http://www.templerecords.co.uk" title="Temple Records" rel="external nofollow">Temple Records</a>
 
 Independent Scottish and Irish traditional music label featuring Battlefield Band. Design, PHP/MySQL and support.
@@ -61,13 +69,25 @@ Independent Scottish and Irish traditional music label featuring Battlefield Ban
 
 Nationwide boat sales listing site.  Design and layout.
 
+---
+
+## WordPress CMS Projects
+		
+### <a href="http://originalscottishart.com" title="William Shannon Fine Art" rel="external nofollow">William Shannon Fine Art</a>
+
+Easter Ross art dealer. WordPress content management, payment service integration, design and PHP.
+
+---
+
+## Spanglefish Projects
+
 ### <a href="http://www.nethertonfarm.co.uk" title="Netherton Farm B&amp;B" rel="external nofollow">Netherton Farm Bed & Breakfast</a>
 
 B&amp;B accommodation on the Black Isle, between Dingwall and Inverness. Design and content management.
 
 ---
 
-## Other clients
+## Other Clients
 
 People I worked with in the early days of website promotion in the Scottish cultural arena included:
  
