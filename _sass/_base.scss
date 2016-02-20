@@ -50,6 +50,9 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+    a & { 
+        vertical-align: bottom; 
+    }
 }
 
 
@@ -163,7 +166,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-    background-color: $secondary-color;
+    background-color: lighten($secondary-color,20%);
     border-radius: $spacing-unit;
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));

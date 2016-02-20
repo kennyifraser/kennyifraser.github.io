@@ -3,8 +3,10 @@
 ---
 @charset "utf-8";
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
+
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -14,11 +16,11 @@ $spacing-unit:     30px;
 $text-color:       #dde; // default #111;
 
 $background-color: hsla(240,20%,10%,1);
-$secondary-color: hsla(240,10%,12%,.5);
+$secondary-color: hsla(240,15%,12%,.5);
 
 $stripe-width: 8px;
 $background-image: repeating-linear-gradient(
-					160deg, 
+					135deg, 
 					transparent, 
 					transparent $stripe-width, 
 					$secondary-color $stripe-width, 

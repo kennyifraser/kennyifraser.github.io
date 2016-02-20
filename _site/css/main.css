@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
 /**
  * Reset some basic elements
  */
@@ -17,13 +18,13 @@ html {
  * Basic styling
  */
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
   color: #dde;
   background-color: #14141f;
-  background-image: repeating-linear-gradient(160deg, transparent, transparent 8px, rgba(28, 28, 34, 0.5) 8px, rgba(28, 28, 34, 0.5) 16px);
+  background-image: repeating-linear-gradient(135deg, transparent, transparent 8px, rgba(26, 26, 35, 0.5) 8px, rgba(26, 26, 35, 0.5) 16px);
   background-attachment: fixed;
   -webkit-text-size-adjust: 100%; }
 
@@ -43,6 +44,8 @@ ul, ol, dl, figure,
 img {
   max-width: 100%;
   vertical-align: middle; }
+  a img {
+    vertical-align: bottom; }
 
 /**
  * Figures
@@ -118,7 +121,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  background-color: rgba(28, 28, 34, 0.5);
+  background-color: rgba(69, 69, 94, 0.5);
   border-radius: 30px;
   max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
