@@ -7,7 +7,7 @@ People I've worked with over the past few years with various aspects of front en
 
 ---
 
-## SellerDeck Ecommerce CMS Projects
+## SellerDeck eCommerce CMS Projects
 
 ### <a href="http://www.musicscotland.com" title="Music Scotland Scottish Music" rel="external nofollow">Music Scotland</a>
 
@@ -63,15 +63,11 @@ Genetics research team in Edinburgh.  Responsive design, development, content ma
 
 ---
 
-## Other Ecommerce Projects
+## Shopify eCommerce CMS Projects
 
 ### <a href="http://www.templerecords.co.uk" title="Temple Records" rel="external nofollow">Temple Records</a>
 
 Independent Scottish and Irish traditional music label featuring Battlefield Band. Design, PHP/MySQL and support.
-
-### <a href="http://www.findafishingboat.com/" title="FindAFishingBoat.com" rel="external nofollow">FindAFishingBoat.com</a>
-
-Nationwide boat sales listing site.  Design and layout.
 
 ---
 
@@ -83,11 +79,19 @@ Easter Ross art dealer. WordPress content management, payment service integratio
 
 ---
 
-## Spanglefish Projects
+## Spanglefish CMS Projects
 
 ### <a href="http://www.nethertonfarm.co.uk" title="Netherton Farm B&amp;B" rel="external nofollow">Netherton Farm Bed & Breakfast</a>
 
 B&amp;B accommodation on the Black Isle, between Dingwall and Inverness. Design and content management.
+
+---
+
+## Custom CMS Projects
+
+### <a href="http://www.findafishingboat.com/" title="FindAFishingBoat.com" rel="external nofollow">FindAFishingBoat.com</a>
+
+Nationwide boat sales listing site.  Design and layout.
 
 ---
 

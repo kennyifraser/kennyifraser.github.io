@@ -21,3 +21,7 @@ youtube_username: kennyfraserdotcom
 
 # Build settings
 markdown: kramdown
+
+# Ruby Gems
+gems:
+  - jekyll-sitemap

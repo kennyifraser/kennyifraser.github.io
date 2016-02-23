@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://kennyfraser.com/github/setting-up-a-custom-domain-on-github-pages</loc>
+<lastmod>2016-02-13T21:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://kennyfraser.com/jekyll/new-portfolio-blog-site-on-github-pages</loc>
+<lastmod>2016-02-12T22:30:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://kennyfraser.com/about/</loc>
+</url>
+<url>
+<loc>http://kennyfraser.com/clients/</loc>
+</url>
+<url>
+<loc>http://kennyfraser.com/hire-me/</loc>
+</url>
+<url>
+<loc>http://kennyfraser.com/</loc>
+</url>
+</urlset>
