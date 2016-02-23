@@ -3,7 +3,7 @@ layout: page
 title: Clients
 permalink: /clients/
 ---
-People I've worked with over the past few years with various aspects of front end development and marketing of their websites.  I've contributed to design and responsive layouts for most of the sites listed, sometimes the entire design.  
+People I've worked with over the past few years with various aspects of front end development and marketing of their websites.  I've undertaken development and responsive design for most of the sites listed, and assisted with implementation of content strategy and management.
 
 If you think you need something similar, [hire me](/hire-me).
 
@@ -97,7 +97,7 @@ Independent Scottish and Irish traditional music label featuring Battlefield Ban
 
 ## WordPress CMS Projects
 
-Over 60 million people have chosen [WordPress](https://wordpress.org/) to power the place on the web they call *home*.
+Over 60 million people have chosen [WordPress](https://wordpress.org/) to power the place on the web they call home.
 		
 ### <a href="http://originalscottishart.com" title="William Shannon Fine Art" rel="external nofollow">William Shannon Fine Art</a>
 
