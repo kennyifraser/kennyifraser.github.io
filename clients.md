@@ -3,11 +3,15 @@ layout: page
 title: Clients
 permalink: /clients/
 ---
-People I've worked with over the past few years with various aspects of front end development and marketing of their websites.  I've contributed to design and responsive layouts for most of the sites listed, sometimes the entire design.  If you think you're looking for something similar, [hire me](/hire-me).
+People I've worked with over the past few years with various aspects of front end development and marketing of their websites.  I've contributed to design and responsive layouts for most of the sites listed, sometimes the entire design.  
+
+If you think you need something similar, [hire me](/hire-me).
 
 ---
 
 ## SellerDeck eCommerce CMS Projects
+
+[SellerDeck Desktop](http://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop) is at the heart of thousands of businesses selling online today.  Offline site generation with Perl server scripts. 
 
 ### <a href="http://www.musicscotland.com" title="Music Scotland Scottish Music" rel="external nofollow">Music Scotland</a>
 
@@ -29,6 +33,8 @@ Surrey-based dealer in house and garden products. Upgrade of three separate stor
 
 ## ExpressionEngine CMS Projects
 
+[ExpressionEngine](https://ellislab.com/expressionengine) is a leading PHP/MySQL-based, general purpose content management system.
+
 ### <a href="http://mull.co" title="Back Brae Lodge, Tobermory" rel="external">Back Brae Lodge</a>
 
 Self catering holiday accommodation, Tobermory, Isle of Mull.  A responsive design, adapting from mobile to widescreen. Design, development, content management, shopping cart and payment service integration, email marketing and AdWords.
@@ -41,6 +47,8 @@ Independent Scottish music label.  Responsive re-design launched December 2012 w
 
 ## Static Site Projects
 
+Hand-coded HTML and CSS, using PHP for templating.
+
 ### <a href="http://www.highland-innovation.com" title="Highland Innovation Centre Ltd" rel="external nofollow">Highland Innovation Centre Ltd</a>
 
 Complete design of a fully responsive multi-domain profile site for this Scottish-based medical scientific device company.
@@ -49,13 +57,17 @@ Complete design of a fully responsive multi-domain profile site for this Scottis
 
 ## Web & Native Apps
 
+Hybrid apps built with HTML5, [jQuery Mobile](https://jquerymobile.com/) and PHP.
+
 ### <a href="http://m.brightseeds.co.uk/" title="Bright Seeds Tractorman's Guide" rel="external nofollow">Bright Seeds Tractorman's Guide</a>
 
-Applications for <a href="http://m.brightseeds.co.uk/" title="Bright Seeds Tractorman's Guide web app" rel="external nofollow">mobile web</a>, <a href="https://itunes.apple.com/us/app/bright-seeds/id1008080993" title="Bright Seeds Tractorman's Guide for iOS" rel="external nofollow">Apple iOS App Store</a> and <a href="https://play.google.com/store/apps/details?id=co.uk.brightseeds.ios" title="Bright Seeds Tractorman's Guide for Android" rel="external nofollow">Android Google Play Store</a>. A catalogue of seed crops. Hybrid apps built with HTML5, jQuery Mobile and PHP.
+Applications for <a href="http://m.brightseeds.co.uk/" title="Bright Seeds Tractorman's Guide web app" rel="external nofollow">mobile web</a>, <a href="https://itunes.apple.com/us/app/bright-seeds/id1008080993" title="Bright Seeds Tractorman's Guide for iOS" rel="external nofollow">Apple iOS App Store</a> and <a href="https://play.google.com/store/apps/details?id=co.uk.brightseeds.ios" title="Bright Seeds Tractorman's Guide for Android" rel="external nofollow">Android Google Play Store</a>. A catalogue of seed crops. 
 
 ---
 
 ## Statamic CMS Projects
+
+[Statamic](http://statamic.com/) is a fast, flexible and powerful PHP-based flat file content management system.
 
 ### <a href="http://chromatinlab.org" title="Prof Nick Gilbert's Chromatin Lab" rel="external nofollow">Prof Nick Gilbert's Chromatin Lab</a>
 
@@ -63,7 +75,19 @@ Genetics research team in Edinburgh.  Responsive design, development, content ma
 
 ---
 
+## Perch CMS Projects
+
+[Perch](https://grabaperch.com/) calls itself *the original really little CMS*.
+
+### <a href="http://invernesstreeservices.com" title="Inverness Tree Services" rel="external nofollow">Inverness Tree Services Ltd</a>
+
+Tree surgery and consultancy, based on the Black Isle near Inverness in the Scottish Highlands.  Full responsive design.
+
+---
+
 ## Shopify eCommerce CMS Projects
+
+[Shopify](https://www.shopify.co.uk/) offers a hosted online store with a Content Delivery Network (CDN).
 
 ### <a href="http://www.templerecords.co.uk" title="Temple Records" rel="external nofollow">Temple Records</a>
 
@@ -72,6 +96,8 @@ Independent Scottish and Irish traditional music label featuring Battlefield Ban
 ---
 
 ## WordPress CMS Projects
+
+Over 60 million people have chosen [WordPress](https://wordpress.org/) to power the place on the web they call *home*.
 		
 ### <a href="http://originalscottishart.com" title="William Shannon Fine Art" rel="external nofollow">William Shannon Fine Art</a>
 
@@ -79,11 +105,23 @@ Easter Ross art dealer. WordPress content management, payment service integratio
 
 ---
 
+## Jekyll Static CMS Projects
+
+[Jekyll](https://jekyllrb.com/) - transform your plain text into static websites and blogs.
+		
+### <a href="http://kennyfraser.com" title="Kenny Fraser">Kenny Fraser</a>
+
+This personal portfolio and blog, hosted on GitHub Pages.
+
+---
+
 ## Spanglefish CMS Projects
+
+[Spanglefish](http://www.spanglefish.com/) offers a free and easy CMS package with Google Ads.
 
 ### <a href="http://www.nethertonfarm.co.uk" title="Netherton Farm B&amp;B" rel="external nofollow">Netherton Farm Bed & Breakfast</a>
 
-B&amp;B accommodation on the Black Isle, between Dingwall and Inverness. Design and content management.
+B&B accommodation on the Black Isle, between Dingwall and Inverness. Design and content management.
 
 ---
 
