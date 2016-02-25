@@ -6,7 +6,7 @@
   clear: both; }
 
 .footer-col-wrapper, .highlight {
-  margin-bottom: 15px; }
+  margin-bottom: 18px; }
 
 /**
  * Reset some basic elements
@@ -31,7 +31,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
-  color: #dde;
+  color: #cfcfe2;
   background-color: #14141f;
   background-image: repeating-linear-gradient(135deg, transparent, transparent 8px, rgba(16, 16, 25, 0.8) 8px, rgba(16, 16, 25, 0.8) 16px);
   background-attachment: fixed;
@@ -45,7 +45,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure {
-  margin-bottom: 15px; }
+  margin-bottom: 18px; }
 
 /**
  * Images & Figures
@@ -66,7 +66,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 30px; }
+  margin-left: 36px; }
 
 li > ul,
 li > ol {
@@ -80,10 +80,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
 hr {
-  background-color: #424242;
+  background-color: #14141f;
   border: none;
-  height: 2px;
-  margin: 30px 0; }
+  height: 4px;
+  margin: 36px 0; }
 
 /**
  * Links
@@ -92,15 +92,13 @@ a {
   color: #aab;
   text-decoration: none; }
   a:hover {
-    color: #dde; }
+    color: #cfcfe2; }
 
 /**
  * Blockquotes
  */
 blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
-  padding-left: 15px;
+  padding-left: 18px;
   font-size: 18px;
   letter-spacing: -1px;
   font-style: italic; }
@@ -113,9 +111,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #e8e8e8;
-  border-radius: 3px;
-  background-color: #eef; }
+  border: 1px solid #14141f; }
 
 code {
   padding: 1px 5px; }
@@ -133,30 +129,30 @@ pre {
  */
 @media screen and (max-width: 599px) {
   .twitter-widget {
-    margin: 0 30px; } }
+    margin: 0 36px; } }
 .home nav {
-  margin-bottom: 30px; }
+  margin-bottom: 36px; }
   .home nav a {
     display: inline-block;
-    margin-right: 30px; }
+    margin-right: 36px; }
 
 /**
  * Wrapper
  */
 .wrapper {
-  padding-right: 15px;
-  padding-left: 15px; }
+  padding-right: 18px;
+  padding-left: 18px; }
   @media screen and (min-width: 1025px) {
     .wrapper {
       max-width: 1024px;
       margin: 0 auto; } }
   .page-content .wrapper {
-    background-color: rgba(56, 56, 87, 0.8);
-    padding: 30px; }
+    background-color: rgba(36, 36, 56, 0.8);
+    padding: 36px; }
     @media screen and (min-width: 1025px) {
       .page-content .wrapper {
-        border-radius: 30px;
-        padding: 30px 10%; } }
+        border-radius: 36px;
+        padding: 36px 10%; } }
 
 /**
  * Site header
@@ -182,7 +178,6 @@ pre {
     top: 9px;
     right: 30px;
     background-color: #14141f;
-    border: 1px solid #e8e8e8;
     border-radius: 5px;
     text-align: right; }
     .site-nav .trigger {
@@ -208,7 +203,7 @@ pre {
       width: 18px;
       height: 15px; }
       .menu-icon > svg path {
-        fill: #424242; } }
+        fill: #cfcfe2; } }
 
 @media screen and (min-width: 600px) {
   .page-link {
@@ -224,11 +219,11 @@ pre {
  * Site footer
  */
 .site-footer {
-  padding: 30px 0; }
+  padding: 36px 0; }
 
 .footer-heading {
   font-size: 18px;
-  margin-bottom: 15px; }
+  margin-bottom: 18px; }
 
 .contact-list,
 .social-media-list {
@@ -237,11 +232,11 @@ pre {
 
 .social-media-list li {
   display: inline-block;
-  margin: 15px 15px 0 0; }
+  margin: 18px 18px 0 0; }
 
 .footer-col {
   display: inline-block;
-  margin-right: 30px; }
+  margin-right: 36px; }
   .footer-col img {
     border-radius: 50%;
     width: 120px; }
@@ -252,17 +247,17 @@ pre {
   height: 16px;
   vertical-align: middle; }
   .icon > svg path {
-    fill: #828282; }
+    fill: #cfcfe2; }
 
 /**
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 36px 0; }
   .page-content p a {
     border-bottom: 1px dotted #aab; }
     .page-content p a:hover {
-      border-bottom: 1px solid #dde; }
+      border-bottom: 1px solid #cfcfe2; }
 
 .page-heading {
   font-size: 20px; }
@@ -271,11 +266,11 @@ pre {
   margin-left: 0;
   list-style: none; }
   .post-list > li {
-    margin-bottom: 30px; }
+    margin-bottom: 36px; }
 
 .post-meta {
   font-size: 15.75px;
-  color: #828282; }
+  color: #cfcfe2; }
 
 .post-link {
   display: block;
@@ -285,7 +280,7 @@ pre {
  * Posts
  */
 .post-header {
-  margin-bottom: 30px; }
+  margin-bottom: 36px; }
 
 .post-title {
   font-size: 42px;
