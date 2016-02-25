@@ -7,7 +7,7 @@ permalink: github/setting-up-a-custom-domain-on-github-pages
 # categories: 
 # tags: 
 ---
-What I wanted was *http://kennyfraser.com* to be the definitive URL of this site, and *http://www.kennyfraser.com* to redirect there.
+What I wanted was *http://kennyfraser.com* to be the definitive URL of this site, and [http://www.kennyfraser.com](http://www.kennyfraser.com/) to redirect there.
 
 [Using the instructions here](https://help.github.com/articles/using-a-custom-domain-with-github-pages/) I had to [add a CNAME *file* to my GitHub User repository](https://help.github.com/articles/setting-up-your-pages-site-repository/) as well as [configure a CNAME *record*](https://help.github.com/articles/setting-up-a-custom-subdomain/) at the DNS service provider (Fasthosts).
 

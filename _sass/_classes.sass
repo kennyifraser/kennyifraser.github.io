@@ -1,0 +1,194 @@
+/**
+ * Home page
+ */
+
++mqx(599px) 
+    .twitter-widget 
+        margin: 0 $spacing-unit
+        
+.home 
+    nav 
+        margin-bottom: $spacing-unit
+        a 
+            display: inline-block
+            margin-right: $spacing-unit
+
+
+/**
+ * Wrapper
+ */
+
+.wrapper 
+    @extend %clearfix
+    padding-right: $spacing-unit / 2
+    padding-left: $spacing-unit / 2 
+    +mq(1025px) 
+        max-width: 1024px
+        margin: 0 auto 
+    .page-content & 
+        background-color: lighten($secondary-color,20%)
+        padding: $spacing-unit
+        +mq(1025px)   
+            border-radius: $spacing-unit
+            padding: $spacing-unit 10%
+
+
+/**
+ * Site header
+ */
+
+.site-header 
+    min-height: 56px
+    // Positioning context for the mobile navigation icon
+    position: relative
+
+.site-title 
+    float: left
+    font-size: 26px
+    letter-spacing: -1px
+    line-height: 56px
+    margin-bottom: 0
+
+.site-nav 
+    +mq(600px)
+        float: right
+        line-height: 56px
+    +mqx(599px)
+        position: absolute
+        top: 9px
+        right: 30px
+        background-color: $background-color
+        border: 1px solid $grey-color-light
+        border-radius: 5px
+        text-align: right
+        .trigger 
+            clear: both
+            display: none    
+        &:hover .trigger 
+            display: block
+            padding-bottom: 5px 
+
+.menu-icon 
+    +mq(600px)
+        display: none
+    +mqx(599px)
+        display: block
+        float: right
+        width: 36px
+        height: 36px
+        line-height: 0
+        padding-top: 10px
+        text-align: center
+        > svg 
+            width: 18px
+            height: 15px
+            path 
+                fill: $grey-color-dark  
+
+.page-link 
+    +mq(600px)
+        line-height: $base-line-height
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) 
+            margin-left: 20px
+    +mqx(599px)
+        display: block
+        padding: 5px 10px
+
+
+/**
+ * Site footer
+ */
+
+.site-footer 
+    padding: $spacing-unit 0
+
+.footer-heading 
+    font-size: 18px
+    margin-bottom: $spacing-unit / 2
+
+.contact-list,
+.social-media-list 
+    list-style: none
+    margin-left: 0
+
+.social-media-list li 
+    display: inline-block
+    margin: $spacing-unit/2 $spacing-unit/2 0 0
+
+.footer-col-wrapper 
+    @extend %clearfix
+    @extend %vertical-rhythm
+
+.footer-col 
+    display: inline-block
+    margin-right: $spacing-unit
+    img 
+        border-radius: 50%
+        width: 120px
+ 
+.icon 
+    > svg 
+        display: inline-block
+        width: 16px
+        height: 16px
+        vertical-align: middle
+        path 
+            fill: $grey-color
+
+/**
+ * Page content
+ */
+
+.page-content 
+    padding: $spacing-unit 0
+    & p a 
+        border-bottom: 1px dotted $brand-color
+        &:hover 
+            border-bottom: 1px solid $text-color
+
+.page-heading 
+    font-size: 20px
+
+.post-list 
+    margin-left: 0
+    list-style: none
+    > li 
+        margin-bottom: $spacing-unit
+
+.post-meta 
+    font-size: $small-font-size
+    color: $grey-color
+
+.post-link 
+    display: block
+    font-size: 24px
+
+
+/**
+ * Posts
+ */
+
+.post-header 
+    margin-bottom: $spacing-unit
+
+.post-title 
+    font-size: 42px
+    letter-spacing: -1px
+    line-height: 1
+    +mqx(799px) 
+        font-size: 36px
+
+.post-content 
+    h2 
+        font-size: 32px
+        +mqx(799px) 
+            font-size: 28px
+    h3 
+        font-size: 26px
+        +mqx(799px) 
+            font-size: 22px
+    h4 
+        font-size: 20px
+        +mqx(799px) 
+            font-size: 18px
