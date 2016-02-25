@@ -60,7 +60,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 15.75px; }
+  font-size: 16px; }
 
 /**
  * Lists
@@ -219,7 +219,8 @@ pre {
  * Site footer
  */
 .site-footer {
-  padding: 36px 0; }
+  padding: 36px 0;
+  font-size: 16px; }
 
 .footer-heading {
   font-size: 18px;
@@ -269,7 +270,7 @@ pre {
     margin-bottom: 36px; }
 
 .post-meta {
-  font-size: 15.75px;
+  font-size: 16px;
   color: #cfcfe2; }
 
 .post-link {
