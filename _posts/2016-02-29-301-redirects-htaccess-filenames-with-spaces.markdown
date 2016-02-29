@@ -10,7 +10,7 @@ permalink: htaccess/301-redirect-filenames-with-spaces
 I was working on a site where pages had originally been named using an old WYSIWYG editor, with spaces in the filenames.  These were being served up OK in the browser, which URL-encoded the space (as an [unsafe ASCII character](http://www.w3schools.com/tags/ref_urlencode.asp)) to *%20* :
 
 {% highlight html %}
-http://www.example.com/old%20filename%20with%20spaces.htm
+http://example.com/old%20filename%20with%20spaces.htm
 {% endhighlight %}
 
 However when using this URL-encoded format in the *.htaccess* file, the server generated an error for the *301 Redirect* lines: 
