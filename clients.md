@@ -3,7 +3,9 @@ layout: page
 title: Clients
 permalink: /clients/
 ---
-People I've worked with over the past few years with various aspects of design, front end development and marketing of their websites.  I've undertaken development and responsive design for most of the sites listed, and assisted with content strategy and management.
+People I've worked with over the past few years with various aspects of design, front end development and marketing of their websites.  I've undertaken development and responsive design for most of the sites listed, and assisted with content strategy and management. 
+
+See also my [LinkedIn portfolio](https://www.linkedin.com/in/kennyfraser).
 
 If you think you need something similar, [hire me](/hire-me).
 
