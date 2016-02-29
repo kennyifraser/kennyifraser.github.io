@@ -70,6 +70,14 @@
       </li>
       {% endif %}
 
+      {% if site.skype_username %}
+      <li>
+        <a href="skype:{{ site.skype_username }}?chat" title="Kenny Fraser on Skype" rel="external me nofollow" itemprop="sameAs">
+          <i class="fa fa-skype fa-2x"></i>
+        </a>
+      </li>
+      {% endif %}
+
       {% if site.instagram_username %}
       <li>
         <a href="http://instagram.com/{{ site.instagram_username }}" title="Kenny Fraser on Instagram" rel="external me nofollow" itemprop="sameAs">
