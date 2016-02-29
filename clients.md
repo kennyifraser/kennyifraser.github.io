@@ -3,7 +3,7 @@ layout: page
 title: Clients
 permalink: /clients/
 ---
-People I've worked with over the past few years with various aspects of design, front end development and marketing of their websites.  I've undertaken development and responsive design for most of the sites listed, and assisted with implementation of content strategy and management.
+People I've worked with over the past few years with various aspects of design, front end development and marketing of their websites.  I've undertaken development and responsive design for most of the sites listed, and assisted with content strategy and management.
 
 If you think you need something similar, [hire me](/hire-me).
 
@@ -11,7 +11,7 @@ If you think you need something similar, [hire me](/hire-me).
 
 ## SellerDeck eCommerce CMS Projects
 
-[SellerDeck Desktop](http://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop) is at the heart of thousands of businesses selling online today.  Offline site generation with Perl server scripts. 
+[SellerDeck Desktop](http://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop) is at the heart of thousands of businesses selling online today.  Offline site generation, with Perl-based server scripts. 
 
 ### <a href="http://www.musicscotland.com" title="Music Scotland Scottish Music" rel="external nofollow">Music Scotland</a>
 

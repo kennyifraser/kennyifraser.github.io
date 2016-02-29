@@ -4,7 +4,9 @@ layout: default
 
 <div class="home">
 
-  <h1>Articles</h1> <!-- class="page-heading" -->
+  <h1>Posts</h1> <!-- class="page-heading" -->
+
+  <p>Blurbs about random things I come across while working away on various projects, that might conceivably be of use to someone else.</p> 
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -20,11 +22,11 @@ layout: default
 
   <hr>
 
-  <nav>
-    <a class="post-link" href="{{ '/about' | prepend: site.baseurl }}">About Me</a>
-    <a class="post-link" href="{{ '/clients' | prepend: site.baseurl }}">Clients I've Worked With</a>
-    <a class="post-link" href="{{ '/hire-me' | prepend: site.baseurl }}">Hire Me</a>
-  </nav>
+  <p>
+    Find out more <a href="{{ '/about' | prepend: site.baseurl }}">about me</a> and the <a href="{{ '/clients' | prepend: site.baseurl }}">clients I've worked with</a>.  If you're interested, you can <a href="{{ '/hire-me' | prepend: site.baseurl }}">hire me</a>.
+  </p>
+  
+  <hr>
 
   <div class="twitter-widget">
     <a class="twitter-timeline" href="https://twitter.com/kennyfraser" data-widget-id="698885778512936960">Tweets by @kennyfraser</a>

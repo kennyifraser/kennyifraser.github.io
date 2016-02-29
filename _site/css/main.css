@@ -31,7 +31,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   font-weight: 400;
-  color: #cfcfe2;
+  color: white;
   background-color: #14141f;
   background-image: repeating-linear-gradient(135deg, transparent, transparent 8px, rgba(16, 16, 25, 0.8) 8px, rgba(16, 16, 25, 0.8) 16px);
   background-attachment: fixed;
@@ -92,7 +92,7 @@ a {
   color: #aab;
   text-decoration: none; }
   a:hover {
-    color: #cfcfe2; }
+    color: white; }
 
 /**
  * Blockquotes
@@ -203,7 +203,7 @@ pre {
       width: 18px;
       height: 15px; }
       .menu-icon > svg path {
-        fill: #cfcfe2; } }
+        fill: white; } }
 
 @media screen and (min-width: 600px) {
   .page-link {
@@ -248,7 +248,7 @@ pre {
   height: 16px;
   vertical-align: middle; }
   .icon > svg path {
-    fill: #cfcfe2; }
+    fill: white; }
 
 /**
  * Page content
@@ -258,7 +258,7 @@ pre {
   .page-content p a {
     border-bottom: 1px dotted #aab; }
     .page-content p a:hover {
-      border-bottom: 1px solid #cfcfe2; }
+      border-bottom: 1px solid white; }
 
 .page-heading {
   font-size: 20px; }
@@ -271,7 +271,7 @@ pre {
 
 .post-meta {
   font-size: 16px;
-  color: #cfcfe2; }
+  color: white; }
 
 .post-link {
   display: block;

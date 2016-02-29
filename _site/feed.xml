@@ -2,12 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kenny Fraser</title>
-    <description>Kenny Fraser is a freelance Web Designer and Front End Web Developer based near Inverness in the Scottish Highlands.</description>
+    <description>Kenny Fraser is a freelance Web Designer and Front End Web Developer living near Inverness in the Scottish Highlands.</description>
     <link>http://kennyfraser.com/</link>
     <atom:link href="http://kennyfraser.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 25 Feb 2016 00:34:06 +0000</pubDate>
-    <lastBuildDate>Thu, 25 Feb 2016 00:34:06 +0000</lastBuildDate>
+    <pubDate>Mon, 29 Feb 2016 11:09:08 +0000</pubDate>
+    <lastBuildDate>Mon, 29 Feb 2016 11:09:08 +0000</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>301 redirects in .htaccess for filenames with spaces</title>
+        <description>&lt;p&gt;I was working on a site where pages had originally been named using an old WYSIWYG editor, with spaces in the filenames.  These were being served up OK in the browser, which URL-encoded the space (as an &lt;a href=&quot;http://www.w3schools.com/tags/ref_urlencode.asp&quot;&gt;unsafe ASCII character&lt;/a&gt;) to &lt;em&gt;%20&lt;/em&gt; :&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;http://www.example.com/old%20filename%20with%20spaces.htm&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;However when using this URL-encoded format in the &lt;em&gt;.htaccess&lt;/em&gt; file, the server generated an error for the &lt;em&gt;301 Redirect&lt;/em&gt; lines:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;Redirect 301 /old%20filename%20with%20spaces.htm /nice-clean-new-url/&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The correct way to redirect filenames with spaces in &lt;em&gt;.htaccess&lt;/em&gt; is by leaving the spaces, and quoting the filename:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;Redirect 301 &lt;span class=&quot;s2&quot;&gt;&quot;/old filename with spaces.htm&quot;&lt;/span&gt; /nice-clean-new-url/&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+</description>
+        <pubDate>Mon, 29 Feb 2016 10:00:00 +0000</pubDate>
+        <link>http://kennyfraser.com/htaccess/301-redirect-filenames-with-spaces</link>
+        <guid isPermaLink="true">http://kennyfraser.com/htaccess/301-redirect-filenames-with-spaces</guid>
+        
+        
+      </item>
     
       <item>
         <title>Setting up a custom domain on GitHub Pages</title>

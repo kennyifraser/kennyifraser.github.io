@@ -55,6 +55,6 @@ After discussion of the project, I can offer a fixed quote in advance for a well
 
 For longer-term projects, a weekly rate for a 'sprint' of work towards an end goal is generally preferable, broadly following [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development#The_Agile_Manifesto) principles.
 
-I would consider a monthly retainer basis for regular, well-defined work or consultation.
+I'd consider a monthly retainer basis for regular, well-defined work or consultation.
 
 Depending on timescale and budget, these projects would normally be under a mutually-agreed contract, based on either your or my template.
