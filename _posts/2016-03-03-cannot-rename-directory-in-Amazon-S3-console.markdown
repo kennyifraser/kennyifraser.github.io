@@ -15,4 +15,4 @@ Files, yes, but for directories you generally need to duplicate them then delete
 
 There do seem to be wee Windows S3 clients that will offer this functionality though.  One which came to the rescue was the free [S3 Browser](http://s3browser.com/) which did the job nicely, though just one directory at a time.  Install, plug in your access credentials and away ye go.
 
-![S3 browser](/img/S3-browser.jpg)
+![S3 browser](/img/S3-Browser.jpg)
