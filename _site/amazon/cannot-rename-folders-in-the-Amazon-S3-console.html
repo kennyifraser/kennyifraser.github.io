@@ -7,7 +7,7 @@
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Setting up a custom domain on GitHub Pages | Kenny Fraser</title>
+    <title>Can't directly rename folders in the Amazon S3 Console | Kenny Fraser</title>
     <meta name="description" content="Kenny Fraser is a freelance Web Designer and Front End Web Developer living near Inverness in the Scottish Highlands.">
 
     <link rel="shortcut icon" type=image/x-icon href="/img/favicon.ico">
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://kennyfraser.com/github/setting-up-a-custom-domain-on-github-pages">
+    <link rel="canonical" href="http://kennyfraser.com/amazon/cannot-rename-folders-in-the-Amazon-S3-console">
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -89,26 +89,20 @@
     <div class="post">
 
 	<header class="post-header">
-	<h1 class="post-title">Setting up a custom domain on GitHub Pages</h1>
-	<p class="post-meta">Feb 13, 2016</p>
+	<h1 class="post-title">Can't directly rename folders in the Amazon S3 Console</h1>
+	<p class="post-meta">Mar 3, 2016</p>
 	</header>
 
 	<article class="post-content">
-		<p>What I wanted was <em>http://kennyfraser.com</em> to be the definitive URL of this site, and <a href="http://www.kennyfraser.com/">http://www.kennyfraser.com</a> to redirect there.</p>
+		<p>Strange as it may seem, you can’t directly rename folders in the Amazon S3 online console:</p>
 
-<p><a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/">Using the instructions here</a> I had to <a href="https://help.github.com/articles/setting-up-your-pages-site-repository/">add a CNAME <em>file</em> to my GitHub User repository</a> as well as <a href="https://help.github.com/articles/setting-up-a-custom-subdomain/">configure a CNAME <em>record</em></a> at the DNS service provider (Fasthosts).</p>
+<p><img src="/img/S3-cannot-rename-directory.png" alt="cannot rename folder in Amazon S3 console" /></p>
 
-<p>The GitHub CNAME file contents are just:</p>
+<p>Files, yes, but for directories you generally need to duplicate them then delete the original.  As I had a batch to do, this was a bit of a pain.</p>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html">kennyfraser.com</code></pre></figure>
+<p>There do seem to be wee Windows S3 clients that will offer this functionality though.  One which came to the rescue was the free <a href="http://s3browser.com/">S3 Browser</a> which did the job nicely, though just one directory at a time.  Install, plug in your access credentials and away ye go.</p>
 
-<p>This is what eventually worked in the DNS provider’s records:</p>
-
-<p><img src="/img/CNAME-records-fasthosts-github-pages.png" alt="CNAME records at Fasthosts" /></p>
-
-<p>Both blank and <em>www</em> Host Names point to my <em>username.github.io</em> and neither appear in the A records. As far as I’m aware, these are both <a href="https://help.github.com/articles/about-custom-domains-for-github-pages-sites/"><em>custom subdomains</em> (for best performance) and not <em>apex domains</em></a> as they’re configured through CNAME and not A records.</p>
-
-<p>GitHub Pages <a href="https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/">automatically creates a redirect</a> between these <em>www</em> and <em>non-www</em> versions of the domain, depending on the contents of the CNAME <em>file</em>.</p>
+<p><img src="/img/S3-browser.jpg" alt="S3 browser" /></p>
 
 	</article>
 

@@ -26,11 +26,6 @@
           </a>
         </div>
         {% endif %}
-        <div>
-          <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="subscribe to this site's RSS feed">
-            <i class="fa fa-rss fa-2x"></i>&nbsp;subscribe to RSS
-          </a>
-        </div>
       </div>
     </div> 
 
@@ -69,6 +64,12 @@
         </a>
       </li>
       {% endif %}
+
+      <li>
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="Kenny Fraser's Posts RSS feed">
+          <i class="fa fa-rss fa-2x"></i>
+        </a>
+      </li>
 
       {% if site.skype_username %}
       <li>
