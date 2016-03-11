@@ -3,6 +3,8 @@ layout: page
 title: Hire Me
 permalink: /hire-me/
 ---
+I look forward to working with new clients - [contact me](#contact) if you think I may be able to help you.
+
 Current availability: *within one month*
 
 <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
@@ -11,11 +13,11 @@ Current availability: *within one month*
   <span itemprop="addressCountry">GB</span>*
 </span>
 
+Trading as: *<span itemprop="affiliation">Web Business Services</span>*
+
 ---
 
 # Can I Help?
-
-I look forward to working with new clients - [contact me](#contact) if you think I may be able to help you.
 
 I design and build [responsive websites](https://en.wikipedia.org/wiki/Responsive_web_design) with a [mobile first](http://www.lukew.com/resources/mobile_first.asp) approach, that adapt to the screen size of a wide range of devices. Sometimes I re-design existing sites, or rescue business owners who have specific website problems or are plain lost.
 

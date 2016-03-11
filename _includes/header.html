@@ -2,7 +2,9 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/" itemprop="url"><span itemprop=name>{{ site.title }}</span></a>
+    {% if page.url != '/' %}
+      <a class="site-title" href="{{ site.baseurl }}/" itemprop="url"><span itemprop=name>{{ site.title }}</span></a>
+    {% endif %}
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -24,9 +26,5 @@
     </nav>
 
   </div>
-
-<!--   <div class="wrapper">
-    <div itemprop="affiliation">Web Business Services</div>
-  </div> -->
 
 </header>
