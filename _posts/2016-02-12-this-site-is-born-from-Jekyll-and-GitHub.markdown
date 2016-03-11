@@ -7,7 +7,7 @@ permalink: jekyll/new-portfolio-blog-site-on-github-pages
 # categories: 
 # tags: 
 ---
-I was considering moving my simple portfolio site at [kennyfraser.com](http://kennyfraser.com) to a more streamlined publishing setup.  I wanted to get away from hand-coded HTML/CSS files and FTP, and add simple blog functionality.
+I was considering moving my simple portfolio site at *kennyfraser.com* to a more streamlined publishing setup.  I wanted to get away from hand-coded HTML/CSS files and FTP, and add simple blog functionality.
 
 After hearing good things about [Jekyll](https://jekyllrb.com/) via [CSS-Tricks](https://css-tricks.com/) and seeing how tightly coupled it can be with [GitHub Pages](https://pages.github.com/), I forged ahead.  Ironically, after beginning the installation process, my existing VPS host went down due to a power outage, taking my email forwarding with it.  No emails for more than 24 hours.  So managed to get a *lot* done...  
 

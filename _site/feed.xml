@@ -5,8 +5,8 @@
     <description>Kenny Fraser is a freelance Web Designer and Front End Web Developer living near Inverness in the Scottish Highlands.</description>
     <link>http://kennyfraser.com/</link>
     <atom:link href="http://kennyfraser.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 11 Mar 2016 16:24:33 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Mar 2016 16:24:33 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Mar 2016 16:30:28 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Mar 2016 16:30:28 +0000</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -76,7 +76,7 @@
     
       <item>
         <title>This site is born from Jekyll and GitHub</title>
-        <description>&lt;p&gt;I was considering moving my simple portfolio site at &lt;a href=&quot;http://kennyfraser.com&quot;&gt;kennyfraser.com&lt;/a&gt; to a more streamlined publishing setup.  I wanted to get away from hand-coded HTML/CSS files and FTP, and add simple blog functionality.&lt;/p&gt;
+        <description>&lt;p&gt;I was considering moving my simple portfolio site at &lt;em&gt;kennyfraser.com&lt;/em&gt; to a more streamlined publishing setup.  I wanted to get away from hand-coded HTML/CSS files and FTP, and add simple blog functionality.&lt;/p&gt;
 
 &lt;p&gt;After hearing good things about &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; via &lt;a href=&quot;https://css-tricks.com/&quot;&gt;CSS-Tricks&lt;/a&gt; and seeing how tightly coupled it can be with &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, I forged ahead.  Ironically, after beginning the installation process, my existing VPS host went down due to a power outage, taking my email forwarding with it.  No emails for more than 24 hours.  So managed to get a &lt;em&gt;lot&lt;/em&gt; done…&lt;/p&gt;
 
