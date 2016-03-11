@@ -13,3 +13,10 @@ Since then I've been supporting small business clients running their own website
 I also own and manage a [self catering holiday house in Tobermory on the Isle of Mull](http://mull.co) called Back Brae Lodge. I'm a member of the [Highland Web Group](http://www.meetup.com/Highland-Web-Group/).
 
 In a former life I was an itinerant musician with [Salsa Celtica](http://salsaceltica.com) and other bands, performing internationally and teaching Scottish traditional music. In an even former life, [Edinburgh University](http://www.ed.ac.uk/) gave me a degree in Biochemistry.
+
+---
+
+<div class="twitter-widget">
+<a class="twitter-timeline" href="https://twitter.com/kennyfraser" data-widget-id="698885778512936960">Tweets by @kennyfraser</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>

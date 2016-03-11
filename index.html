@@ -4,33 +4,29 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1> <!-- class="page-heading" -->
+  <h1>Kenny Fraser</h1>
 
-  <p>Random things I discover while working away, that might conceivably be of use to someone else.</p> 
+  <p>
+    I'm a freelance web design and front end development professional living near Inverness in the Scottish Highlands. 
+    Find out more <a href="{{ '/about' | prepend: site.baseurl }}">about me</a> and the <a href="{{ '/clients' | prepend: site.baseurl }}">clients I've worked with</a> using these <a href="{{ '/tools' | prepend: site.baseurl }}">tools and resources</a>.  
+    If you're interested, you can <a href="{{ '/hire-me' | prepend: site.baseurl }}">hire me</a>.
+  </p>
+
+  <hr>
+
+  <h2 id="posts">Posts</h2> 
+
+  <p>Very random things I discover while working away, that might conceivably be of use to someone else.</p> 
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <h3>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> 
+        </h3>
+        ~ {{ post.date | date: "%b %-d, %Y" }}
       </li>
     {% endfor %}
   </ul>
-
-  <hr>
-
-  <p>
-    Find out more <a href="{{ '/about' | prepend: site.baseurl }}">about me</a> and the <a href="{{ '/clients' | prepend: site.baseurl }}">clients I've worked with</a> using these <a href="{{ '/tools' | prepend: site.baseurl }}">tools and resources</a>.  If you're interested, you can <a href="{{ '/hire-me' | prepend: site.baseurl }}">hire me</a>.
-  </p>
-  
-  <hr>
-
-  <div class="twitter-widget">
-    <a class="twitter-timeline" href="https://twitter.com/kennyfraser" data-widget-id="698885778512936960">Tweets by @kennyfraser</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-  </div>
 
 </div>

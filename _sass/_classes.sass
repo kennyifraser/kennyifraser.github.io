@@ -27,7 +27,7 @@
         margin: 0 auto 
     .page-content & 
         background-color: $secondary-color-light
-        padding: $spacing-unit
+        padding: $spacing-unit 5%
         +mq(1025px)   
             border-radius: $spacing-unit
             padding: $spacing-unit 10%
@@ -126,8 +126,15 @@
     margin-right: $spacing-unit
     img 
         border-radius: 50%
-        width: 120px
- 
+        float: left
+        margin-right: $spacing-unit
+        transition: .4s
+        width: 200px
+        +mq(1025px)
+            opacity: .7
+            &:hover
+                opacity: 1
+
 .icon 
     > svg 
         display: inline-block
@@ -142,24 +149,28 @@
  */
 
 .page-content 
-    padding: $spacing-unit 0
+    padding-bottom: $spacing-unit
     & p a 
         border-bottom: 1px dotted $brand-color
         &:hover 
             border-bottom: 1px solid $text-color
 
-.page-heading 
-    font-size: 20px
+// .page-heading 
+//     font-size: 20px
 
 .post-list 
-    margin-left: 0
+    margin-top: $spacing-unit
     list-style: none
+    h3
+        display: inline-block
+        margin: 0 0 $spacing-unit / 4 0
+        padding: 0
     > li 
-        margin-bottom: $spacing-unit
+        margin-bottom: $spacing-unit     
 
-.post-meta 
-    font-size: $small-font-size
-    color: $text-color
+// .post-meta 
+//     font-size: $small-font-size
+    // color: $text-color
 
 .post-link 
     display: block

@@ -5,25 +5,25 @@
     <description>Kenny Fraser is a freelance Web Designer and Front End Web Developer living near Inverness in the Scottish Highlands.</description>
     <link>http://kennyfraser.com/</link>
     <atom:link href="http://kennyfraser.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 03 Mar 2016 17:46:32 +0000</pubDate>
-    <lastBuildDate>Thu, 03 Mar 2016 17:46:32 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Mar 2016 12:51:28 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Mar 2016 12:51:28 +0000</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
-        <title>Can&#39;t directly rename folders in the Amazon S3 Console</title>
+        <title>Renaming folders in Amazon S3</title>
         <description>&lt;p&gt;Strange as it may seem, you can’t directly rename folders in the Amazon S3 online console:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/S3-cannot-rename-directory.png&quot; alt=&quot;cannot rename folder in Amazon S3 console&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Files, yes, but for directories you generally need to duplicate them then delete the original.  As I had a batch to do, this was a bit of a pain.&lt;/p&gt;
+&lt;p&gt;Files yes, but directories no.  As I had a batch to do, this was a bit of a pain.&lt;/p&gt;
 
-&lt;p&gt;There do seem to be wee Windows S3 clients that will offer this functionality though.  One which came to the rescue was the free &lt;a href=&quot;http://s3browser.com/&quot;&gt;S3 Browser&lt;/a&gt; which did the job nicely, though just one directory at a time.  Install, plug in your access credentials and away ye go.&lt;/p&gt;
+&lt;p&gt;There do seem to be wee Windows S3 clients that will offer this functionality though.  One which came to the rescue was the free &lt;a href=&quot;http://s3browser.com/&quot;&gt;S3 Browser&lt;/a&gt; which did the job, though just one directory at a time.  Install, plug in your access credentials and away you go.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/S3-Browser.jpg&quot; alt=&quot;S3 browser&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 03 Mar 2016 17:30:00 +0000</pubDate>
-        <link>http://kennyfraser.com/amazon/cannot-rename-folders-in-the-Amazon-S3-console</link>
-        <guid isPermaLink="true">http://kennyfraser.com/amazon/cannot-rename-folders-in-the-Amazon-S3-console</guid>
+        <link>http://kennyfraser.com/amazon/rename-folders-in-S3</link>
+        <guid isPermaLink="true">http://kennyfraser.com/amazon/rename-folders-in-S3</guid>
         
         
       </item>
