@@ -1,17 +1,13 @@
 /**
  * Home page
  */
-
-+mqx(599px) 
-    .twitter-widget 
-        margin: 0 $spacing-unit
-        
-.home 
-    nav 
-        margin-bottom: $spacing-unit
-        a 
-            display: inline-block
-            margin-right: $spacing-unit
+       
+// .home 
+//     nav 
+//         margin-bottom: $spacing-unit
+//         a 
+//             display: inline-block
+//             margin-right: $spacing-unit
 
 
 /**
@@ -95,15 +91,6 @@
         display: block
         padding: 5px 10px
 
-
-/**
- * Site footer
- */
-
-.site-footer 
-    padding: $spacing-unit 0
-    font-size: $small-font-size
-
 .footer-heading 
     font-size: 18px
     margin-bottom: $spacing-unit / 2
@@ -117,24 +104,6 @@
     display: inline-block
     margin: $spacing-unit/2 $spacing-unit/2 0 0
 
-.footer-col-wrapper 
-    @extend %clearfix
-    @extend %vertical-rhythm
-
-.footer-col 
-    display: inline-block
-    margin-right: $spacing-unit
-    img 
-        border-radius: 50%
-        float: left
-        margin-right: $spacing-unit
-        transition: .4s
-        width: 200px
-        +mq(1025px)
-            opacity: .7
-            &:hover
-                opacity: 1
-
 .icon 
     > svg 
         display: inline-block
@@ -143,6 +112,7 @@
         vertical-align: middle
         path 
             fill: $text-color
+
 
 /**
  * Page content
@@ -155,8 +125,10 @@
         &:hover 
             border-bottom: 1px solid $text-color
 
-// .page-heading 
-//     font-size: 20px
+
+/**
+ * Posts
+ */
 
 .post-list 
     margin-top: $spacing-unit
@@ -168,18 +140,9 @@
     > li 
         margin-bottom: $spacing-unit     
 
-// .post-meta 
-//     font-size: $small-font-size
-    // color: $text-color
-
 .post-link 
     display: block
     font-size: 24px
-
-
-/**
- * Posts
- */
 
 .post-header 
     margin-bottom: $spacing-unit
@@ -204,3 +167,12 @@
         font-size: 20px
         +mqx(799px) 
             font-size: 18px
+
+
+/**
+ * Other
+ */
+
++mqx(599px) 
+    .twitter-widget 
+        margin: 0 $spacing-unit

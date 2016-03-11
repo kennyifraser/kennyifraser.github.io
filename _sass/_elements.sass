@@ -32,7 +32,6 @@ body
     text-rendering: optimizeLegibility
     -webkit-font-smoothing: antialiased  
 
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -62,8 +61,6 @@ figcaption
  * Lists
  */
 
-// ul, ol 
-//     margin-left: $spacing-unit
 li 
     > ul,
     > ol 
@@ -127,3 +124,24 @@ pre
         border: 0
         padding-right: 0
         padding-left: 0
+
+/**
+ * Site footer
+ */
+
+footer 
+    padding: $spacing-unit 0
+    font-size: $small-font-size
+    img 
+        border-radius: 50%
+        display: block
+        margin-bottom: $spacing-unit / 2
+        width: 150px
+        +mq(500px)
+            float: left
+            margin-right: $spacing-unit
+        +mq(1025px)
+            opacity: .7
+            transition: .4s
+            &:hover
+                opacity: 1

@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
-.wrapper:after, .footer-col-wrapper:after {
+.wrapper:after {
   content: "";
   display: table;
   clear: both; }
 
-.footer-col-wrapper, .highlight {
+.highlight {
   margin-bottom: 18px; }
 
 /**
@@ -121,17 +121,30 @@ pre {
     padding-left: 0; }
 
 /**
+ * Site footer
+ */
+footer {
+  padding: 36px 0;
+  font-size: 16px; }
+  footer img {
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 18px;
+    width: 150px; }
+    @media screen and (min-width: 500px) {
+      footer img {
+        float: left;
+        margin-right: 36px; } }
+    @media screen and (min-width: 1025px) {
+      footer img {
+        opacity: 0.7;
+        transition: 0.4s; }
+        footer img:hover {
+          opacity: 1; } }
+
+/**
  * Home page
  */
-@media screen and (max-width: 599px) {
-  .twitter-widget {
-    margin: 0 36px; } }
-.home nav {
-  margin-bottom: 36px; }
-  .home nav a {
-    display: inline-block;
-    margin-right: 36px; }
-
 /**
  * Wrapper
  */
@@ -211,13 +224,6 @@ pre {
     display: block;
     padding: 5px 10px; } }
 
-/**
- * Site footer
- */
-.site-footer {
-  padding: 36px 0;
-  font-size: 16px; }
-
 .footer-heading {
   font-size: 18px;
   margin-bottom: 18px; }
@@ -230,21 +236,6 @@ pre {
 .social-media-list li {
   display: inline-block;
   margin: 18px 18px 0 0; }
-
-.footer-col {
-  display: inline-block;
-  margin-right: 36px; }
-  .footer-col img {
-    border-radius: 50%;
-    float: left;
-    margin-right: 36px;
-    transition: 0.4s;
-    width: 200px; }
-    @media screen and (min-width: 1025px) {
-      .footer-col img {
-        opacity: 0.7; }
-        .footer-col img:hover {
-          opacity: 1; } }
 
 .icon > svg {
   display: inline-block;
@@ -264,6 +255,9 @@ pre {
     .page-content p a:hover {
       border-bottom: 1px solid white; }
 
+/**
+ * Posts
+ */
 .post-list {
   margin-top: 36px;
   list-style: none; }
@@ -278,9 +272,6 @@ pre {
   display: block;
   font-size: 24px; }
 
-/**
- * Posts
- */
 .post-header {
   margin-bottom: 36px; }
 
@@ -308,6 +299,12 @@ pre {
     .post-content h4 {
       font-size: 18px; } }
 
+/**
+ * Other
+ */
+@media screen and (max-width: 599px) {
+  .twitter-widget {
+    margin: 0 36px; } }
 /**
  * Syntax highlighting styles
  */
