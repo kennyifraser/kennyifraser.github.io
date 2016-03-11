@@ -30,4 +30,4 @@ sass:
 # Ruby Gems
 gems:
   - jekyll-sitemap
-  - octopress-minify-html
+  # - octopress-minify-html

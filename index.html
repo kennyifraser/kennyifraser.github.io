@@ -22,7 +22,7 @@ layout: default
     {% for post in site.posts %}
       <li>
         <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> 
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-hand-o-right"></i>&nbsp; {{ post.title }}</a> 
         </h3>
         ~ {{ post.date | date: "%b %-d, %Y" }}
       </li>
