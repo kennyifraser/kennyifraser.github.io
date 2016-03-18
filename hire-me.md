@@ -55,7 +55,7 @@ After discussion of the project, I can offer a fixed quote in advance for a well
 - train
 - support
 
-For longer-term projects, a weekly rate for a 'sprint' of work towards an end goal is generally preferable, broadly following [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development#The_Agile_Manifesto) principles.
+For longer-term projects, a weekly rate for a 'sprint' of work towards an end goal is generally preferable.  This would be *iterative* in nature, broadly following [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development#The_Agile_Manifesto) principles.
 
 I'd consider a monthly retainer basis for regular, well-defined work or consultation.
 
