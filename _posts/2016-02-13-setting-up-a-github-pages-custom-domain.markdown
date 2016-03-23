@@ -3,7 +3,7 @@ layout: post
 title: "Setting up a custom domain on GitHub Pages"
 date: 2016-02-13 21:00:00
 permalink: github/setting-up-a-custom-domain-on-github-pages
-# published: false
+published: false
 # categories: 
 # tags: 
 ---

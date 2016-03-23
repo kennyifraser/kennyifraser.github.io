@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     {% if page.url == '/' %}
-    <!-- Google Apps -->
+    <!-- Apps -->
     <meta name="google-site-verification" content="VH7wu2Owmorx4oCPjnB0EdtCLD9gaUfoCqMko7B2y8s" />
     {% endif %}
 
     <title>{% if page.title %}{{ page.title }} | Kenny Fraser{% else %}Kenny Fraser, Inverness Web Designer and Developer{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
 
-    <link rel="shortcut icon" type=image/x-icon href="{{ '/img/favicon.ico' | prepend: site.baseurl }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/img/favicon.ico' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}{% include cachebuster.html %}">
