@@ -4,6 +4,11 @@
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    {% if page.url == '/' %}
+    <!-- Google Apps -->
+    <meta name="google-site-verification" content="VH7wu2Owmorx4oCPjnB0EdtCLD9gaUfoCqMko7B2y8s" />
+    {% endif %}
+
     <title>{% if page.title %}{{ page.title }} | Kenny Fraser{% else %}Kenny Fraser, Inverness Web Designer and Developer{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
 
