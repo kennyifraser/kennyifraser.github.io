@@ -7,10 +7,12 @@
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    
+
     <title>Setting up a custom domain on GitHub Pages | Kenny Fraser</title>
     <meta name="description" content="Kenny Fraser is a freelance Web Designer and Front End Web Developer living near Inverness in the Scottish Highlands.">
 
-    <link rel="shortcut icon" type=image/x-icon href="/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/main.css?v=20160312">
@@ -85,8 +87,13 @@
     <div class="post">
 
 	<header class="post-header">
-	<h1 class="post-title">Setting up a custom domain on GitHub Pages</h1>
-	<p class="post-meta">Feb 13, 2016</p>
+		<h1 class="post-title">Setting up a custom domain on GitHub Pages</h1>
+		<p class="post-meta">
+			February 13, 2016
+			
+				<br><em>(last updated March 28, 2016)</em> 
+			
+		</p>
 	</header>
 
 	<article class="post-content">
@@ -98,13 +105,15 @@
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html">kennyfraser.com</code></pre></figure>
 
-<p>This is what eventually worked in the DNS provider’s records:</p>
+<p><strong>Don’t make this mistake</strong> in the DNS provider’s CNAME records:</p>
 
 <p><img src="/img/CNAME-records-fasthosts-github-pages.png" alt="CNAME records at Fasthosts" /></p>
 
-<p>Both blank and <em>www</em> Host Names point to my <em>username.github.io</em> and neither appear in the A records. As far as I’m aware, these are both <a href="https://help.github.com/articles/about-custom-domains-for-github-pages-sites/"><em>custom subdomains</em> (for best performance) and not <em>apex domains</em></a> as they’re configured through CNAME and not A records.</p>
+<p>Using a blank hostname in the CNAME records can mess up the MX routing for email, and possibly other services.</p>
 
-<p>GitHub Pages <a href="https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/">automatically creates a redirect</a> between these <em>www</em> and <em>non-www</em> versions of the domain, depending on the contents of the CNAME <em>file</em>.</p>
+<p>The <em>www</em> Host Name CNAME record points to my <em>username.github.io</em>. This is the recommended <a href="https://help.github.com/articles/about-supported-custom-domains/">custom subdomain</a> for best performance.</p>
+
+<p>Two <a href="https://help.github.com/articles/setting-up-an-apex-domain/">A Records for the apex <em>(non-www)</em> domain</a> with Github IP addresses are also necessary.  GitHub Pages <a href="https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/">automatically creates a redirect</a> between the <em>www</em> and <em>non-www</em> versions of the domain, depending on the contents of the CNAME <em>file</em>.</p>
 
 	</article>
 

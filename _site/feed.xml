@@ -5,8 +5,8 @@
     <description>Kenny Fraser is a freelance Web Designer and Front End Web Developer living near Inverness in the Scottish Highlands.</description>
     <link>http://kennyfraser.com/</link>
     <atom:link href="http://kennyfraser.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 11 Mar 2016 16:47:17 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Mar 2016 16:47:17 +0000</lastBuildDate>
+    <pubDate>Mon, 28 Mar 2016 11:44:10 +0100</pubDate>
+    <lastBuildDate>Mon, 28 Mar 2016 11:44:10 +0100</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -59,13 +59,15 @@
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;kennyfraser.com&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;This is what eventually worked in the DNS provider’s records:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Don’t make this mistake&lt;/strong&gt; in the DNS provider’s CNAME records:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/CNAME-records-fasthosts-github-pages.png&quot; alt=&quot;CNAME records at Fasthosts&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Both blank and &lt;em&gt;www&lt;/em&gt; Host Names point to my &lt;em&gt;username.github.io&lt;/em&gt; and neither appear in the A records. As far as I’m aware, these are both &lt;a href=&quot;https://help.github.com/articles/about-custom-domains-for-github-pages-sites/&quot;&gt;&lt;em&gt;custom subdomains&lt;/em&gt; (for best performance) and not &lt;em&gt;apex domains&lt;/em&gt;&lt;/a&gt; as they’re configured through CNAME and not A records.&lt;/p&gt;
+&lt;p&gt;Using a blank hostname in the CNAME records can mess up the MX routing for email, and possibly other services.&lt;/p&gt;
 
-&lt;p&gt;GitHub Pages &lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/&quot;&gt;automatically creates a redirect&lt;/a&gt; between these &lt;em&gt;www&lt;/em&gt; and &lt;em&gt;non-www&lt;/em&gt; versions of the domain, depending on the contents of the CNAME &lt;em&gt;file&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;www&lt;/em&gt; Host Name CNAME record points to my &lt;em&gt;username.github.io&lt;/em&gt;. This is the recommended &lt;a href=&quot;https://help.github.com/articles/about-supported-custom-domains/&quot;&gt;custom subdomain&lt;/a&gt; for best performance.&lt;/p&gt;
+
+&lt;p&gt;Two &lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain/&quot;&gt;A Records for the apex &lt;em&gt;(non-www)&lt;/em&gt; domain&lt;/a&gt; with Github IP addresses are also necessary.  GitHub Pages &lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/&quot;&gt;automatically creates a redirect&lt;/a&gt; between the &lt;em&gt;www&lt;/em&gt; and &lt;em&gt;non-www&lt;/em&gt; versions of the domain, depending on the contents of the CNAME &lt;em&gt;file&lt;/em&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 13 Feb 2016 21:00:00 +0000</pubDate>
         <link>http://kennyfraser.com/github/setting-up-a-custom-domain-on-github-pages</link>

@@ -3,10 +3,12 @@ layout: post
 title: "Setting up a custom domain on GitHub Pages"
 date: 2016-02-13 21:00:00
 permalink: github/setting-up-a-custom-domain-on-github-pages
-published: false
+updated: 2016-03-28 11:00:00
+# published: false
 # categories: 
 # tags: 
 ---
+
 What I wanted was *http://kennyfraser.com* to be the definitive URL of this site, and [http://www.kennyfraser.com](http://www.kennyfraser.com/) to redirect there.
 
 [Using the instructions here](https://help.github.com/articles/using-a-custom-domain-with-github-pages/) I had to [add a CNAME *file* to my GitHub User repository](https://help.github.com/articles/setting-up-your-pages-site-repository/) as well as [configure a CNAME *record*](https://help.github.com/articles/setting-up-a-custom-subdomain/) at the DNS service provider (Fasthosts).
@@ -17,10 +19,12 @@ The GitHub CNAME file contents are just:
 kennyfraser.com
 {% endhighlight %}
 
-This is what eventually worked in the DNS provider's records:
+**Don't make this mistake** in the DNS provider's CNAME records:
 
 ![CNAME records at Fasthosts](/img/CNAME-records-fasthosts-github-pages.png)
 
-Both blank and *www* Host Names point to my *username.github.io* and neither appear in the A records. As far as I'm aware, these are both [*custom subdomains* (for best performance) and not *apex domains*](https://help.github.com/articles/about-custom-domains-for-github-pages-sites/) as they're configured through CNAME and not A records.  
+Using a blank hostname in the CNAME records can mess up the MX routing for email, and possibly other services. 
 
-GitHub Pages [automatically creates a redirect](https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/) between these *www* and *non-www* versions of the domain, depending on the contents of the CNAME *file*.
+The *www* Host Name CNAME record points to my *username.github.io*. This is the recommended [custom subdomain](https://help.github.com/articles/about-supported-custom-domains/) for best performance. 
+
+Two [A Records for the apex *(non-www)* domain](https://help.github.com/articles/setting-up-an-apex-domain/) with Github IP addresses are also necessary.  GitHub Pages [automatically creates a redirect](https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/) between the *www* and *non-www* versions of the domain, depending on the contents of the CNAME *file*.
