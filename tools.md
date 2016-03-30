@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Tools
+navigation: true
 permalink: /tools/
+title: Tools
 ---
 
 A selection of web development tools and resources I've used and can generally recommend.

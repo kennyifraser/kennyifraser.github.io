@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Hire Me
+navigation: true
 permalink: /hire-me/
+title: Hire Me
 ---
 I look forward to working with new clients - [contact me by email or phone](#contact) if you think I may be able to help you, or [fill in the enquiry form](#enquiry).
 

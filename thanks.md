@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Thanks for your enquiry
 permalink: /thanks/
+title: Thanks for your enquiry
 ---
-#Thanks for your enquiry
 
 You should receive a reply within one working day.
 

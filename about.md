@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+navigation: true
 ---
 
 I'm a freelance website designer and front end developer with over 17 years of operational and online marketing experience relating to small businesses in the UK.

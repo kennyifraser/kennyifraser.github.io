@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Clients
+navigation: true
 permalink: /clients/
+title: Clients
 ---
 People I've worked with over the past few years with various aspects of design, front end development and marketing of their websites.  I've undertaken development and responsive design for most of the sites listed, and assisted with content strategy and management. 
 
