@@ -92,8 +92,7 @@ Depending on timescale and budget, these projects would normally be under a mutu
     <label for="application">Do you have a particular CMS or other application in mind?</label>
     <datalist id="applications">
 		<select name="application">
-			<option>please select</option>
-			<option>Other</option>
+			<option>select or enter</option>
 		    <option value="Craft">Craft</option>
 		    <option value="Custom CMS">Custom CMS</option>
 		    <option value="ExpressionEngine">ExpressionEngine</option>
