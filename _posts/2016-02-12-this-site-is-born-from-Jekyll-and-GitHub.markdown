@@ -34,3 +34,5 @@ Will I run into limitations later? Probably. But right now things are *quick and
 [![Jekyll static site generator](/img/jekyll-logo.png)](http://jekyllrb.com/)
 
 Eduardo Bouças has written a good [comparison of static vs dynamic site generators](https://davidwalsh.name/introduction-static-site-generators).
+
+Treehouse has a short workshop on how to [Create a Jekyll Site on Github](https://teamtreehouse.com/library/create-a-jekyll-site-on-github).
