@@ -2,6 +2,9 @@
 layout: page
 navigation: true
 permalink: /clients/
+quote: I don't intend to build in order to have clients; I intend to have clients in order to build.
+quote_source: https://en.wikiquote.org/wiki/The_Fountainhead
+quotee: Ayn Rand
 title: Clients
 ---
 People I've worked with over the past few years with various aspects of design, front end development and marketing of their websites.  I've undertaken development and responsive design for most of the sites listed, and assisted with content strategy and management. 
