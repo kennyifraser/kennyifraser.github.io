@@ -64,16 +64,18 @@ Depending on timescale and budget, these projects would normally be under a mutu
 
 ---
 
+<span id="enquiry"></span>
+
 # Enquiry Form 
 
-<form id="enquiry" action="https://formspree.io/me@kennyfraser.com" method="POST">
+<form action="https://formspree.io/me@kennyfraser.com" method="POST">
 
 	<input type="hidden" name="_next" value="/thanks/" />
 	<input type="hidden" name="_subject" value="Hire Me enquiry from kennyfraser.com" />
 	<input type="text" name="_gotcha" style="display:none" />
 
     <label for="name" maxlength="50">Your name:</label>
-    <input type="text" name="name" placeholder="your name" required autofocus>
+    <input type="text" name="name" placeholder="your name" required>
 
     <label for="_replyto" maxlength="50">Your email address:</label>
     <input type="email" name="_replyto" placeholder="your email" required>
