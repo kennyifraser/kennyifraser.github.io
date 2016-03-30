@@ -1,11 +1,12 @@
 ---
-layout: post
-title: "Renaming folders in Amazon S3"
-date: 2016-03-03 17:30:00
-permalink: amazon/rename-folders-in-S3
-# published: false
 # categories: 
+# published: false
 # tags: 
+# updated: 2016-03-28 11:00:00
+date: 2016-03-03 17:30:00
+layout: post
+permalink: amazon/rename-folders-in-S3
+title: "Renaming folders in Amazon S3"
 ---
 Strange as it may seem, you can't directly rename folders in the Amazon S3 online console:
 

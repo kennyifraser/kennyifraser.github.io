@@ -1,11 +1,12 @@
 ---
-layout: post
-title: "This site is born from Jekyll and GitHub"
-date: 2016-02-12 22:30:00
-permalink: jekyll/new-portfolio-blog-site-on-github-pages
-# published: false
 # categories: 
+# published: false
 # tags: 
+date: 2016-02-12 22:30:00
+layout: post
+permalink: jekyll/new-portfolio-blog-site-on-github-pages
+title: "This site is born from Jekyll and GitHub"
+updated: 2016-03-30 21:00:00
 ---
 I was considering moving my simple portfolio site at *kennyfraser.com* to a more streamlined publishing setup.  I wanted to get away from hand-coded HTML/CSS files and FTP, and add simple blog functionality.
 

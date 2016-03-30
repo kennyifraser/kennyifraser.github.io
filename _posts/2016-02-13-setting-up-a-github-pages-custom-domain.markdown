@@ -1,12 +1,12 @@
 ---
-layout: post
-title: "Setting up a custom domain on GitHub Pages"
-date: 2016-02-13 21:00:00
-permalink: github/setting-up-a-custom-domain-on-github-pages
-updated: 2016-03-28 11:00:00
-# published: false
 # categories: 
+# published: false
 # tags: 
+date: 2016-02-13 21:00:00
+layout: post
+permalink: github/setting-up-a-custom-domain-on-github-pages
+title: "Setting up a custom domain on GitHub Pages"
+updated: 2016-03-28 11:00:00
 ---
 
 What I wanted was *http://kennyfraser.com* to be the definitive URL of this site, and [http://www.kennyfraser.com](http://www.kennyfraser.com/) to redirect there.

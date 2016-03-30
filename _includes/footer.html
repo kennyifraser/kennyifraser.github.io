@@ -11,139 +11,91 @@
 
     <ul class="social-media-list">
 
-      {% if site.email %}
       <li>
-        <a href="mailto:{{ site.email }}" title="send Kenny Fraser an email">
-          <i class="fa fa-envelope-o fa-2x"></i>&nbsp;<span itemprop="email">{{ site.email }}</span>
+        <a href="mailto:me@kennyfraser.com" title="send Kenny Fraser an email">
+          <i class="fa fa-envelope-o fa-2x"></i>&nbsp;<span itemprop="email">me@kennyfraser.com</span>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.phone %}
       <li>
-        <a href="tel:{{ site.phone }}" title="call Kenny Fraser">
-          <i class="fa fa-phone fa-2x"></i>&nbsp;<span itemprop="telephone">{{ site.phone }}</span>
+        <a href="tel:+441312080206" title="call Kenny Fraser">
+          <i class="fa fa-phone fa-2x"></i>&nbsp;<span itemprop="telephone">0131 208 0206</span>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.twitter_username %}
       <li>
-        <a href="https://twitter.com/{{ site.twitter_username }}" title="Kenny Fraser on Twitter" rel="external me nofollow" itemprop="sameAs">
+        <a href="https://twitter.com/kennyfraser" title="Kenny Fraser on Twitter" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-twitter fa-2x"></i>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.facebook_username %}
       <li>
-        <a href="https://www.facebook.com/{{ site.facebook_username }}" title="Kenny Fraser on Facebook" rel="external me nofollow" itemprop="sameAs">
+        <a href="https://www.facebook.com/kennyifraser" title="Kenny Fraser on Facebook" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-facebook-square fa-2x"></i>
         </a>
       </li>
-      {% endif %} 
-
-      {% if site.linkedin_username %}
       <li>
-        <a href="http://linkedin.com/in/{{ site.linkedin_username }}" title="Kenny Fraser on LinkedIn" rel="external me nofollow" itemprop="sameAs">
+        <a href="http://linkedin.com/in/kennyfraser" title="Kenny Fraser on LinkedIn" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-linkedin fa-2x"></i>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.googleplus_username %}
       <li>
-        <a href="http://google.com/{{ site.googleplus_username }}" title="Kenny Fraser on Google Plus" rel="external me nofollow" itemprop="sameAs">
+        <a href="http://google.com/+KennyFraserDotcom" title="Kenny Fraser on Google Plus" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-google-plus fa-2x"></i>
         </a>
       </li>
-      {% endif %}
-
       <li>
         <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="Kenny Fraser's Posts RSS feed">
           <i class="fa fa-rss fa-2x"></i>
         </a>
       </li>
-
-      {% if site.skype_username %}
       <li>
-        <a href="skype:{{ site.skype_username }}?chat" title="Kenny Fraser on Skype" rel="external me nofollow" itemprop="sameAs">
+        <a href="skype:kennyfraser.com?chat" title="Kenny Fraser on Skype" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-skype fa-2x"></i>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.instagram_username %}
       <li>
-        <a href="http://instagram.com/{{ site.instagram_username }}" title="Kenny Fraser on Instagram" rel="external me nofollow" itemprop="sameAs">
+        <a href="http://instagram.com/kennyifraser" title="Kenny Fraser on Instagram" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-instagram fa-2x"></i>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.youtube_username %}
       <li>
-        <a href="https://www.youtube.com/user/{{ site.youtube_username }}" title="Kenny Fraser on YouTube" rel="external me nofollow" itemprop="sameAs">
+        <a href="https://www.youtube.com/user/kennyfraserdotcom" title="Kenny Fraser on YouTube" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-youtube-play fa-2x"></i>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.github_username %}
       <li>
-        <a href="https://github.com/{{ site.github_username }}" title="Kenny Fraser on GitHub" rel="external me nofollow" itemprop="sameAs">
+        <a href="https://github.com/kennyifraser" title="Kenny Fraser on GitHub" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-github fa-2x"></i>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.codepen_username %}
       <li>
-        <a href="http://codepen.io/{{ site.codepen_username }}" title="Kenny Fraser on CodePen" rel="external me nofollow" itemprop="sameAs">
+        <a href="http://codepen.io/kennyfraserdotcom" title="Kenny Fraser on CodePen" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-codepen fa-2x"></i>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.pph_username %}
       <li>
-        <a href="http://pph.me/{{ site.pph_username }}" title="Kenny Fraser on PeoplePerHour" rel="external me nofollow" itemprop="sameAs">
+        <a href="http://pph.me/kenny" title="Kenny Fraser on PeoplePerHour" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-smile-o fa-2x"></i>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.tripadvisor_username %}
       <li>
-        <a href="http://tripadvisor.co.uk/members/{{ site.tripadvisor_username }}" title="Kenny Fraser on TripAdvisor" rel="external me nofollow" itemprop="sameAs">
+        <a href="http://tripadvisor.co.uk/members/kennyfraser" title="Kenny Fraser on TripAdvisor" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-tripadvisor fa-2x"></i>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.allmusic_username %}
       <li>
-        <a href="http://www.allmusic.com/artist/{{ site.allmusic_username }}" title="Kenny Fraser on AllMusic" rel="external me nofollow" itemprop="sameAs">
+        <a href="http://www.allmusic.com/artist/kenny-fraser-mn0001285382" title="Kenny Fraser on AllMusic" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-external-link fa-2x"></i>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.gravatar_username %}
       <li>
-        <a href="http://en.gravatar.com/{{ site.gravatar_username }}" title="Kenny Fraser on Gravatar" rel="external me nofollow" itemprop="sameAs">
+        <a href="http://en.gravatar.com/kennyifraser" title="Kenny Fraser on Gravatar" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-external-link fa-2x"></i>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.ebay_username %}
       <li>
-        <a href="http://www.ebay.co.uk/usr/{{ site.ebay_username }}" title="Kenny Fraser on eBay" rel="external me nofollow" itemprop="sameAs">
+        <a href="http://www.ebay.co.uk/usr/kennyifraser" title="Kenny Fraser on eBay" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-external-link fa-2x"></i>
         </a>
       </li>
-      {% endif %}
 
     </ul>
 
