@@ -71,6 +71,10 @@
           
         
           
+          <a class="page-link" href="/thanks/">Thanks for your enquiry</a>
+          
+        
+          
           <a class="page-link" href="/tools/">Tools</a>
           
         
@@ -91,7 +95,7 @@
   </header>
 
   <article class="post-content">
-    <p>I look forward to working with new clients - <a href="#contact">contact me</a> if you think I may be able to help you.</p>
+    <p>I look forward to working with new clients - <a href="#contact">contact me by email or phone</a> if you think I may be able to help you, or <a href="#enquiry">fill in the enquiry form</a>.</p>
 
 <p>Current availability: <em>within one month</em></p>
 
@@ -151,13 +155,17 @@
 
 <p>I’d consider a monthly retainer basis for regular, well-defined work or consultation.</p>
 
-<p>Depending on timescale and budget, these projects would normally be under a mutually-agreed contract, based on either your or my template.</p>
-
-<form action="https://formspree.io/me@kennyfraser.com" method="POST">
+<p>Depending on timescale and budget, these projects would normally be under a mutually-agreed contract, based on either your or my template.
+&lt;!–</p>
+<form id="enquiry" action="https://formspree.io/me@kennyfraser.com" method="POST">
+	<input type="hidden" name="_next" value="/thanks/" />
+    <label for="name">Your name:</label>
     <input type="text" name="name" />
+    <label for="_replyto">Your email address:</label>
     <input type="email" name="_replyto" />
-    <input type="submit" value="Send" />
+    <input type="submit" value="send enquiry" />
 </form>
+<p>–&gt;</p>
 
   </article>
 
