@@ -91,20 +91,24 @@ Depending on timescale and budget, these projects would normally be under a mutu
 
     <label for="application">Do you have a particular CMS or other application in mind?</label>
     <datalist id="applications">
-	    <option value="Craft"></option>
-	    <option value="Custom CMS"></option>
-	    <option value="ExpressionEngine"></option>
-	    <option value="Jekyll"></option>
-	    <option value="Perch"></option>	    
-	    <option value="SellerDeck"></option>
-	    <option value="Shopify"></option>
-	    <option value="Spanglefish"></option>	    
-	    <option value="Statamic"></option>
-	    <option value="Static Site"></option>
-	    <option value="Web or Native App"></option>	    
-	    <option value="WordPress"></option>	    
+		<select name="application">
+
+		    <option value="Craft"></option>
+		    <option value="Custom CMS"></option>
+		    <option value="ExpressionEngine"></option>
+		    <option value="Jekyll"></option>
+		    <option value="Perch"></option>	    
+		    <option value="SellerDeck"></option>
+		    <option value="Shopify"></option>
+		    <option value="Spanglefish"></option>	    
+		    <option value="Statamic"></option>
+		    <option value="Static Site"></option>
+		    <option value="Web or Native App"></option>	    
+		    <option value="WordPress"></option>	 
+
+		</select>
 	</datalist>
-	<input name="application" list="applications" placeholder="select or enter an application" maxlength="50">
+	<input id="application" name="application" list="applications" placeholder="select or enter an application" maxlength="50">
 
     <label for="enquiry">A summary of your requirements:</label>
 	<textarea name="enquiry" placeholder="your enquiry (maximum 1000 characters)" maxlength="1000" required></textarea>
