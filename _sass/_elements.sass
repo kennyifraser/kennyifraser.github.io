@@ -97,14 +97,47 @@ a
  */
 
 blockquote 
-    // color: $grey-color
-    // border-left: 4px solid $grey-color-light
-    padding-left: $spacing-unit / 2
-    font-size: 18px
+    padding-left: $spacing-unit/2
+    font-size: $base-font-size
     letter-spacing: -1px
     font-style: italic
     > :last-child 
         margin-bottom: 0
+
+
+/**
+ * Forms
+ */                
+
+input,
+label,
+option, 
+select,
+textarea
+    border: none
+    display: block
+    font-size: $base-font-size
+    width: 100%
+
+input,
+select, 
+textarea
+    background-color: $secondary-color-lightest
+    border-radius: $border-radius
+    margin-bottom: $spacing-unit
+    padding: $spacing-unit/2
+    &:focus
+        background-color: white
+
+input[type="submit"]
+    &:hover
+        background-color: white
+
+label
+    margin-bottom: $spacing-unit/2
+
+textarea
+    height: $spacing-unit*5
 
 
 /**
@@ -124,6 +157,7 @@ pre
         border: 0
         padding-right: 0
         padding-left: 0
+
 
 /**
  * Site footer

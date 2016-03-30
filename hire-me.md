@@ -61,3 +61,52 @@ For longer-term projects, a weekly rate for a 'sprint' of work towards an end go
 I'd consider a monthly retainer basis for regular, well-defined work or consultation.
 
 Depending on timescale and budget, these projects would normally be under a mutually-agreed contract, based on either your or my template.
+
+---
+
+# Enquiry Form 
+
+<form id="enquiry" action="https://formspree.io/me@kennyfraser.com" method="POST">
+
+	<input type="hidden" name="_next" value="/thanks/" />
+	<input type="hidden" name="_subject" value="Hire Me enquiry from kennyfraser.com" />
+	<input type="text" name="_gotcha" style="display:none" />
+
+    <label for="name" maxlength="50">Your name:</label>
+    <input type="text" name="name" placeholder="your name" required autofocus>
+
+    <label for="_replyto" maxlength="50">Your email address:</label>
+    <input type="email" name="_replyto" placeholder="your email" required>
+
+	<label for="url" maxlength="50">Your web address (URL):</label>
+    <input type="url" name="url" value="http://www.example.com" placeholder="http://www.example.com"></input>
+
+	<label for="phone" maxlength="50">Your phone number:</label>
+    <input type="tel" name="phone" placeholder="your phone"></input>
+
+	<label for="location" maxlength="50">Your location:</label>
+    <input type="text" name="location" placeholder="your location"></input>
+
+    <label for="application">Do you have a particular CMS or other application in mind?</label>
+    <datalist id="applications">
+	    <option value="Craft"></option>
+	    <option value="Custom CMS"></option>
+	    <option value="ExpressionEngine"></option>
+	    <option value="Jekyll"></option>
+	    <option value="Perch"></option>	    
+	    <option value="SellerDeck"></option>
+	    <option value="Shopify"></option>
+	    <option value="Spanglefish"></option>	    
+	    <option value="Statamic"></option>
+	    <option value="Static Site"></option>
+	    <option value="Web or Native App"></option>	    
+	    <option value="WordPress"></option>	    
+	</datalist>
+	<input name="application" list="applications" placeholder="select or enter an application" maxlength="50">
+
+    <label for="enquiry">A summary of your requirements:</label>
+	<textarea name="enquiry" placeholder="your enquiry (maximum 1000 characters)" maxlength="1000" required></textarea>
+
+    <input type="submit" value="send enquiry">
+
+</form>
