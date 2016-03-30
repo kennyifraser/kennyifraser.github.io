@@ -61,13 +61,11 @@ For longer-term projects, a weekly rate for a 'sprint' of work towards an end go
 I'd consider a monthly retainer basis for regular, well-defined work or consultation.
 
 Depending on timescale and budget, these projects would normally be under a mutually-agreed contract, based on either your or my template.
-<!--
-<form id="enquiry" action="https://formspree.io/me@kennyfraser.com" method="POST">
+<!--<form id="enquiry" action="https://formspree.io/me@kennyfraser.com" method="POST">
 	<input type="hidden" name="_next" value="/thanks/" />
     <label for="name">Your name:</label>
     <input type="text" name="name">
     <label for="_replyto">Your email address:</label>
     <input type="email"  name="_replyto">
     <input type="submit" value="send enquiry">
-</form>
--->
+</form>-->
