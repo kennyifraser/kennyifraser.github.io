@@ -92,20 +92,20 @@ Depending on timescale and budget, these projects would normally be under a mutu
     <label for="application">Do you have a particular CMS or other application in mind?</label>
     <datalist id="applications">
 		<select name="application">
-
-		    <option value="Craft"></option>
-		    <option value="Custom CMS"></option>
-		    <option value="ExpressionEngine"></option>
-		    <option value="Jekyll"></option>
-		    <option value="Perch"></option>	    
-		    <option value="SellerDeck"></option>
-		    <option value="Shopify"></option>
-		    <option value="Spanglefish"></option>	    
-		    <option value="Statamic"></option>
-		    <option value="Static Site"></option>
-		    <option value="Web or Native App"></option>	    
-		    <option value="WordPress"></option>	 
-
+			<option>please select</option>
+			<option>Other</option>
+		    <option value="Craft">Craft</option>
+		    <option value="Custom CMS">Custom CMS</option>
+		    <option value="ExpressionEngine">ExpressionEngine</option>
+		    <option value="Jekyll">Jekyll</option>
+		    <option value="Perch">Perch</option>	    
+		    <option value="SellerDeck">SellerDeck</option>
+		    <option value="Shopify">Shopify</option>
+		    <option value="Spanglefish">Spanglefish</option>	    
+		    <option value="Statamic">Statamic</option>
+		    <option value="Static Site">Static Site</option>
+		    <option value="Web or Native App">Web or Native App</option>	    
+		    <option value="WordPress">WordPress</option>	 
 		</select>
 	</datalist>
 	<input id="application" name="application" list="applications" placeholder="select or enter an application" maxlength="50">
