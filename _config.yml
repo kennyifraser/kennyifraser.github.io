@@ -1,6 +1,6 @@
 # Site settings
 title: Kenny Fraser
-description: Kenny Fraser is a freelance Web Designer and Front End Web Developer living near Inverness in the Scottish Highlands.
+description: Kenny Fraser is a freelance Web Design and Front End Web Development professional living near Inverness in the Scottish Highlands.
 # >  this means to ignore newlines until "baseurl:"
 baseurl: ""                     # the subpath of your site, e.g. /blog/
 url: "http://kennyfraser.com"   # the base hostname & protocol for your site
