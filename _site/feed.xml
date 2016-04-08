@@ -5,13 +5,40 @@
     <description>Kenny Fraser is a freelance Web Design and Front End Web Development professional living near Inverness in the Scottish Highlands.</description>
     <link>http://kennyfraser.com/</link>
     <atom:link href="http://kennyfraser.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 Apr 2016 12:50:49 +0100</pubDate>
-    <lastBuildDate>Fri, 08 Apr 2016 12:50:49 +0100</lastBuildDate>
+    <pubDate>Fri, 08 Apr 2016 15:33:54 +0100</pubDate>
+    <lastBuildDate>Fri, 08 Apr 2016 15:33:54 +0100</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
+        <title>Extracting embedded images from a Word file</title>
+        <description>&lt;p&gt;Here’s a great wee tip &lt;a href=&quot;http://cnedelcu.blogspot.co.uk/2013/02/top-3-ways-to-extract-images-from-word-docx-doc-document.html&quot;&gt;which I discovered here&lt;/a&gt;, solving an issue which has bugged me for years.&lt;/p&gt;
+
+&lt;p&gt;If you need to extract images from a Word file that someone has supplied, at their original full resolution, just:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Duplicate and rename the Word file, changing the extension from &lt;em&gt;.docx&lt;/em&gt; to &lt;em&gt;.zip&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open the unzipped directory and navigate to &lt;em&gt;/filename/word/media/&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Voilà! There they are.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/extract-images-from-Word-file.png&quot; alt=&quot;get embedded images from a Word file&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Apr 2016 15:00:00 +0100</pubDate>
+        <link>http://kennyfraser.com/productivity/extract-images-from-Word-file</link>
+        <guid isPermaLink="true">http://kennyfraser.com/productivity/extract-images-from-Word-file</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Management of Packt Publishing&#39;s PacktLib Subscription</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.packtpub.com/&quot;&gt;Packt Publishing&lt;/a&gt; has a interesting option for online access to its publications, using a subscription service called &lt;a href=&quot;https://www.packtpub.com/packtlib&quot;&gt;PacktLib&lt;/a&gt;.  Packt’s content is on the technical side but excellent if it suits your needs, with up-to-date coverage of technologies.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.packtpub.com/&quot;&gt;Packt Publishing&lt;/a&gt; has a interesting option for online access to its publications, using a subscription service called &lt;a href=&quot;https://www.packtpub.com/packtlib&quot;&gt;PacktLib&lt;/a&gt;.  Packt’s content is technical, and excellent if it suits your needs, with up-to-date coverage of technologies.&lt;/p&gt;
 
 &lt;p&gt;At the time of writing, the recurring subscription charge is managed via &lt;a href=&quot;http://www.worldpay.com/&quot;&gt;WorldPay&lt;/a&gt; in the form of &lt;a href=&quot;http://support.worldpay.com/support/shopper/kb/shoppermanagementsystem/sms1200.html#recurring&quot;&gt;FuturePay&lt;/a&gt;.  On signing up to PacktLib, you receive a confirmation from WorldPay with your &lt;em&gt;Agreement ID&lt;/em&gt;, &lt;em&gt;Username&lt;/em&gt; and a promise of a password (which didn’t arrive separately in my case) to access your FuturePay subscription.&lt;/p&gt;
 

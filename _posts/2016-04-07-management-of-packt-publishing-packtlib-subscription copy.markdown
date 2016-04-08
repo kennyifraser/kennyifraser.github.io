@@ -8,7 +8,7 @@ layout: post
 permalink: learn/management-of-packt-publishing-packtlib-subscription
 title: "Management of Packt Publishing's PacktLib Subscription"
 ---
-[Packt Publishing](https://www.packtpub.com/) has a interesting option for online access to its publications, using a subscription service called [PacktLib](https://www.packtpub.com/packtlib).  Packt's content is on the technical side but excellent if it suits your needs, with up-to-date coverage of technologies.
+[Packt Publishing](https://www.packtpub.com/) has a interesting option for online access to its publications, using a subscription service called [PacktLib](https://www.packtpub.com/packtlib).  Packt's content is technical, and excellent if it suits your needs, with up-to-date coverage of technologies.
 
 At the time of writing, the recurring subscription charge is managed via [WorldPay](http://www.worldpay.com/) in the form of [FuturePay](http://support.worldpay.com/support/shopper/kb/shoppermanagementsystem/sms1200.html#recurring).  On signing up to PacktLib, you receive a confirmation from WorldPay with your *Agreement ID*, *Username* and a promise of a password (which didn't arrive separately in my case) to access your FuturePay subscription.
 
