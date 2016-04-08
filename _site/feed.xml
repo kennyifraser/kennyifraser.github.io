@@ -2,12 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kenny Fraser</title>
-    <description>Kenny Fraser is a freelance Web Designer and Front End Web Developer living near Inverness in the Scottish Highlands.</description>
+    <description>Kenny Fraser is a freelance Web Design and Front End Web Development professional living near Inverness in the Scottish Highlands.</description>
     <link>http://kennyfraser.com/</link>
     <atom:link href="http://kennyfraser.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 30 Mar 2016 23:28:59 +0100</pubDate>
-    <lastBuildDate>Wed, 30 Mar 2016 23:28:59 +0100</lastBuildDate>
+    <pubDate>Thu, 07 Apr 2016 09:59:24 +0100</pubDate>
+    <lastBuildDate>Thu, 07 Apr 2016 09:59:24 +0100</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Management of Packt Publishing&#39;s PacktLib Subscription</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.packtpub.com/&quot;&gt;Packt Publishing&lt;/a&gt; has a interesting option for online access to its publications, using a subscription service called &lt;a href=&quot;https://www.packtpub.com/packtlib&quot;&gt;PacktLib&lt;/a&gt;.  Packt’s content is on the technical side but excellent if it suits your needs, with up-to-date coverage of technologies.&lt;/p&gt;
+
+&lt;p&gt;At the time of writing, the recurring subscription charge is managed via &lt;a href=&quot;http://www.worldpay.com/&quot;&gt;WorldPay&lt;/a&gt; in the form of &lt;a href=&quot;http://support.worldpay.com/support/shopper/kb/shoppermanagementsystem/sms1200.html#recurring&quot;&gt;FuturePay&lt;/a&gt;.  On signing up to PacktLib, you receive a confirmation from WorldPay with your &lt;em&gt;Agreement ID&lt;/em&gt;, &lt;em&gt;Username&lt;/em&gt; and a promise of a password (which didn’t arrive separately in my case) to access your FuturePay subscription.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;https://futurepay.worldpay.com/fp/jsp/common/login_shopper.jsp&quot;&gt;request a FuturePay admin password&lt;/a&gt; using the details you already have, to access your subscription payment details and cancel if necessary.  There’s no option to pause.&lt;/p&gt;
+
+&lt;p&gt;I suppose the message to Packt Publishing is &lt;strong&gt;if you’d like customers to continue to subscribe, make it super easy for them to temporarily unsubscribe&lt;/strong&gt;. We need to feel comfortable with managing our subscription during months when we’re busier with other things.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://teamtreehouse.com/support&quot;&gt;Treehouse&lt;/a&gt; does this right.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Apr 2016 09:00:00 +0100</pubDate>
+        <link>http://kennyfraser.com/learn/management-of-packt-publishing-packtlib-subscription</link>
+        <guid isPermaLink="true">http://kennyfraser.com/learn/management-of-packt-publishing-packtlib-subscription</guid>
+        
+        
+      </item>
     
       <item>
         <title>Renaming folders in Amazon S3</title>
