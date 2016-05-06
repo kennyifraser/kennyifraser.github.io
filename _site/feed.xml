@@ -5,8 +5,8 @@
     <description>Kenny Fraser is a freelance Web Design and Front End Web Development professional living near Inverness in the Scottish Highlands.</description>
     <link>http://kennyfraser.com/</link>
     <atom:link href="http://kennyfraser.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 May 2016 16:50:05 +0100</pubDate>
-    <lastBuildDate>Fri, 06 May 2016 16:50:05 +0100</lastBuildDate>
+    <pubDate>Fri, 06 May 2016 17:33:13 +0100</pubDate>
+    <lastBuildDate>Fri, 06 May 2016 17:33:13 +0100</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -19,8 +19,8 @@
 
 &lt;ul&gt;
   &lt;li&gt;setting up a clean v2 installation, which includes example content&lt;/li&gt;
+  &lt;li&gt;removing the example content and files (optional)&lt;/li&gt;
   &lt;li&gt;transferring v1 files across in a sensible order - no database to worry about&lt;/li&gt;
-  &lt;li&gt;deactivating/deleting the example content and files&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;v2-installation&quot;&gt;v2 Installation&lt;/h2&gt;
@@ -31,17 +31,30 @@
 
 &lt;p&gt;To configure URL rewrites, the sample &lt;em&gt;.htaccess&lt;/em&gt; file should really be used so &lt;em&gt;/index.php/&lt;/em&gt; is removed from resulting URLs.&lt;/p&gt;
 
-&lt;p&gt;The &lt;em&gt;installer.php&lt;/em&gt; file can be run locally to check requirements and set up a few handy things.  This seemed to cleverly delete itself after running locally, so I had to find it again to copy it up to the production server to check that.  For the production site I’m transferring hosts to get the required PHP &amp;gt;= 5.5.9 version, though this wasn’t unexpected and not a big deal, with performance improvements also on offer at the new host.  &lt;em&gt;Zip archive support for updater backups&lt;/em&gt; failed on production, and &lt;em&gt;always_populate_raw_post_data=-1&lt;/em&gt; on both production and local.  Not to worry, for now at least.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;installer.php&lt;/em&gt; file can be run locally to check requirements and set up a few handy things.  This seemed to cleverly delete itself after running locally, so I had to find it again to copy it up to the production server to check that.  For the production site I’m transferring hosts to get the required &lt;em&gt;PHP &amp;gt;= 5.5.9&lt;/em&gt; version, though this wasn’t unexpected and not a big deal, with performance improvements also on offer at the new host.  &lt;em&gt;Zip archive support for updater backups&lt;/em&gt; failed on production, and &lt;em&gt;always_populate_raw_post_data=-1&lt;/em&gt; on both production and local.  Not to worry, for now at least.&lt;/p&gt;
 
 &lt;p&gt;System files can be &lt;a href=&quot;//docs.statamic.com/reference/recipes/secure-installation&quot;&gt;moved above webroot&lt;/a&gt; for additional security.  There’s a bit of extra work there in adjusting default paths in settings files.&lt;/p&gt;
 
 &lt;p&gt;The one-click updater tool in v2 is a potentially great time-saving addition.&lt;/p&gt;
 
+&lt;h2 id=&quot;clear-site-to-remove-v2-example-files&quot;&gt;Clear Site to Remove v2 Example Files&lt;/h2&gt;
+
+&lt;p&gt;There’s a handy wee &lt;em&gt;php please&lt;/em&gt; command line option to do this, &lt;a href=&quot;https://vimeo.com/164430243&quot;&gt;best described in this video&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is optional and can be done after importing your v1 site, as I did after Jack pointed out the video.  However since it wipes &lt;strong&gt;all&lt;/strong&gt; &lt;em&gt;/collections/&lt;/em&gt; and /&lt;em&gt;pages&lt;/em&gt;/ subdirectories, in retrospect I’d recommend instead:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;set up and play locally with the example files on a complete v2 site&lt;/li&gt;
+  &lt;li&gt;set up a fresh v2 site and run Clear Site before the next v1 site import step&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you don’t choose to Clear Site, example content &lt;em&gt;/pages/&lt;/em&gt; and &lt;em&gt;/collections/&lt;/em&gt; subdirectory names can be prefixed with an underscore to hide but retain them for future reference.&lt;/p&gt;
+
 &lt;h2 id=&quot;moving-v1-files&quot;&gt;Moving v1 Files&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;//docs.statamic.com/guides/upgrading-from-v1&quot;&gt;You Can Get Here From There&lt;/a&gt; clears a path through the undergrowth for an upgrade from v1.&lt;/p&gt;
 
-&lt;p&gt;The v2 Control Panel is now located at &lt;em&gt;http://yourdomain/cp/&lt;/em&gt; - this nugget tucked away in the docs under &lt;em&gt;New Defaults&lt;/em&gt;. I went to &lt;em&gt;Tools : Import&lt;/em&gt; to &lt;em&gt;Import content from Statamic v1&lt;/em&gt;.  This instructs you to download an &lt;em&gt;exporter&lt;/em&gt; add-on for installation into your &lt;strong&gt;v1&lt;/strong&gt; site.  Visit the generated URL for a JSON string which can be pasted back into your v2 control panel.  The result was:&lt;/p&gt;
+&lt;p&gt;The v2 Control Panel is now located at &lt;em&gt;http://yourdomain/cp/&lt;/em&gt; - this nugget tucked away in the docs under &lt;em&gt;New Defaults&lt;/em&gt;. So &lt;em&gt;Tools : Import&lt;/em&gt; then &lt;em&gt;Import content from Statamic v1&lt;/em&gt; instructs you to download an &lt;em&gt;exporter&lt;/em&gt; add-on for installation into your &lt;strong&gt;v1&lt;/strong&gt; site.  Visit the generated URL for a JSON string which can be pasted back into your v2 control panel.  The result was:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;v1 &lt;em&gt;Entries&lt;/em&gt; were taken in as new v2 &lt;em&gt;Collections&lt;/em&gt;&lt;/li&gt;
@@ -66,13 +79,9 @@
 
 &lt;p&gt;… as &lt;em&gt;collections&lt;/em&gt;:&lt;/p&gt;
 
-&lt;p&gt;{{ collection from=”example” }}…{{ /collection }}&lt;/p&gt;
+&lt;p&gt;{{ collection:example }}…{{ /collection:example }}&lt;/p&gt;
 
 &lt;p&gt;Assets can be similarly copied across from the v1 &lt;em&gt;/assets/&lt;/em&gt; directory to the corresponding v2 location.&lt;/p&gt;
-
-&lt;h2 id=&quot;removing-v2-example-files&quot;&gt;Removing v2 Example Files&lt;/h2&gt;
-
-&lt;p&gt;Might be nice to have some additional documentation on exactly where all of this is located, for easy removal or editing.  Example content &lt;em&gt;/pages/&lt;/em&gt; and &lt;em&gt;/collections/&lt;/em&gt; subdirectory names can be prefixed with an underscore to hide but retain them for future reference.&lt;/p&gt;
 
 &lt;hr /&gt;
 
