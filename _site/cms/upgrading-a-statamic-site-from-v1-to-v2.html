@@ -91,6 +91,8 @@
 		<p class="post-meta">
 			May 06, 2016
 			
+				<br><em>(last updated 18:00 May 06, 2016)</em> 
+			
 		</p>
 	</header>
 
@@ -123,9 +125,13 @@
 
 <h2 id="clear-site-to-remove-v2-example-files">Clear Site to Remove v2 Example Files</h2>
 
-<p>There’s a handy wee <em>php please</em> command line option to do this, <a href="https://vimeo.com/164430243">best described in this video</a>.</p>
+<p>There’s a handy wee:</p>
 
-<p>This is optional and can be done after importing your v1 site, as I did after Jack pointed out the video.  However since it wipes <strong>all</strong> <em>/collections/</em> and /<em>pages</em>/ subdirectories, in retrospect I’d recommend instead:</p>
+<figure class="highlight"><pre><code class="language-php" data-lang="php">php please clear:site</code></pre></figure>
+
+<p>…command line instruction to do this, with options, <a href="https://vimeo.com/164430243">best described in this video</a>.  It’ll also create a new theme skeleton for you.</p>
+
+<p>This is optional and can be done after importing your v1 site, as I did after Jack pointed out the video.  However since it wipes <strong>all</strong> <em>/themes/</em>, <em>/collections/</em> and /<em>pages</em>/ subdirectories, in retrospect I’d recommend instead:</p>
 
 <ul>
   <li>set up and play locally with the example files on a complete v2 site</li>

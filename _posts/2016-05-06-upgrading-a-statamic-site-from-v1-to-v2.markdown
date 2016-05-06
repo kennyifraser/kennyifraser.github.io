@@ -2,7 +2,7 @@
 # categories: 
 # published: false
 # tags: 
-# updated: 2016-03-28 11:00:00
+updated: 2016-05-06 17:00:00
 date: 2016-05-06 13:00:00
 layout: post
 permalink: cms/upgrading-a-statamic-site-from-v1-to-v2
@@ -34,9 +34,15 @@ The one-click updater tool in v2 is a potentially great time-saving addition.
 
 ## Clear Site to Remove v2 Example Files
 
-There's a handy wee *php please* command line option to do this, [best described in this video](https://vimeo.com/164430243).
+There's a handy wee:
 
-This is optional and can be done after importing your v1 site, as I did after Jack pointed out the video.  However since it wipes **all** */collections/* and /*pages*/ subdirectories, in retrospect I'd recommend instead:
+{% highlight php %}
+php please clear:site
+{% endhighlight %}
+
+...command line instruction to do this, with options, [best described in this video](https://vimeo.com/164430243).  It'll also create a new theme skeleton for you.
+
+This is optional and can be done after importing your v1 site, as I did after Jack pointed out the video.  However since it wipes **all** */themes/*, */collections/* and /*pages*/ subdirectories, in retrospect I'd recommend instead:
 
 * set up and play locally with the example files on a complete v2 site
 * set up a fresh v2 site and run Clear Site before the next v1 site import step
