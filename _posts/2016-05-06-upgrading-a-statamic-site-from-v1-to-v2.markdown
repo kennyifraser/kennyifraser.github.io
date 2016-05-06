@@ -90,6 +90,8 @@ Assets can be similarly copied across from the v1 */assets/* directory to the co
 
 ---
 
-That was it!  Up and running locally with v2.  The original v1 site wasn't enormously complicated but the principles would probably remain the same if it had been.  The main process just took a couple of hours as a first attempt, and the next v1 upgrade will go a lot quicker I'm sure.
+That was it!  Up and running locally with v2.  The original v1 site wasn't enormously complicated but I guess the principles would probably remain the same if it had been.  The main process just took a couple of hours as a first attempt, and the next v1 upgrade will go a lot quicker I'm sure.
+
+There's a high degree of integrity about Statamic that makes it very reassuring to work with, and their [Slack](//slack.com) v2 support channel is impressively active.
 
 ![Statamic](/img/statamic.png)
