@@ -2,7 +2,7 @@
 # categories: 
 # published: false
 # tags: 
-updated: 2016-05-06 17:00:00
+updated: 2016-05-06 18:00:00
 date: 2016-05-06 13:00:00
 layout: post
 permalink: cms/upgrading-a-statamic-site-from-v1-to-v2
@@ -34,13 +34,13 @@ The one-click updater tool in v2 is a potentially great time-saving addition.
 
 ## Clear Site to Remove v2 Example Files
 
-There's a handy wee:
+There's a handy wee command line instruction to do this, with options:
 
 {% highlight php %}
 php please clear:site
 {% endhighlight %}
 
-...command line instruction to do this, with options, [best described in this video](https://vimeo.com/164430243).  It'll also create a new theme skeleton for you.
+[Best described in this video](https://vimeo.com/164430243).  It can also create a new theme skeleton for you.
 
 This is optional and can be done after importing your v1 site, as I did after Jack pointed out the video.  However since it wipes **all** */themes/*, */collections/* and /*pages*/ subdirectories, in retrospect I'd recommend instead:
 
@@ -92,6 +92,6 @@ Assets can be similarly copied across from the v1 */assets/* directory to the co
 
 That was it!  Up and running locally with v2.  The original v1 site wasn't enormously complicated but I guess the principles would probably remain the same if it had been.  The main process just took a couple of hours as a first attempt, and the next v1 upgrade will go a lot quicker I'm sure.
 
-There's a high degree of integrity about Statamic that makes it very reassuring to work with, and their [Slack](//slack.com) v2 support channel is impressively active.
+There's a high degree of integrity about Statamic that makes it very reassuring to work with, and their [Slack](//slack.statamic.com) v2 support channel is impressively active.
 
 ![Statamic](/img/statamic.png)
