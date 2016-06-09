@@ -47,6 +47,7 @@ A selection of web development tools and resources I've used and can generally r
 ## Learning
 
 - <a href="http://www.codecademy.com/" rel="external nofollow">Codecademy</a>
+- <a href="https://www.packtpub.com/packtlib" rel="external nofollow">Packt Library</a>
 - <a href="https://referrals.trhou.se/kennyfraser" rel="external nofollow">Treehouse</a>
 - <a href="https://www.udemy.com/" rel="external nofollow">Udemy</a>
 - <a href="http://classroom.w3devcampus.com/course/category.php?id=22" rel="external nofollow">W3DevCampus</a>
