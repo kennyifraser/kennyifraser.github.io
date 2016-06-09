@@ -20,7 +20,7 @@ Overall it's a case of:
 
 ## v2 Installation
 
-[Getting Started With Statamic](//docs.statamic.com/guides/getting-started) walks through setting up Statamic v2.  
+[Getting Started With Statamic](//docs.statamic.com/guides/getting-started) walks through setting up Statamic v2, and there's a [useful video on Vimeo](https://vimeo.com/165632057).  
 
 [Mamp Pro](//www.mamp.info/en/) was the tool of choice for my local installation.  
 
@@ -74,7 +74,9 @@ A few variables had to be renamed for the site to start working again - for exam
 
 ...and underscores needed removed from various variables.
 
-The custom theme from the */themes/* directory had to be moved across manually.  The main change here was renaming *entries* in the template code:
+The custom theme from the */themes/* directory had to be moved across manually.  Assets can be similarly copied across from the v1 */assets/* directory to the corresponding v2 location.
+
+Optionally (as *entries:listing* is backwards-compatible), the main change here is renaming *entries* in the template code:
 
 {% raw %}
 {{ entries:listing folder="example" }}...{{ /entries:listing }}
@@ -86,12 +88,10 @@ The custom theme from the */themes/* directory had to be moved across manually. 
 {{ collection:example }}...{{ /collection:example }}
 {% endraw %}
 
-Assets can be similarly copied across from the v1 */assets/* directory to the corresponding v2 location.
-
 ---
 
 That was it!  Up and running locally with v2.  The original v1 site wasn't enormously complicated but I guess the principles would probably remain the same if it had been.  The main process just took a couple of hours as a first attempt, and the next v1 upgrade will go a lot quicker I'm sure.
 
-There's a high degree of integrity about Statamic that makes it very reassuring to work with, and their [Slack](//slack.statamic.com) v2 support channel is impressively active.
+There's a high degree of integrity about Statamic that makes it very reassuring to work with, and their [Slack](//slack.statamic.com) v2 support channel is very active.
 
 ![Statamic](/img/statamic.png)

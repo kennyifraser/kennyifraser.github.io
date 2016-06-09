@@ -9,7 +9,7 @@ title: Clients
 ---
 People I've worked with over the past few years with various aspects of design, front end development and marketing of their websites.  I've undertaken development and responsive design for most of the sites listed, and assisted with content strategy and management. 
 
-See also my [LinkedIn portfolio](https://www.linkedin.com/in/kennyfraser).
+For testimonials on these projects see my [LinkedIn portfolio](https://www.linkedin.com/in/kennyfraser).
 
 If you think you need something similar, [hire me](/hire-me).
 
@@ -41,7 +41,29 @@ Surrey-based dealer in house and garden products. Upgrade of three separate stor
 Self catering holiday accommodation, Tobermory, Isle of Mull.  A responsive design, adapting from mobile to widescreen. Design, development, content management, shopping cart and payment service integration, email marketing and AdWords. Visit <a href="http://mull.co" title="Back Brae Lodge, Tobermory" rel="external">Tobermory Self Catering at Back Brae Lodge</a>.
 
 ### Greentrax Recordings
-Independent Scottish music label.  Responsive re-design launched December 2012 with shopping cart. Design, development, shopping cart and payment service integration, content management, email marketing and support. Visit <a href="http://www.greentrax.com" title="Greentrax Recordings" rel="external nofollow">Greentrax Recordings</a>.
+Independent Scottish music label.  Responsive design with shopping cart. Design, development, shopping cart and payment service integration, content management, email marketing and support. Visit <a href="http://www.greentrax.com" title="Greentrax Recordings" rel="external nofollow">Greentrax Recordings</a>.
+
+---
+
+## Custom CMS Projects
+
+### Bright Seeds
+Fully responsive re-design of legacy site for Wiltshire agricultural supplier. Visit <a href="http://www.brightseeds.co.uk/" title="Bright Seeds" rel="external nofollow">Bright Seeds</a>.
+
+### FindAFishingBoat
+Nationwide boat sales listing site.  Design and layout. Visit <a href="http://www.findafishingboat.com/" title="FindAFishingBoat.com" rel="external nofollow">FindAFishingBoat</a>.
+
+---
+
+## Statamic CMS Projects
+
+[Statamic](http://statamic.com/) is a fast, flexible and powerful PHP-based flat file content management system.
+
+### Chromatin Lab
+Genetics research team in Edinburgh.  Responsive design, development and content management. Visit <a href="http://chromatinlab.org" title="Prof Nick Gilbert's Chromatin Lab" rel="external nofollow">Prof Nick Gilbert's Chromatin Lab</a>.
+
+### Bright Wildflowers
+Companion site for Wiltshire agricultural supplier Bright Seeds. Visit <a href="http://www.brightwildflowers.co.uk/" title="Bright Wildflowers" rel="external nofollow">Bright Wildflowers</a>.
 
 ---
 
@@ -60,15 +82,6 @@ Hybrid apps built with HTML5, [jQuery Mobile](https://jquerymobile.com/) and PHP
 
 ### Bright Seeds
 Applications for <a href="http://m.brightseeds.co.uk/" title="Bright Seeds Tractorman's Guide web app" rel="external nofollow">mobile web</a>, <a href="https://itunes.apple.com/us/app/bright-seeds/id1008080993" title="Bright Seeds Tractorman's Guide for iOS" rel="external nofollow">Apple iOS App Store</a> and <a href="https://play.google.com/store/apps/details?id=co.uk.brightseeds.ios" title="Bright Seeds Tractorman's Guide for Android" rel="external nofollow">Android Google Play Store</a>. A catalogue of seed crops. Visit <a href="http://m.brightseeds.co.uk/" title="Bright Seeds Tractorman's Guide" rel="external nofollow">Bright Seeds Tractorman's Guide</a>.
-
----
-
-## Statamic CMS Projects
-
-[Statamic](http://statamic.com/) is a fast, flexible and powerful PHP-based flat file content management system.
-
-### Chromatin Lab
-Genetics research team in Edinburgh.  Responsive design, development, content management. Visit <a href="http://chromatinlab.org" title="Prof Nick Gilbert's Chromatin Lab" rel="external nofollow">Prof Nick Gilbert's Chromatin Lab</a>.
 
 ---
 
@@ -114,13 +127,6 @@ This personal portfolio and blog, hosted on GitHub Pages.
 
 ### Netherton Farm Bed & Breakfast
 B&B accommodation on the Black Isle, between Dingwall and Inverness. Design and content management. Visit <a href="http://www.nethertonfarm.co.uk" title="Netherton Farm B&amp;B" rel="external nofollow">Netherton Farm Bed & Breakfast</a>.
-
----
-
-## Custom CMS Projects
-
-### FindAFishingBoat
-Nationwide boat sales listing site.  Design and layout. Visit <a href="http://www.findafishingboat.com/" title="FindAFishingBoat.com" rel="external nofollow">FindAFishingBoat</a>.
 
 ---
 
