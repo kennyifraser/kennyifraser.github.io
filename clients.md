@@ -51,7 +51,7 @@ Independent Scottish music label.  Responsive design with shopping cart. Design,
 Fully responsive re-design of legacy site for Wiltshire agricultural supplier. Visit <a href="http://www.brightseeds.co.uk/" title="Bright Seeds" rel="external nofollow">Bright Seeds</a>.
 
 ### FindAFishingBoat
-Nationwide boat sales listing site.  Design and layout. Visit <a href="http://www.findafishingboat.com/" title="FindAFishingBoat.com" rel="external nofollow">FindAFishingBoat</a>.
+Nationwide boat sales listing site. Visit <a href="http://www.findafishingboat.com/" title="FindAFishingBoat.com" rel="external nofollow">FindAFishingBoat</a>.
 
 ---
 
@@ -63,7 +63,7 @@ Nationwide boat sales listing site.  Design and layout. Visit <a href="http://ww
 Genetics research team in Edinburgh.  Responsive design, development and content management. Visit <a href="http://chromatinlab.org" title="Prof Nick Gilbert's Chromatin Lab" rel="external nofollow">Prof Nick Gilbert's Chromatin Lab</a>.
 
 ### Bright Wildflowers
-Companion site for Wiltshire agricultural supplier Bright Seeds. Visit <a href="http://www.brightwildflowers.co.uk/" title="Bright Wildflowers" rel="external nofollow">Bright Wildflowers</a>.
+Companion site for Wiltshire agricultural supplier Bright Seeds. Visit <a href="http://brightwildflowers.co.uk/" title="Bright Wildflowers" rel="external nofollow">Bright Wildflowers</a>.
 
 ---
 
@@ -99,7 +99,7 @@ Tree surgery and consultancy, based on the Black Isle near Inverness in the Scot
 [Shopify](https://www.shopify.co.uk/) offers a hosted online store with a Content Delivery Network (CDN).
 
 ### Temple Records
-Independent Scottish and Irish traditional music label featuring Battlefield Band. Design, PHP/MySQL and support. Visit <a href="http://www.templerecords.co.uk" title="Temple Records" rel="external nofollow">Temple Records</a>.
+Independent Scottish and Irish traditional music label featuring Battlefield Band. Design, PHP/MySQL and support. Previous work on a legacy site built with a custom CMS.  Visit <a href="http://www.templerecords.co.uk" title="Temple Records" rel="external nofollow">Temple Records</a>.
 
 ---
 

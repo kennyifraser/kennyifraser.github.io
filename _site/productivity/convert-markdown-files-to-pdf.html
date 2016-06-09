@@ -7,14 +7,14 @@
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Kenny Fraser, Inverness Web Design and Development</title>
+    <title>Quickly convert Markdown files to pdf | Kenny Fraser</title>
     <meta name="description" content="Kenny Fraser is a freelance Web Design and Front End Web Development professional living near Inverness in the Scottish Highlands.">
 
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/main.css?v=20160330">
-    <link rel="canonical" href="http://kennyfraser.com/">
+    <link rel="canonical" href="http://kennyfraser.com/productivity/convert-markdown-files-to-pdf">
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -34,6 +34,8 @@
 
   <div class="wrapper">
 
+    
+      <a class="site-title" href="/" itemprop="url"><span itemprop=name>Kenny Fraser</span></a>
     
 
     <nav class="site-nav">
@@ -82,84 +84,51 @@
 
 <div class="page-content">
   <div class="wrapper">
-    <div class="home">
+    <div class="post">
 
-  <h1>Kenny Fraser</h1>
+	<header class="post-header">
+		<h1 class="post-title">Quickly convert Markdown files to pdf</h1>
+		<p class="post-meta">
+			June 09, 2016
+			
+		</p>
+	</header>
 
-  <p>
-    I'm a freelance web design and front end development professional living near Inverness in the Scottish Highlands. 
-    Find out more <a href="/about">about me</a> and the <a href="/clients">clients I've worked with</a> using these <a href="/tools">tools and resources</a>.  
-    If you're interested, you can <a href="/hire-me">send me an enquiry</a>.
-  </p>
+	<article class="post-content">
+		<p>These days I try and use <a href="//daringfireball.net/projects/markdown/">Markdown</a> wherever possible to apply a basic level of formatting to text content, quickly and easily.  The content for this <a href="https://jekyllrb.com/">Jekyll</a>-based site is mostly written in Markdown.  I use it for formatting template-based transactional emails, with Adam Pritchard’s <a href="https://github.com/adam-p/markdown-here">Markdown Here</a> Chrome extension.  It’s also good for content creation in <a href="https://v1.statamic.com/learn/core-concepts/content-files">Statamic</a>.</p>
 
-  <hr>
+<p>Adam’s written a <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet">Markdown Cheat Sheet</a> and there are other guides for Markdown usage on <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/">Github</a> and <a href="http://stackoverflow.com/editing-help">Stack Overflow</a>.</p>
 
-  <h2 id="posts">Posts</h2> 
+<p>A Very Useful Thing would be to quickly generate a pdf from a Markdown file (normally with file extension <em>.md</em> or <em>.markdown</em>).  This would allow generation of an easily shareable, formatted text document in a simple text editor, without the requirement for something heavyweight like Microsoft Word.  If you use <a href="https://nodejs.org/en/">Node</a> on your local machine, it’s accomplishable using Alan Shaw’s <a href="https://github.com/alanshaw/markdown-pdf#cli-interface">markdown-pdf Node module as a standalone terminal program</a>.</p>
 
-  <p>Random esoteric things I discover while working that might conceivably be of use to someone else.</p> 
+<p>Install your local module globally:</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3>
-          <a class="post-link" href="/productivity/convert-markdown-files-to-pdf"><i class="fa fa-hand-o-right"></i>&nbsp; Quickly convert Markdown files to pdf</a> 
-        </h3>
-        ~ Jun 9, 2016
-      </li>
-    
-      <li>
-        <h3>
-          <a class="post-link" href="/cms/upgrading-a-statamic-site-from-v1-to-v2"><i class="fa fa-hand-o-right"></i>&nbsp; Upgrading a Statamic site from v1 to v2</a> 
-        </h3>
-        ~ May 6, 2016
-      </li>
-    
-      <li>
-        <h3>
-          <a class="post-link" href="/productivity/extract-images-from-Word-file"><i class="fa fa-hand-o-right"></i>&nbsp; Extracting embedded images from a Word file</a> 
-        </h3>
-        ~ Apr 8, 2016
-      </li>
-    
-      <li>
-        <h3>
-          <a class="post-link" href="/learn/management-of-packt-publishing-packtlib-subscription"><i class="fa fa-hand-o-right"></i>&nbsp; Management of Packt Publishing's PacktLib Subscription</a> 
-        </h3>
-        ~ Apr 7, 2016
-      </li>
-    
-      <li>
-        <h3>
-          <a class="post-link" href="/amazon/rename-folders-in-S3"><i class="fa fa-hand-o-right"></i>&nbsp; Renaming folders in Amazon S3</a> 
-        </h3>
-        ~ Mar 3, 2016
-      </li>
-    
-      <li>
-        <h3>
-          <a class="post-link" href="/htaccess/301-redirect-filenames-with-spaces"><i class="fa fa-hand-o-right"></i>&nbsp; 301 redirects in .htaccess for filenames with spaces</a> 
-        </h3>
-        ~ Feb 29, 2016
-      </li>
-    
-      <li>
-        <h3>
-          <a class="post-link" href="/github/setting-up-a-custom-domain-on-github-pages"><i class="fa fa-hand-o-right"></i>&nbsp; Setting up a custom domain on GitHub Pages</a> 
-        </h3>
-        ~ Feb 13, 2016
-      </li>
-    
-      <li>
-        <h3>
-          <a class="post-link" href="/jekyll/new-portfolio-blog-site-on-github-pages"><i class="fa fa-hand-o-right"></i>&nbsp; This site is born from Jekyll and GitHub</a> 
-        </h3>
-        ~ Feb 12, 2016
-      </li>
-    
-  </ul>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">npm install -g markdown-pdf </code></pre></figure>
+
+<p>Navigate to the directory in the command line containing your Markdown file, and generate the pdf using the Markdown converter:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span><span class="nb">cd </span>yourcontainingdirectory 
+<span class="gp">$ </span>markdown-pdf yourmarkdownfile.md  </code></pre></figure>
+
+<p>That’s it.</p>
+
+<p>Here’s an example of a Markdown text file:</p>
+
+<p><img src="/img/original-markdown-file.png" alt="original Markdown text file" /></p>
+
+<p>And here’s what the resulting pdf looks like:</p>
+
+<p><img src="/img/resulting-pdf-file.png" alt="resulting formatted pdf file" /></p>
+
+<p>There are a number of configurable options, and of course the module can alternatively be called as part of a process on a server supporting Node.</p>
+
+	</article>
+
+	<hr>
+
+	<p>There aren't comments - <a href="https://twitter.com/intent/tweet?text=.@kennyfraser&url=http://kennyfraser.com//productivity/convert-markdown-files-to-pdf">tweet me</a> instead.</p>
 
 </div>
-
   </div>
 </div>
 

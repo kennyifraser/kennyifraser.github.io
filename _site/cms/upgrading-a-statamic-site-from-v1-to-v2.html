@@ -111,7 +111,7 @@
 
 <h2 id="v2-installation">v2 Installation</h2>
 
-<p><a href="//docs.statamic.com/guides/getting-started">Getting Started With Statamic</a> walks through setting up Statamic v2.</p>
+<p><a href="//docs.statamic.com/guides/getting-started">Getting Started With Statamic</a> walks through setting up Statamic v2, and there’s a <a href="https://vimeo.com/165632057">useful video on Vimeo</a>.</p>
 
 <p><a href="//www.mamp.info/en/">Mamp Pro</a> was the tool of choice for my local installation.</p>
 
@@ -163,7 +163,9 @@
 
 <p>…and underscores needed removed from various variables.</p>
 
-<p>The custom theme from the <em>/themes/</em> directory had to be moved across manually.  The main change here was renaming <em>entries</em> in the template code:</p>
+<p>The custom theme from the <em>/themes/</em> directory had to be moved across manually.  Assets can be similarly copied across from the v1 <em>/assets/</em> directory to the corresponding v2 location.</p>
+
+<p>Optionally (as <em>entries:listing</em> is backwards-compatible), the main change here is renaming <em>entries</em> in the template code:</p>
 
 <p>{{ entries:listing folder=”example” }}…{{ /entries:listing }}</p>
 
@@ -171,13 +173,11 @@
 
 <p>{{ collection:example }}…{{ /collection:example }}</p>
 
-<p>Assets can be similarly copied across from the v1 <em>/assets/</em> directory to the corresponding v2 location.</p>
-
 <hr />
 
 <p>That was it!  Up and running locally with v2.  The original v1 site wasn’t enormously complicated but I guess the principles would probably remain the same if it had been.  The main process just took a couple of hours as a first attempt, and the next v1 upgrade will go a lot quicker I’m sure.</p>
 
-<p>There’s a high degree of integrity about Statamic that makes it very reassuring to work with, and their <a href="//slack.statamic.com">Slack</a> v2 support channel is impressively active.</p>
+<p>There’s a high degree of integrity about Statamic that makes it very reassuring to work with, and their <a href="//slack.statamic.com">Slack</a> v2 support channel is very active.</p>
 
 <p><img src="/img/statamic.png" alt="Statamic" /></p>
 

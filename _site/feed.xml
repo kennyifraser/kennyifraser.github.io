@@ -5,9 +5,45 @@
     <description>Kenny Fraser is a freelance Web Design and Front End Web Development professional living near Inverness in the Scottish Highlands.</description>
     <link>http://kennyfraser.com/</link>
     <atom:link href="http://kennyfraser.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 May 2016 19:55:04 +0100</pubDate>
-    <lastBuildDate>Fri, 06 May 2016 19:55:04 +0100</lastBuildDate>
+    <pubDate>Thu, 09 Jun 2016 15:09:40 +0100</pubDate>
+    <lastBuildDate>Thu, 09 Jun 2016 15:09:40 +0100</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Quickly convert Markdown files to pdf</title>
+        <description>&lt;p&gt;These days I try and use &lt;a href=&quot;//daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt; wherever possible to apply a basic level of formatting to text content, quickly and easily.  The content for this &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;-based site is mostly written in Markdown.  I use it for formatting template-based transactional emails, with Adam Pritchard’s &lt;a href=&quot;https://github.com/adam-p/markdown-here&quot;&gt;Markdown Here&lt;/a&gt; Chrome extension.  It’s also good for content creation in &lt;a href=&quot;https://v1.statamic.com/learn/core-concepts/content-files&quot;&gt;Statamic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Adam’s written a &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet&quot;&gt;Markdown Cheat Sheet&lt;/a&gt; and there are other guides for Markdown usage on &lt;a href=&quot;https://help.github.com/articles/basic-writing-and-formatting-syntax/&quot;&gt;Github&lt;/a&gt; and &lt;a href=&quot;http://stackoverflow.com/editing-help&quot;&gt;Stack Overflow&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A Very Useful Thing would be to quickly generate a pdf from a Markdown file (normally with file extension &lt;em&gt;.md&lt;/em&gt; or &lt;em&gt;.markdown&lt;/em&gt;).  This would allow generation of an easily shareable, formatted text document in a simple text editor, without the requirement for something heavyweight like Microsoft Word.  If you use &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node&lt;/a&gt; on your local machine, it’s accomplishable using Alan Shaw’s &lt;a href=&quot;https://github.com/alanshaw/markdown-pdf#cli-interface&quot;&gt;markdown-pdf Node module as a standalone terminal program&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Install your local module globally:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;npm install -g markdown-pdf &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Navigate to the directory in the command line containing your Markdown file, and generate the pdf using the Markdown converter:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;yourcontainingdirectory 
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;markdown-pdf yourmarkdownfile.md  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;That’s it.&lt;/p&gt;
+
+&lt;p&gt;Here’s an example of a Markdown text file:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/original-markdown-file.png&quot; alt=&quot;original Markdown text file&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And here’s what the resulting pdf looks like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/resulting-pdf-file.png&quot; alt=&quot;resulting formatted pdf file&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are a number of configurable options, and of course the module can alternatively be called as part of a process on a server supporting Node.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Jun 2016 14:00:00 +0100</pubDate>
+        <link>http://kennyfraser.com/productivity/convert-markdown-files-to-pdf</link>
+        <guid isPermaLink="true">http://kennyfraser.com/productivity/convert-markdown-files-to-pdf</guid>
+        
+        
+      </item>
     
       <item>
         <title>Upgrading a Statamic site from v1 to v2</title>
@@ -25,7 +61,7 @@
 
 &lt;h2 id=&quot;v2-installation&quot;&gt;v2 Installation&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;//docs.statamic.com/guides/getting-started&quot;&gt;Getting Started With Statamic&lt;/a&gt; walks through setting up Statamic v2.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;//docs.statamic.com/guides/getting-started&quot;&gt;Getting Started With Statamic&lt;/a&gt; walks through setting up Statamic v2, and there’s a &lt;a href=&quot;https://vimeo.com/165632057&quot;&gt;useful video on Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;//www.mamp.info/en/&quot;&gt;Mamp Pro&lt;/a&gt; was the tool of choice for my local installation.&lt;/p&gt;
 
@@ -77,7 +113,9 @@
 
 &lt;p&gt;…and underscores needed removed from various variables.&lt;/p&gt;
 
-&lt;p&gt;The custom theme from the &lt;em&gt;/themes/&lt;/em&gt; directory had to be moved across manually.  The main change here was renaming &lt;em&gt;entries&lt;/em&gt; in the template code:&lt;/p&gt;
+&lt;p&gt;The custom theme from the &lt;em&gt;/themes/&lt;/em&gt; directory had to be moved across manually.  Assets can be similarly copied across from the v1 &lt;em&gt;/assets/&lt;/em&gt; directory to the corresponding v2 location.&lt;/p&gt;
+
+&lt;p&gt;Optionally (as &lt;em&gt;entries:listing&lt;/em&gt; is backwards-compatible), the main change here is renaming &lt;em&gt;entries&lt;/em&gt; in the template code:&lt;/p&gt;
 
 &lt;p&gt;{{ entries:listing folder=”example” }}…{{ /entries:listing }}&lt;/p&gt;
 
@@ -85,13 +123,11 @@
 
 &lt;p&gt;{{ collection:example }}…{{ /collection:example }}&lt;/p&gt;
 
-&lt;p&gt;Assets can be similarly copied across from the v1 &lt;em&gt;/assets/&lt;/em&gt; directory to the corresponding v2 location.&lt;/p&gt;
-
 &lt;hr /&gt;
 
 &lt;p&gt;That was it!  Up and running locally with v2.  The original v1 site wasn’t enormously complicated but I guess the principles would probably remain the same if it had been.  The main process just took a couple of hours as a first attempt, and the next v1 upgrade will go a lot quicker I’m sure.&lt;/p&gt;
 
-&lt;p&gt;There’s a high degree of integrity about Statamic that makes it very reassuring to work with, and their &lt;a href=&quot;//slack.statamic.com&quot;&gt;Slack&lt;/a&gt; v2 support channel is impressively active.&lt;/p&gt;
+&lt;p&gt;There’s a high degree of integrity about Statamic that makes it very reassuring to work with, and their &lt;a href=&quot;//slack.statamic.com&quot;&gt;Slack&lt;/a&gt; v2 support channel is very active.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/statamic.png&quot; alt=&quot;Statamic&quot; /&gt;&lt;/p&gt;
 </description>
