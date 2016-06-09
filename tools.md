@@ -40,6 +40,8 @@ A selection of web development tools and resources I've used and can generally r
 
 - <a href="http://foundation.zurb.com/" rel="external nofollow">Foundation</a>
 - <a href="http://html5boilerplate.com/" rel="external nofollow">HTML5 Boilerplate</a>
+- <a href="https://nodejs.org/en/" rel="external nofollow">Node.js</a>
+- <a href="https://www.npmjs.com/" rel="external nofollow">Node Package Manager</a>
 - <a href="http://twitter.github.com/bootstrap/" rel="external nofollow">Twitter Bootstrap</a>
 
 ## Learning
