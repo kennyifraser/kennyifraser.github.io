@@ -88,13 +88,13 @@ Depending on timescale and budget, these projects would normally be under a mutu
     <input type="email" name="_replyto" placeholder="your email" required>
 
 	<label for="url" maxlength="50">Your web address (URL):</label>
-    <input type="url" name="url" value="http://www.example.com" placeholder="http://www.example.com"></input>
+    <input type="url" name="url" value="http://www.example.com" placeholder="http://www.example.com">
 
 	<label for="phone" maxlength="50">Your phone number:</label>
-    <input type="tel" name="phone" placeholder="your phone"></input>
+    <input type="tel" name="phone" placeholder="your phone">
 
 	<label for="location" maxlength="50">Your location:</label>
-    <input type="text" name="location" placeholder="your location"></input>
+    <input type="text" name="location" placeholder="your location">
 
     <label for="application">Do you have a particular CMS or other application in mind?</label>
     <datalist id="applications">
