@@ -7,20 +7,27 @@ quote_source: https://en.wikiquote.org/wiki/The_Fountainhead
 quotee: Ayn Rand
 title: Clients
 ---
-People I've worked with over the past few years with various aspects of design, front end development and marketing of their websites.  I've undertaken development and responsive design for most of the sites listed, and assisted with content strategy and management. 
+People I've worked with over the past few years with various aspects of responsive web design and technical development.  For many of the sites listed, I've also undertaken:
+
+* content management & strategy
+* social media marketing
+* search engine optimisation
+* pay-per-click advertising 
+* email marketing
+* payment service integration
 
 For testimonials on these projects see my [LinkedIn portfolio](https://www.linkedin.com/in/kennyfraser).
 
-If you think you need something similar, [hire me](/hire-me).
+If you think you need this kind of work, [hire me](/hire-me).
 
 ---
 
-## SellerDeck eCommerce CMS Projects
+## SellerDeck eCommerce CMS Projects:
 
 [SellerDeck Desktop](http://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop) is at the heart of thousands of businesses selling online today.  Offline site generation, with Perl-based server scripts. 
 
 ### Music Scotland
-Specialist Scottish and Celtic music CD, DVD and book retail website based in Oban, West Highlands of Scotland. A <a href="http://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-2014" rel="external nofollow">SellerDeck</a> responsive design upgrade was launched in May 2015. Design, development, payment service integration, email marketing, AdWords and support. Visit <a href="http://www.musicscotland.com" title="Music Scotland Scottish Music" rel="external nofollow">Music Scotland</a>.
+Specialist Scottish and Celtic music CD, DVD and book retail website based in Oban, West Highlands of Scotland. A <a href="http://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-2014" rel="external nofollow">SellerDeck</a> responsive design upgrade was launched in 2015. Design, development, payment service integration, email & social media marketing, pay-per-click advertising (Google AdWords) and business support. Visit <a href="http://www.musicscotland.com" title="Music Scotland Scottish Music" rel="external nofollow">Music Scotland</a>.
 
 ### Toplightco Ltd
 London-based lighting company dealing in commercial lighting for shops, stores, galleries and homes. Upgrade of existing Toplightco store to SellerDeck 2014, with third-party add-ons. Implementation of a customised responsive design for all screen sizes. Visit <a href="http://www.toplightco.com/" title="Toplightco" rel="external nofollow">Toplightco Ltd</a>.
@@ -33,7 +40,7 @@ Surrey-based dealer in house and garden products. Upgrade of three separate stor
 
 ---
 
-## ExpressionEngine CMS Projects
+## ExpressionEngine CMS Projects:
 
 [ExpressionEngine](https://ellislab.com/expressionengine) is a leading PHP/MySQL-based, general purpose content management system.
 
@@ -45,7 +52,16 @@ Independent Scottish music label.  Responsive design with shopping cart. Design,
 
 ---
 
-## Custom CMS Projects
+## Static Site Projects:
+
+Hand-coded HTML and CSS, with PHP for templating.
+
+### Highland Innovation Centre Ltd
+Complete design of a fully responsive multi-domain profile site for this Scottish-based medical scientific device company. Visit <a href="http://www.highland-innovation.com" title="Highland Innovation Centre Ltd" rel="external nofollow">Highland Innovation Centre Ltd</a>.
+
+---
+
+## Custom CMS Projects:
 
 ### Bright Seeds
 Fully responsive re-design of legacy site for Wiltshire agricultural supplier. Visit <a href="http://www.brightseeds.co.uk/" title="Bright Seeds" rel="external nofollow">Bright Seeds</a>.
@@ -55,7 +71,7 @@ Nationwide boat sales listing site. Visit <a href="http://www.findafishingboat.c
 
 ---
 
-## Statamic CMS Projects
+## Statamic CMS Projects:
 
 [Statamic](http://statamic.com/) is a fast, flexible and powerful PHP-based flat file content management system.
 
@@ -67,16 +83,7 @@ Companion site for Wiltshire agricultural supplier Bright Seeds. Visit <a href="
 
 ---
 
-## Static Site Projects
-
-Hand-coded HTML and CSS, using PHP for templating.
-
-### Highland Innovation Centre Ltd
-Complete design of a fully responsive multi-domain profile site for this Scottish-based medical scientific device company. Visit <a href="http://www.highland-innovation.com" title="Highland Innovation Centre Ltd" rel="external nofollow">Highland Innovation Centre Ltd</a>.
-
----
-
-## Web & Native Apps
+## Web & Native Apps:
 
 Hybrid apps built with HTML5, [jQuery Mobile](https://jquerymobile.com/) and PHP.
 
@@ -85,7 +92,7 @@ Applications for <a href="http://m.brightseeds.co.uk/" title="Bright Seeds Tract
 
 ---
 
-## Perch CMS Projects
+## Perch CMS Projects:
 
 [Perch](https://grabaperch.com/) calls itself *the original really little CMS*.
 
@@ -94,7 +101,7 @@ Tree surgery and consultancy, based on the Black Isle near Inverness in the Scot
 
 ---
 
-## Shopify eCommerce CMS Projects
+## Shopify eCommerce CMS Projects:
 
 [Shopify](https://www.shopify.co.uk/) offers a hosted online store with a Content Delivery Network (CDN).
 
@@ -103,7 +110,7 @@ Independent Scottish and Irish traditional music label featuring Battlefield Ban
 
 ---
 
-## WordPress CMS Projects
+## WordPress CMS Projects:
 
 Over 60 million people have chosen [WordPress](https://wordpress.org/) to power the place on the web they call home.
 		
@@ -112,7 +119,7 @@ Easter Ross art dealer. WordPress content management, payment service integratio
 
 ---
 
-## Jekyll Static CMS Projects
+## Jekyll Static CMS Projects:
 
 [Jekyll](https://jekyllrb.com/) - transform your plain text into static websites and blogs.
 		
@@ -121,7 +128,7 @@ This personal portfolio and blog, hosted on GitHub Pages.
 
 ---
 
-## Spanglefish CMS Projects
+## Spanglefish CMS Projects:
 
 [Spanglefish](http://www.spanglefish.com/) offers a free and easy CMS package with Google Ads.
 
@@ -130,7 +137,7 @@ B&B accommodation on the Black Isle, between Dingwall and Inverness. Design and 
 
 ---
 
-## Other Clients
+## Other Clients:
 
 People I worked with in the early days of website promotion in the Scottish cultural arena included:
  

@@ -7,7 +7,7 @@ quote_source: https://en.wikipedia.org/wiki/Law_of_the_instrument
 quotee: Abraham Maslow
 title: Tools
 ---
-A selection of web development tools and resources I've used and can generally recommend. A bucket of bolts.
+A selection of web design, development and marketing tools and resources I've used and can generally recommend. 
 
 ## Content Management
 
@@ -36,6 +36,12 @@ A selection of web development tools and resources I've used and can generally r
 - <a href="http://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop" rel="external nofollow">SellerDeck Desktop</a>
 - <a href="http://www.worldpay.com/" rel="external nofollow">WorldPay</a>
 
+## Marketing
+
+- <a href="https://www.facebook.com/business/" rel="external nofollow">Facebook Pages &amp; Ads</a>
+- <a href="http://adwords.google.co.uk/" rel="external nofollow">Google AdWords</a>
+- <a href="https://hootsuite.com/en-gb" rel="external nofollow">Hootsuite</a>
+
 ## Front End
 
 - <a href="http://foundation.zurb.com/" rel="external nofollow">Foundation</a>
@@ -52,11 +58,6 @@ A selection of web development tools and resources I've used and can generally r
 - <a href="https://www.udemy.com/" rel="external nofollow">Udemy</a>
 - <a href="http://classroom.w3devcampus.com/course/category.php?id=22" rel="external nofollow">W3DevCampus</a>
 
-## Online Marketing
-
-- <a href="https://www.facebook.com/business/" rel="external nofollow">Facebook Pages &amp; Ads</a>
-- <a href="http://adwords.google.co.uk/" rel="external nofollow">Google AdWords</a>
-
 ## Podcasts
 
 - <a href="http://ctrlclickcast.com/feed" rel="external nofollow">Ctrl+Click Cast</a>
@@ -68,9 +69,10 @@ A selection of web development tools and resources I've used and can generally r
 
 - <a href="http://basecamp.com/" rel="external nofollow">Basecamp</a>
 - <a href="http://db.tt/92oSJ4R/" rel="external nofollow">Dropbox</a>
-- <a href="http://office.microsoft.com/en-gb/excel/" rel="external nofollow">Excel</a>
 - <a href="http://en.wikipedia.org/wiki/Getting_Things_Done/" rel="external nofollow">Getting Things Done</a> 
 - <a href="http://www.apple.com/macosx/" rel="external nofollow">Mac OS X</a>
+- <a href="http://office.microsoft.com/en-gb/excel/" rel="external nofollow">Microsoft Excel</a>
+- <a href="https://products.office.com/en-gb/sharepoint/collaboration" rel="external nofollow">Microsoft Sharepoint</a>
 - <a href="https://www.omnigroup.com/omnifocus/" rel="external nofollow">OmniFocus</a> 
 - <a href="http://pomodorotechnique.com/" rel="external nofollow">Pomodoro Technique</a>
 - <a href="http://www.quickbooks.co.uk/" rel="external nofollow">Quickbooks</a>

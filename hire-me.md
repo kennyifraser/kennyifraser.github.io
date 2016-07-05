@@ -8,11 +8,16 @@ I look forward to working with new clients - [contact me by email or phone](#con
 
 Current availability: *within one month*
 
+
 <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-  Location: *<span itemprop="addressLocality">Fortrose</span>, 
-  <span itemprop="addressRegion">Ross-shire</span>, Scotland, 
-  <span itemprop="addressCountry">GB</span>*
+  Location: 
+  <a href="//maps.google.co.uk/?q=IV10">
+    *<span itemprop="addressLocality">Fortrose</span>, 
+    <span itemprop="addressRegion">Ross-shire</span>, Scotland, 
+    <span itemprop="addressCountry">GB</span>*
+  </a>
 </span>
+
 
 Trading as: *<span itemprop="affiliation">Web Business Services</span>*
 
@@ -30,7 +35,7 @@ Some of my recent projects have involved implemention of responsive re-designs f
 
 I work remotely as standard, with communication via [Skype](http://www.skype.com/en/) and [Remote Desktop](http://windows.microsoft.com/en-gb/windows/connect-using-remote-desktop-connection/) (or equivalent software), telephone, email or online chat.  Face-to-face meetings can be arranged where travel costs are covered.  I offer all clients free access to a separate project in my [Basecamp](https://basecamp.com/) account, and recommend all work is channelled through there. I use [GitHub](https://github.com/kennyifraser) for code sharing and version control.
 
-I only make work agreements with the end client.  If, for example, you're a web designer looking for a bit of extra technical help here and there and want to keep your client contact private, I'm not going to be able to help - sorry.  I've tried working through intermediaries before and it's too problematic, with the filtering of communication resulting in dissatisfaction all round.
+I only make work agreements with the end client.  If, for example, you're a web designer looking for a bit of extra technical help here and there and want to keep your client contact private, I'm not going to be able to help - *sorry!*  I've tried working through intermediaries before and it's too problematic for all sides.
 
 See a list of [recent clients](/clients).
 
