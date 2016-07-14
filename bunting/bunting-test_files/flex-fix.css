@@ -1,4 +1,4 @@
-/*ul.grid-list {
+ul.grid-list {
    display: -webkit-box;
    display: -webkit-flex;
    display: flex;
@@ -21,4 +21,4 @@ li.grid-item {
    flex: 1;
    max-width: 25%;
    margin: 5px;
-}*/
+}
