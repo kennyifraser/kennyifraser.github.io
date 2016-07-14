@@ -74,7 +74,6 @@ ul.text-list li a {
    display: block;
 }
 
-/*
 ul.grid-list {
    display: -webkit-box;
    display: -webkit-flex;
@@ -95,11 +94,10 @@ ul.grid-list {
 li.grid-item {
    min-width: 200px;
    -webkit-flex: 1 1 200px; 
-   flex: 1;
+   flex: 0 1 auto; /* FIXED */
    max-width: 25%;
    margin: 5px;
 }
-*/
 
 /* ---- mobile-nav ---- */
 
