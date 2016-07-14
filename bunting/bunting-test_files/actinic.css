@@ -1,0 +1,975 @@
+/*! jQuery UI - v1.10.1 - 2013-03-06
+* http://jqueryui.com
+* Includes: jquery.ui.core.css, jquery.ui.tabs.css
+* Loosely based on Flick theme
+* Copyright (c) 2013 jQuery Foundation and other contributors Licensed MIT */
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden {
+	display: none;
+}
+.ui-helper-hidden-accessible {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+.ui-helper-reset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height: 1.3;
+	text-decoration: none;
+	font-size: 100%;
+	list-style: none;
+}
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+	content: "";
+	display: table;
+	border-collapse: collapse;
+}
+.ui-helper-clearfix:after {
+	clear: both;
+}
+.ui-helper-clearfix {
+	min-height: 0; /* support: IE7 */
+}
+.ui-helper-zfix {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	opacity: 0;
+	filter:Alpha(Opacity=0);
+}
+
+.ui-front {
+	z-index: 100;
+}
+
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+	cursor: default !important;
+}
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ui-tabs {
+	position: relative;/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+	padding: .2em;
+}
+.ui-tabs .ui-tabs-nav {
+	margin: 0;
+	padding: .2em .2em 0;
+}
+.ui-tabs .ui-tabs-nav li {
+	list-style: none;
+	float: left;
+	position: relative;
+	top: 0;
+	margin: 1px .2em 0 0;
+	border-bottom: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+.ui-tabs .ui-tabs-nav li a {
+	float: left;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	margin-bottom: -1px;
+	padding-bottom: 1px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.ui-tabs .ui-tabs-nav li.ui-tabs-loading a {
+	cursor: text;
+}
+.ui-tabs .ui-tabs-nav li a, /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a {
+	cursor: pointer;
+}
+.ui-tabs .ui-tabs-panel {
+	display: block;
+	border-width: 0;
+	padding: 1em 1.4em;
+	background: none;
+}
+
+/* Component containers
+----------------------------------*/
+.tabber .ui-widget {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 1.1em;
+}
+.tabber .ui-widget .ui-widget {
+	font-size: 1em;
+}
+.tabber .ui-widget input,
+.tabber .ui-widget select,
+.tabber .ui-widget textarea,
+.tabber .ui-widget button {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 1em;
+}
+.tabber .ui-widget-content {
+	border: 1px solid #ddd;
+	background: #fff;
+	color: #444;
+}
+.tabber .ui-widget-content a {
+}
+.tabber .ui-widget-header {
+	border: 1px solid #ddd;
+	background: #ddd;
+	color: #444;
+	font-weight: bold;
+}
+.tabber .ui-widget-header a {
+	color: #444;
+}
+
+/* Interaction states
+----------------------------------*/
+.tabber .ui-state-default,
+.tabber .ui-widget-content .ui-state-default,
+.tabber .ui-widget-header .ui-state-default {
+	border: 1px solid #ddd;
+	background: #d7d7d7;
+	font-weight: bold;
+}
+.tabber .ui-state-default a,
+.tabber .ui-state-default a:link,
+.tabber .ui-state-default a:visited {
+	text-decoration: none;
+}
+.tabber .ui-state-hover,
+.tabber .ui-widget-content .ui-state-hover,
+.tabber .ui-widget-header .ui-state-hover,
+.tabber .ui-state-focus,
+.tabber .ui-widget-content .ui-state-focus,
+.tabber .ui-widget-header .ui-state-focus {
+	border: 1px solid #ddd;
+	background: #ddd;
+	font-weight: bold;
+}
+.tabber .ui-state-hover a,
+.tabber .ui-state-hover a:hover,
+.tabber .ui-state-hover a:link,
+.tabber .ui-state-hover a:visited {
+	color: #073;
+	text-decoration: none;
+}
+.tabber .ui-state-active,
+.tabber .ui-widget-content .ui-state-active,
+.tabber .ui-widget-header .ui-state-active {
+	border: 1px solid #ddd;
+	background: #fff;
+	font-weight: bold;
+	color: #000;
+}
+.tabber .ui-state-active a,
+.tabber .ui-state-active a:link,
+.tabber .ui-state-active a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+.tabber .ui-state-highlight,
+.tabber .ui-widget-content .ui-state-highlight,
+.tabber .ui-widget-header .ui-state-highlight {
+	border: 1px solid #cccccc;
+	background: #ffffff url('ui-bg_flat_55_ffffff_40x100.png') 50% 50% repeat-x;
+	color: #444444;
+}
+.tabber .ui-state-highlight a,
+.tabber .ui-widget-content .ui-state-highlight a,
+.tabber .ui-widget-header .ui-state-highlight a {
+	color: #444444;
+}
+.tabber .ui-state-error,
+.tabber .ui-widget-content .ui-state-error,
+.tabber .ui-widget-header .ui-state-error {
+	border: 1px solid #ff0084;
+	background: #ffffff url('ui-bg_flat_55_ffffff_40x100.png') 50% 50% repeat-x;
+	color: #222222;
+}
+.tabber .ui-state-error a,
+.tabber .ui-widget-content .ui-state-error a,
+.tabber .ui-widget-header .ui-state-error a {
+	color: #222222;
+}
+.tabber .ui-state-error-text,
+.tabber .ui-widget-content .ui-state-error-text,
+.tabber .ui-widget-header .ui-state-error-text {
+	color: #222222;
+}
+.tabber .ui-priority-primary,
+.tabber .ui-widget-content .ui-priority-primary,
+.tabber .ui-widget-header .ui-priority-primary {
+	font-weight: bold;
+}
+.tabber .ui-priority-secondary,
+.tabber .ui-widget-content .ui-priority-secondary,
+.tabber .ui-widget-header .ui-priority-secondary {
+	opacity: .7;
+	filter:Alpha(Opacity=70);
+	font-weight: normal;
+}
+.tabber .ui-state-disabled,
+.tabber .ui-widget-content .ui-state-disabled,
+.tabber .ui-widget-header .ui-state-disabled {
+	opacity: .35;
+	filter:Alpha(Opacity=35);
+	background-image: none;
+}
+.tabber .ui-state-disabled .ui-icon {
+	filter:Alpha(Opacity=35); /* For IE8 - See #6059 */
+}
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.tabber .ui-icon {
+	width: 16px;
+	height: 16px;
+	background-position: 16px 16px;
+}
+.tabber .ui-icon,
+.tabber .ui-widget-content .ui-icon {
+	background-image: url('ui-icons_ff0084_256x240.png');
+}
+.tabber .ui-widget-header .ui-icon {
+	background-image: url('ui-icons_0073ea_256x240.png');
+}
+.tabber .ui-state-default .ui-icon {
+	background-image: url('ui-icons_666666_256x240.png');
+}
+.tabber .ui-state-hover .ui-icon,
+.tabber .ui-state-focus .ui-icon {
+	background-image: url('ui-icons_ffffff_256x240.png');
+}
+.tabber .ui-state-active .ui-icon {
+	background-image: url('ui-icons_454545_256x240.png');
+}
+.tabber .ui-state-highlight .ui-icon {
+	background-image: url('ui-icons_0073ea_256x240.png');
+}
+.tabber .ui-state-error .ui-icon,
+.tabber .ui-state-error-text .ui-icon {
+	background-image: url('ui-icons_ff0084_256x240.png');
+}
+
+/* positioning */
+.tabber .ui-icon-carat-1-n { background-position: 0 0; }
+.tabber .ui-icon-carat-1-ne { background-position: -16px 0; }
+.tabber .ui-icon-carat-1-e { background-position: -32px 0; }
+.tabber .ui-icon-carat-1-se { background-position: -48px 0; }
+.tabber .ui-icon-carat-1-s { background-position: -64px 0; }
+.tabber .ui-icon-carat-1-sw { background-position: -80px 0; }
+.tabber .ui-icon-carat-1-w { background-position: -96px 0; }
+.tabber .ui-icon-carat-1-nw { background-position: -112px 0; }
+.tabber .ui-icon-carat-2-n-s { background-position: -128px 0; }
+.tabber .ui-icon-carat-2-e-w { background-position: -144px 0; }
+.tabber .ui-icon-triangle-1-n { background-position: 0 -16px; }
+.tabber .ui-icon-triangle-1-ne { background-position: -16px -16px; }
+.tabber .ui-icon-triangle-1-e { background-position: -32px -16px; }
+.tabber .ui-icon-triangle-1-se { background-position: -48px -16px; }
+.tabber .ui-icon-triangle-1-s { background-position: -64px -16px; }
+.tabber .ui-icon-triangle-1-sw { background-position: -80px -16px; }
+.tabber .ui-icon-triangle-1-w { background-position: -96px -16px; }
+.tabber .ui-icon-triangle-1-nw { background-position: -112px -16px; }
+.tabber .ui-icon-triangle-2-n-s { background-position: -128px -16px; }
+.tabber .ui-icon-triangle-2-e-w { background-position: -144px -16px; }
+.tabber .ui-icon-arrow-1-n { background-position: 0 -32px; }
+.tabber .ui-icon-arrow-1-ne { background-position: -16px -32px; }
+.tabber .ui-icon-arrow-1-e { background-position: -32px -32px; }
+.tabber .ui-icon-arrow-1-se { background-position: -48px -32px; }
+.tabber .ui-icon-arrow-1-s { background-position: -64px -32px; }
+.tabber .ui-icon-arrow-1-sw { background-position: -80px -32px; }
+.tabber .ui-icon-arrow-1-w { background-position: -96px -32px; }
+.tabber .ui-icon-arrow-1-nw { background-position: -112px -32px; }
+.tabber .ui-icon-arrow-2-n-s { background-position: -128px -32px; }
+.tabber .ui-icon-arrow-2-ne-sw { background-position: -144px -32px; }
+.tabber .ui-icon-arrow-2-e-w { background-position: -160px -32px; }
+.tabber .ui-icon-arrow-2-se-nw { background-position: -176px -32px; }
+.tabber .ui-icon-arrowstop-1-n { background-position: -192px -32px; }
+.tabber .ui-icon-arrowstop-1-e { background-position: -208px -32px; }
+.tabber .ui-icon-arrowstop-1-s { background-position: -224px -32px; }
+.tabber .ui-icon-arrowstop-1-w { background-position: -240px -32px; }
+.tabber .ui-icon-arrowthick-1-n { background-position: 0 -48px; }
+.tabber .ui-icon-arrowthick-1-ne { background-position: -16px -48px; }
+.tabber .ui-icon-arrowthick-1-e { background-position: -32px -48px; }
+.tabber .ui-icon-arrowthick-1-se { background-position: -48px -48px; }
+.tabber .ui-icon-arrowthick-1-s { background-position: -64px -48px; }
+.tabber .ui-icon-arrowthick-1-sw { background-position: -80px -48px; }
+.tabber .ui-icon-arrowthick-1-w { background-position: -96px -48px; }
+.tabber .ui-icon-arrowthick-1-nw { background-position: -112px -48px; }
+.tabber .ui-icon-arrowthick-2-n-s { background-position: -128px -48px; }
+.tabber .ui-icon-arrowthick-2-ne-sw { background-position: -144px -48px; }
+.tabber .ui-icon-arrowthick-2-e-w { background-position: -160px -48px; }
+.tabber .ui-icon-arrowthick-2-se-nw { background-position: -176px -48px; }
+.tabber .ui-icon-arrowthickstop-1-n { background-position: -192px -48px; }
+.tabber .ui-icon-arrowthickstop-1-e { background-position: -208px -48px; }
+.tabber .ui-icon-arrowthickstop-1-s { background-position: -224px -48px; }
+.tabber .ui-icon-arrowthickstop-1-w { background-position: -240px -48px; }
+.tabber .ui-icon-arrowreturnthick-1-w { background-position: 0 -64px; }
+.tabber .ui-icon-arrowreturnthick-1-n { background-position: -16px -64px; }
+.tabber .ui-icon-arrowreturnthick-1-e { background-position: -32px -64px; }
+.tabber .ui-icon-arrowreturnthick-1-s { background-position: -48px -64px; }
+.tabber .ui-icon-arrowreturn-1-w { background-position: -64px -64px; }
+.tabber .ui-icon-arrowreturn-1-n { background-position: -80px -64px; }
+.tabber .ui-icon-arrowreturn-1-e { background-position: -96px -64px; }
+.tabber .ui-icon-arrowreturn-1-s { background-position: -112px -64px; }
+.tabber .ui-icon-arrowrefresh-1-w { background-position: -128px -64px; }
+.tabber .ui-icon-arrowrefresh-1-n { background-position: -144px -64px; }
+.tabber .ui-icon-arrowrefresh-1-e { background-position: -160px -64px; }
+.tabber .ui-icon-arrowrefresh-1-s { background-position: -176px -64px; }
+.tabber .ui-icon-arrow-4 { background-position: 0 -80px; }
+.tabber .ui-icon-arrow-4-diag { background-position: -16px -80px; }
+.tabber .ui-icon-extlink { background-position: -32px -80px; }
+.tabber .ui-icon-newwin { background-position: -48px -80px; }
+.tabber .ui-icon-refresh { background-position: -64px -80px; }
+.tabber .ui-icon-shuffle { background-position: -80px -80px; }
+.tabber .ui-icon-transfer-e-w { background-position: -96px -80px; }
+.tabber .ui-icon-transferthick-e-w { background-position: -112px -80px; }
+.tabber .ui-icon-folder-collapsed { background-position: 0 -96px; }
+.tabber .ui-icon-folder-open { background-position: -16px -96px; }
+.tabber .ui-icon-document { background-position: -32px -96px; }
+.tabber .ui-icon-document-b { background-position: -48px -96px; }
+.tabber .ui-icon-note { background-position: -64px -96px; }
+.tabber .ui-icon-mail-closed { background-position: -80px -96px; }
+.tabber .ui-icon-mail-open { background-position: -96px -96px; }
+.tabber .ui-icon-suitcase { background-position: -112px -96px; }
+.tabber .ui-icon-comment { background-position: -128px -96px; }
+.tabber .ui-icon-person { background-position: -144px -96px; }
+.tabber .ui-icon-print { background-position: -160px -96px; }
+.tabber .ui-icon-trash { background-position: -176px -96px; }
+.tabber .ui-icon-locked { background-position: -192px -96px; }
+.tabber .ui-icon-unlocked { background-position: -208px -96px; }
+.tabber .ui-icon-bookmark { background-position: -224px -96px; }
+.tabber .ui-icon-tag { background-position: -240px -96px; }
+.tabber .ui-icon-home { background-position: 0 -112px; }
+.tabber .ui-icon-flag { background-position: -16px -112px; }
+.tabber .ui-icon-calendar { background-position: -32px -112px; }
+.tabber .ui-icon-cart { background-position: -48px -112px; }
+.tabber .ui-icon-pencil { background-position: -64px -112px; }
+.tabber .ui-icon-clock { background-position: -80px -112px; }
+.tabber .ui-icon-disk { background-position: -96px -112px; }
+.tabber .ui-icon-calculator { background-position: -112px -112px; }
+.tabber .ui-icon-zoomin { background-position: -128px -112px; }
+.tabber .ui-icon-zoomout { background-position: -144px -112px; }
+.tabber .ui-icon-search { background-position: -160px -112px; }
+.tabber .ui-icon-wrench { background-position: -176px -112px; }
+.tabber .ui-icon-gear { background-position: -192px -112px; }
+.tabber .ui-icon-heart { background-position: -208px -112px; }
+.tabber .ui-icon-star { background-position: -224px -112px; }
+.tabber .ui-icon-link { background-position: -240px -112px; }
+.tabber .ui-icon-cancel { background-position: 0 -128px; }
+.tabber .ui-icon-plus { background-position: -16px -128px; }
+.tabber .ui-icon-plusthick { background-position: -32px -128px; }
+.tabber .ui-icon-minus { background-position: -48px -128px; }
+.tabber .ui-icon-minusthick { background-position: -64px -128px; }
+.tabber .ui-icon-close { background-position: -80px -128px; }
+.tabber .ui-icon-closethick { background-position: -96px -128px; }
+.tabber .ui-icon-key { background-position: -112px -128px; }
+.tabber .ui-icon-lightbulb { background-position: -128px -128px; }
+.tabber .ui-icon-scissors { background-position: -144px -128px; }
+.tabber .ui-icon-clipboard { background-position: -160px -128px; }
+.tabber .ui-icon-copy { background-position: -176px -128px; }
+.tabber .ui-icon-contact { background-position: -192px -128px; }
+.tabber .ui-icon-image { background-position: -208px -128px; }
+.tabber .ui-icon-video { background-position: -224px -128px; }
+.tabber .ui-icon-script { background-position: -240px -128px; }
+.tabber .ui-icon-alert { background-position: 0 -144px; }
+.tabber .ui-icon-info { background-position: -16px -144px; }
+.tabber .ui-icon-notice { background-position: -32px -144px; }
+.tabber .ui-icon-help { background-position: -48px -144px; }
+.tabber .ui-icon-check { background-position: -64px -144px; }
+.tabber .ui-icon-bullet { background-position: -80px -144px; }
+.tabber .ui-icon-radio-on { background-position: -96px -144px; }
+.tabber .ui-icon-radio-off { background-position: -112px -144px; }
+.tabber .ui-icon-pin-w { background-position: -128px -144px; }
+.tabber .ui-icon-pin-s { background-position: -144px -144px; }
+.tabber .ui-icon-play { background-position: 0 -160px; }
+.tabber .ui-icon-pause { background-position: -16px -160px; }
+.tabber .ui-icon-seek-next { background-position: -32px -160px; }
+.tabber .ui-icon-seek-prev { background-position: -48px -160px; }
+.tabber .ui-icon-seek-end { background-position: -64px -160px; }
+.tabber .ui-icon-seek-start { background-position: -80px -160px; }
+/* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+.tabber .ui-icon-seek-first { background-position: -80px -160px; }
+.tabber .ui-icon-stop { background-position: -96px -160px; }
+.tabber .ui-icon-eject { background-position: -112px -160px; }
+.tabber .ui-icon-volume-off { background-position: -128px -160px; }
+.tabber .ui-icon-volume-on { background-position: -144px -160px; }
+.tabber .ui-icon-power { background-position: 0 -176px; }
+.tabber .ui-icon-signal-diag { background-position: -16px -176px; }
+.tabber .ui-icon-signal { background-position: -32px -176px; }
+.tabber .ui-icon-battery-0 { background-position: -48px -176px; }
+.tabber .ui-icon-battery-1 { background-position: -64px -176px; }
+.tabber .ui-icon-battery-2 { background-position: -80px -176px; }
+.tabber .ui-icon-battery-3 { background-position: -96px -176px; }
+.tabber .ui-icon-circle-plus { background-position: 0 -192px; }
+.tabber .ui-icon-circle-minus { background-position: -16px -192px; }
+.tabber .ui-icon-circle-close { background-position: -32px -192px; }
+.tabber .ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.tabber .ui-icon-circle-triangle-s { background-position: -64px -192px; }
+.tabber .ui-icon-circle-triangle-w { background-position: -80px -192px; }
+.tabber .ui-icon-circle-triangle-n { background-position: -96px -192px; }
+.tabber .ui-icon-circle-arrow-e { background-position: -112px -192px; }
+.tabber .ui-icon-circle-arrow-s { background-position: -128px -192px; }
+.tabber .ui-icon-circle-arrow-w { background-position: -144px -192px; }
+.tabber .ui-icon-circle-arrow-n { background-position: -160px -192px; }
+.tabber .ui-icon-circle-zoomin { background-position: -176px -192px; }
+.tabber .ui-icon-circle-zoomout { background-position: -192px -192px; }
+.tabber .ui-icon-circle-check { background-position: -208px -192px; }
+.tabber .ui-icon-circlesmall-plus { background-position: 0 -208px; }
+.tabber .ui-icon-circlesmall-minus { background-position: -16px -208px; }
+.tabber .ui-icon-circlesmall-close { background-position: -32px -208px; }
+.tabber .ui-icon-squaresmall-plus { background-position: -48px -208px; }
+.tabber .ui-icon-squaresmall-minus { background-position: -64px -208px; }
+.tabber .ui-icon-squaresmall-close { background-position: -80px -208px; }
+.tabber .ui-icon-grip-dotted-vertical { background-position: 0 -224px; }
+.tabber .ui-icon-grip-dotted-horizontal { background-position: -16px -224px; }
+.tabber .ui-icon-grip-solid-vertical { background-position: -32px -224px; }
+.tabber .ui-icon-grip-solid-horizontal { background-position: -48px -224px; }
+.tabber .ui-icon-gripsmall-diagonal-se { background-position: -64px -224px; }
+.tabber .ui-icon-grip-diagonal-se { background-position: -80px -224px; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.tabber .ui-corner-all,
+.tabber .ui-corner-top,
+.tabber .ui-corner-left,
+.tabber .ui-corner-tl {
+	border-top-left-radius: 2px;
+}
+.tabber .ui-corner-all,
+.tabber .ui-corner-top,
+.tabber .ui-corner-right,
+.tabber .ui-corner-tr {
+	border-top-right-radius: 2px;
+}
+.tabber .ui-corner-all,
+.tabber .ui-corner-bottom,
+.tabber .ui-corner-left,
+.tabber .ui-corner-bl {
+	border-bottom-left-radius: 2px;
+}
+.tabber .ui-corner-all,
+.tabber .ui-corner-bottom,
+.tabber .ui-corner-right,
+.tabber .ui-corner-br {
+	border-bottom-right-radius: 2px;
+}
+
+/* Overlays */
+.tabber .ui-widget-overlay {
+	background: #eeeeee url('ui-bg_flat_0_eeeeee_40x100.png') 50% 50% repeat-x;
+	opacity: .8;
+	filter: Alpha(Opacity=80);
+}
+.tabber .ui-widget-shadow {
+	margin: -4px 0 0 -4px;
+	padding: 4px;
+	background: #aaaaaa url('ui-bg_flat_0_aaaaaa_40x100.png') 50% 50% repeat-x;
+	opacity: .6;
+	filter: Alpha(Opacity=60);
+	border-radius: 0px;
+}
+
+
+.actrequired {
+   color: #9e0039;
+}
+
+/* Recently Viewed Products List Style ------------------------------------ */
+
+
+
+#rphtml {
+	display: none; 
+	visibility:hidden;
+} /* Used internally - do not delete */
+
+
+option:disabled {
+    color: #dddddd;
+}
+
+
+/* ---- mega menu ---- */
+
+.grey-shading {
+	display: none;
+	position: absolute;
+	top: 186px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+   background: url('shading.png');
+   z-index: 1;
+    -webkit-transition: opacity 0.2s ease-in;
+    -moz-transition: opacity 0.2s ease-in;
+    -o-transition: opacity 0.2s ease-in;
+    -ms-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in
+}
+
+.main-menu-bar {
+   height: 41px;
+   background: #f6f6f6;
+   border-bottom: solid 3px #6c89c5;
+   box-shadow: 0 4px 2px -2px #ccc;
+}
+
+.miniNav {
+	display: none;
+}
+
+#mega-menu {
+	z-index:999999;
+	position: relative;
+}
+
+#mega-menu ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 1;
+	list-style: none;
+}
+
+#mega-menu ul li {
+	float:left; 
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:0;
+}
+
+#mega-menu ul li a {
+   color: #6c89c5;
+   font-weight: 700;
+   line-height: 41px;
+   margin-right: 10px;
+   padding:0 10px;
+   display: block;
+}
+
+#mega-menu ul li a:hover {
+   text-decoration: none;
+   background: #6c89c5;
+   color: white;
+}
+
+#mega-menu ul li div {
+	display: none;
+	width: 100%;
+	position: absolute;
+	left: 0 !important;
+	background: #ffffff;
+	z-index: 9999999999;
+   border: solid 1px #6c89c5;
+}
+
+#mega-menu ul li div div {
+	display: block;
+	position: relative;
+	border: 0;
+	float: left;
+	width: 25%;
+	margin: 0.5em;
+}
+
+#mega-menu ul li ul {
+	float: none;
+	width: auto;
+}
+
+#mega-menu ul li ul li {
+	float:none; 
+}
+
+#mega-menu ul li ul li a {
+   color: #6c89c5;
+   font-weight: normal;
+   border: 0;
+   line-height: 1.4em;
+   margin-right: 0;
+   padding: 5px;
+}
+
+#mega-menu ul li ul li a:hover {
+	background: #f6f6f6;
+   color: #6c89c5;
+}
+
+@media screen and (max-width: 960px) {
+
+	.main-menu-bar {
+    height: auto;
+    background: none;
+    border: none;
+    box-shadow: none;
+	}
+
+   .menuHide {
+      display:none;
+   }
+
+   .menuShow {
+      display:block;
+   }
+		
+   .miniNav {
+      display: block;
+      width:100%;
+   }
+  
+	.miniNav > div.mainNav, .miniNav > div.productFiltersTitle  {
+      font-weight:bold;
+      color: #fff;
+      background: #6c89c5;
+      font-size: 1.2em;
+      line-height: 41px;
+      padding: 0 1%;
+	}
+
+   .miniNav > div > a {
+      color: #fff;
+	}
+   
+   #mega-menu ul {
+      display:block;
+      width:100%;
+      height:auto;
+ 		overflow: hidden;
+   }
+
+   #mega-menu ul li {
+      height:auto !important;
+      float: none;
+      border-bottom: solid 1px #fff;
+      float: none; 
+      background: #6c89c5;
+   }
+
+   #mega-menu ul li:last-child {
+      border-bottom:none;
+   }
+
+   #mega-menu ul li a {
+      width: 96%;
+      margin: 0;
+      padding: 0 2%;
+      color: #fff;
+   }
+
+   #mega-menu ul li div {
+      position:relative;
+      display:none;
+   }
+   
+   #mega-menu ul li div div {
+      width: auto
+   }  
+   
+   #mega-menu ul li ul {
+      width:100%;
+      position:relative;
+      top:0;
+   }
+   
+   #mega-menu ul li ul li, #mega-menu ul li ul li a, div[id^="tc"] {
+      width:100%;
+      border-bottom:none;
+   }
+   
+   #productFiltersLeft {
+      background: #6c89c5;
+   }
+
+}
+
+
+
+/* Formatting for Feefo customer feedback --------------------------------- */
+/*page*/
+#page {
+	width:100%;
+	margin: 0px;
+	padding: 15px 0px 0px 0px;
+	background:#fff;
+	overflow:hidden;
+}
+
+.alsobought {
+	color:#808080;
+}
+
+/* comments box start*/
+.comments {
+	overflow:hidden;
+	padding:0 0 20px;
+}
+.comm-table h3 a {
+	color:#000;
+	font-weight:bold;
+	text-decoration:none !important;
+}
+.comm-table h3 a:hover {color:#939598;}
+
+.comm-table {
+	width:100%;
+	border-collapse:collapse;
+}
+.comm-table th {
+	background:#bcbdc0;
+	padding:0 4px;
+	text-align:left;
+	border-bottom:1px solid #fff;
+}
+.comm-table td {
+	vertical-align:top;
+	padding:4px 10px 4px 4px;
+	border-bottom:1px solid #fff;
+	background:#fff4bf;
+}
+.comm-table .row td {background:#ffec95;}
+.comm-table h3 {
+	font:bold 1em Arial, Helvetica, sans-serif;
+	margin:0;
+}
+.comm-table ul {
+	padding:0;
+	margin:0;
+	height:1%;
+	overflow:hidden;
+}
+.comm-table ul li {height:1%;}
+.comm-table p {margin:0;}
+.comm-table a {
+	color:#000;
+	text-decoration:underline;
+}
+.comm-table a:hover {
+	color:#939598;
+	text-decoration:none;
+}
+.comm-rating {
+	overflow:hidden;
+	padding:0 0 8px;
+}
+.comm-rating em {
+	display:block;
+	font-style:normal;
+}
+.comm-rating img {vertical-align:middle;}
+ 
+
+
+/* My Account pages  --------------------------------------------------------------*/
+
+.myaccount-shadow {
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-image: url('myaccount-popup-bg.png');
+	background-repeat: repeat;
+	}
+
+.myaccount-popup {
+	position: fixed;
+	width: 500px;
+	height: 250px;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px;
+	margin-top: -125px;
+	padding-left: 85px;
+	padding-top: 50px;
+	background-color: #ffffff;
+	}
+
+
+
+/* start auto suggestion list */
+.sf_suggestion {
+	position: absolute;
+	line-height: 15px;
+	z-index: 2147483637;
+	}
+.sf_suggestion ul {
+	margin: 1px;
+	padding: 0px;
+	background: #ffffff; 
+	border: 1px solid rgb(51, 51, 51);
+	top: 0;
+	left: 0;
+}
+.sf_suggestion li{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	}
+.sf_suggestion li a {
+	display: block;
+	text-indent: 5px;
+	text-align: left;
+	padding: 5px;
+	text-decoration: none;
+	}
+.sf_suggestion li.selected a {
+	background: #cccccc;
+	color: #000000;
+	font-weight: normal;
+	}
+.sf_suggestion li.notselected a{
+	color: #000000;
+	font-weight: normal;
+	}
+/* end auto suggestion list */
+/* start filter loading dialog */
+.loading-block	{
+	display: table;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin-left: 50%;
+	z-index: 2147483638;
+	}
+.loading-gif {
+	display: table-cell;
+	vertical-align: middle;
+	}
+.loading-shadow {
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-repeat: repeat;
+	opacity:0.9;
+	}
+/* start filter loading dialog */
+
+#FilterResultElements {
+   width: 100%;
+}
+
+.clear-button {
+   padding: 0 5px;
+   font-family:  "Open Sans", Verdana, sans-serif;;
+   font-size: 1em;
+   background: #aaa;
+   color: #fff;
+   cursor: pointer;
+   float: right; 
+   border: solid 1px #444;
+   font-weight: 700;   
+   -webkit-appearance: none;
+   -webkit-border-radius: 0;
+   font-size: 0.75em;
+}
+
+#productFiltersLeft {
+	position: relative;
+}
+
+.clear-button:hover {
+   background: #6c89c5;
+   color: white;
+   text-decoration: none;
+}
+
+.std-product-details {
+	float: left;
+	height: 250px;
+	margin: 0.75em;
+}
+
+
+
+/* Drillpine V3.02 - Magic Zoom Plus Responsive icon positioning with respect to main image */
+.mzp-ftab-icons-above 		{float: none !important; text-align:center !important; padding:0px !important;}
+.mzp-ftab-icons-above br	{clear:both;}
+.mzp-ftab-icons-above img	{margin:3px !important;}
+.mzp-ftab-icons-below 		{clear:both !important; float: none !important; text-align:center !important; padding:0px !important;}
+.mzp-ftab-icons-below br	{clear:both;}
+.mzp-ftab-icons-below img	{margin:3px !important;}
+.mzp-ftab-icons-left 		{float:left !important; text-align:center !important; padding:0px !important; width: 50px;}
+.mzp-ftab-icons-left br		{clear:both;}
+.mzp-ftab-icons-left img	{margin:3px !important;}
+.mzp-ftab-icons-right 		{float:right !important; text-align:center !important; padding:0px !important;}
+.mzp-ftab-icons-right br	{clear:both;}
+.mzp-ftab-icons-right img	{margin:3px !important;}
+
+.mzp-ptab						{}
+.mzp-ptab-icons-above		{float:none !important; text-align:center !important; padding:0px !important;}
+.mzp-ptab-icons-above img	{margin-right:2px !important;}
+.mzp-ptab-icons-below		{float:none !important; text-align:center !important; padding:0px !important;}
+.mzp-ptab-icons-below br	{clear:both;}
+.mzp-ptab-icons-below img	{margin-top:2px !important; margin-right:2px !important;}
+.mzp-ptab-icons-left 		{float:left !important; text-align:center !important; padding:0px !important; padding-right:5px !important; width: 50px;}
+.mzp-ptab-icons-left img	{margin-bottom:2px !important;}
+.mzp-ptab-icons-right 		{float:left !important; margin-left: 5px; text-align:center !important; padding:0px !important;}
+.mzp-ptab-icons-right img	{margin-right:2px !important;}
+
+.mzp-xtab						{padding: 0px;}
+.mzp-xtab img					{float: none !important; text-align:center !important; margin: 5px !important; padding:0px}
+.mzp-xtab-icons-above 		{float: none !important; text-align:center !important; padding:0px !important;}
+.mzp-xtab-icons-below 		{clear:both; float: none !important; text-align:center !important; padding:0px !important;}
+.mzp-xtab-icons-left 		{float:left !important; margin-left:20px !important; text-align:center !important; padding:0px !important;}
+.mzp-xtab-icons-right 		{float:right !important; margin-left:20px !important; text-align:center !important; padding:0px !important;}
+
+.mz_icon							{padding: 2px !important; border:1px solid silver !important; width:auto !important;}
+
+/* MZP V5 tweaks */
+.mz-thumb						{background-color:inherit !important;}
+.mz-thumb img					{box-shadow:none !important;}

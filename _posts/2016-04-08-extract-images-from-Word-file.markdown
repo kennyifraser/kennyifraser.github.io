@@ -12,6 +12,8 @@ Here's a great wee tip [which I discovered here](http://cnedelcu.blogspot.co.uk/
 
 If you need to extract images from a Word file that someone has supplied, at their original full resolution, just:
 
+- Open then Save it from a current version of Word as a *.docx* file
+
 - Duplicate and rename the Word file, changing the extension from *.docx* to *.zip*
 
 - Open the unzipped directory and navigate to */filename/word/media/*
