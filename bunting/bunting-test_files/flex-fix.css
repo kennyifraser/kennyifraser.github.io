@@ -18,7 +18,7 @@ ul.grid-list {
 li.grid-item {
    min-width: 200px;
    -webkit-flex: 1; 
-   flex: 1;
+   flex: 0 1 auto; /* FIX */
    max-width: 25%;
    margin: 5px;
 }
