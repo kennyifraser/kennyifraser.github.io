@@ -3,7 +3,7 @@ layout: page
 navigation: true
 permalink: /tools/
 quote: I suppose it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail.
-quote_source: https://en.wikipedia.org/wiki/Law_of_the_instrument
+quote_source: //en.wikipedia.org/wiki/Law_of_the_instrument
 quotee: Abraham Maslow
 title: Tools
 ---
@@ -21,17 +21,18 @@ A selection of web design, development and marketing tools and resources I've us
 ## Design &amp; Coding
 
 - <a href="//www.adobe.com/products/creativesuite.html" rel="external nofollow">Adobe Creative Suite</a>
-- <a href="https://incident57.com/codekit/" rel="external nofollow">Codekit</a>
+- <a href="//incident57.com/codekit/" rel="external nofollow">Codekit</a>
 - <a href="//compass-style.org/" rel="external nofollow">Compass</a>
 - <a href="//www.mamp.info/" rel="external nofollow">MAMP</a>
 - <a href="//sass-lang.com/" rel="external nofollow">Sass</a>
 - <a href="//www.sublimetext.com/" rel="external nofollow">Sublime Text</a>
 - <a href="//www.panic.com/" rel="external nofollow">Transmit</a>
+- <a href="//www.jetbrains.com/webstorm/" rel="external nofollow">WebStorm</a>
 
 ## eCommerce
 
 - <a href="//cartthrob.com/" rel="external nofollow">CartThrob</a>
-- <a href="https://exp-resso.com/store/" rel="external nofollow">Exp:resso Store</a>
+- <a href="//exp-resso.com/store/" rel="external nofollow">Exp:resso Store</a>
 - <a href="//www.paypal.com/" rel="external nofollow">PayPal</a>
 - <a href="//www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop" rel="external nofollow">SellerDeck Desktop</a>
 - <a href="//www.shopify.co.uk/" rel="external nofollow">Shopify</a>
@@ -39,24 +40,24 @@ A selection of web design, development and marketing tools and resources I've us
 
 ## Marketing
 
-- <a href="https://www.facebook.com/business/" rel="external nofollow">Facebook Pages &amp; Ads</a>
+- <a href="//www.facebook.com/business/" rel="external nofollow">Facebook Pages &amp; Ads</a>
 - <a href="//adwords.google.co.uk/" rel="external nofollow">Google AdWords</a>
-- <a href="https://hootsuite.com/en-gb" rel="external nofollow">Hootsuite</a>
+- <a href="//hootsuite.com/en-gb" rel="external nofollow">Hootsuite</a>
 
 ## Front End
 
 - <a href="//foundation.zurb.com/" rel="external nofollow">Foundation</a>
 - <a href="//html5boilerplate.com/" rel="external nofollow">HTML5 Boilerplate</a>
-- <a href="https://nodejs.org/en/" rel="external nofollow">Node.js</a>
-- <a href="https://www.npmjs.com/" rel="external nofollow">Node Package Manager</a>
+- <a href="//nodejs.org/en/" rel="external nofollow">Node.js</a>
+- <a href="//www.npmjs.com/" rel="external nofollow">Node Package Manager</a>
 - <a href="//twitter.github.com/bootstrap/" rel="external nofollow">Twitter Bootstrap</a>
 
-## Learning
+## Training
 
 - <a href="//www.codecademy.com/" rel="external nofollow">Codecademy</a>
-- <a href="https://www.packtpub.com/packtlib" rel="external nofollow">Packt Library</a>
-- <a href="https://referrals.trhou.se/kennyfraser" rel="external nofollow">Treehouse</a>
-- <a href="https://www.udemy.com/" rel="external nofollow">Udemy</a>
+- <a href="//www.packtpub.com/packtlib" rel="external nofollow">Packt Library</a>
+- <a href="//referrals.trhou.se/kennyfraser" rel="external nofollow">Treehouse</a>
+- <a href="//www.udemy.com/" rel="external nofollow">Udemy</a>
 - <a href="//classroom.w3devcampus.com/course/category.php?id=22" rel="external nofollow">W3DevCampus</a>
 
 ## Podcasts
@@ -73,8 +74,8 @@ A selection of web design, development and marketing tools and resources I've us
 - <a href="//en.wikipedia.org/wiki/Getting_Things_Done/" rel="external nofollow">Getting Things Done</a>
 - <a href="//www.apple.com/macosx/" rel="external nofollow">Mac OS X</a>
 - <a href="//office.microsoft.com/en-gb/excel/" rel="external nofollow">Microsoft Excel</a>
-- <a href="https://products.office.com/en-gb/sharepoint/collaboration" rel="external nofollow">Microsoft Sharepoint</a>
-- <a href="https://www.omnigroup.com/omnifocus/" rel="external nofollow">OmniFocus</a> 
+- <a href="//products.office.com/en-gb/sharepoint/collaboration" rel="external nofollow">Microsoft Sharepoint</a>
+- <a href="//www.omnigroup.com/omnifocus/" rel="external nofollow">OmniFocus</a>
 - <a href="//pomodorotechnique.com/" rel="external nofollow">Pomodoro Technique</a>
 - <a href="//www.quickbooks.co.uk/" rel="external nofollow">Quickbooks</a>
 
