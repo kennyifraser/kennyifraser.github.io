@@ -11,79 +11,80 @@ A selection of web design, development and marketing tools and resources I've us
 
 ## Content Management
 
-- <a href="http://expressionengine.com/" rel="external nofollow">ExpressionEngine</a>
-- <a href="http://jekyllrb.com/" rel="external nofollow">Jekyll</a>
-- <a href="http://grabaperch.com/" rel="external nofollow">Perch</a>
-- <a href="http://www.spanglefish.com/" rel="external nofollow">Spanglefish</a>
-- <a href="http://statamic.com" rel="external nofollow">Statamic</a>
-- <a href="http://www.wordpress.org/" rel="external nofollow">WordPress</a>
+- <a href="//expressionengine.com/" rel="external nofollow">ExpressionEngine</a>
+- <a href="//jekyllrb.com/" rel="external nofollow">Jekyll</a>
+- <a href="//grabaperch.com/" rel="external nofollow">Perch</a>
+- <a href="//www.spanglefish.com/" rel="external nofollow">Spanglefish</a>
+- <a href="//statamic.com" rel="external nofollow">Statamic</a>
+- <a href="//www.wordpress.org/" rel="external nofollow">WordPress</a>
 
 ## Design &amp; Coding
 
-- <a href="http://www.adobe.com/products/creativesuite.html" rel="external nofollow">Adobe Creative Suite</a>
+- <a href="//www.adobe.com/products/creativesuite.html" rel="external nofollow">Adobe Creative Suite</a>
 - <a href="https://incident57.com/codekit/" rel="external nofollow">Codekit</a>
-- <a href="http://compass-style.org/" rel="external nofollow">Compass</a>
-- <a href="http://www.mamp.info/" rel="external nofollow">MAMP</a>
-- <a href="http://sass-lang.com/" rel="external nofollow">Sass</a>
-- <a href="http://www.sublimetext.com/" rel="external nofollow">Sublime Text</a>
-- <a href="http://www.panic.com/" rel="external nofollow">Transmit</a>
+- <a href="//compass-style.org/" rel="external nofollow">Compass</a>
+- <a href="//www.mamp.info/" rel="external nofollow">MAMP</a>
+- <a href="//sass-lang.com/" rel="external nofollow">Sass</a>
+- <a href="//www.sublimetext.com/" rel="external nofollow">Sublime Text</a>
+- <a href="//www.panic.com/" rel="external nofollow">Transmit</a>
 
 ## eCommerce
 
-- <a href="http://cartthrob.com/" rel="external nofollow">CartThrob</a>
+- <a href="//cartthrob.com/" rel="external nofollow">CartThrob</a>
 - <a href="https://exp-resso.com/store/" rel="external nofollow">Exp:resso Store</a>
-- <a href="http://www.paypal.com/" rel="external nofollow">PayPal</a>
-- <a href="http://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop" rel="external nofollow">SellerDeck Desktop</a>
-- <a href="http://www.worldpay.com/" rel="external nofollow">WorldPay</a>
+- <a href="//www.paypal.com/" rel="external nofollow">PayPal</a>
+- <a href="//www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop" rel="external nofollow">SellerDeck Desktop</a>
+- <a href="//www.shopify.co.uk/" rel="external nofollow">Shopify</a>
+- <a href="//www.worldpay.com/" rel="external nofollow">WorldPay</a>
 
 ## Marketing
 
 - <a href="https://www.facebook.com/business/" rel="external nofollow">Facebook Pages &amp; Ads</a>
-- <a href="http://adwords.google.co.uk/" rel="external nofollow">Google AdWords</a>
+- <a href="//adwords.google.co.uk/" rel="external nofollow">Google AdWords</a>
 - <a href="https://hootsuite.com/en-gb" rel="external nofollow">Hootsuite</a>
 
 ## Front End
 
-- <a href="http://foundation.zurb.com/" rel="external nofollow">Foundation</a>
-- <a href="http://html5boilerplate.com/" rel="external nofollow">HTML5 Boilerplate</a>
+- <a href="//foundation.zurb.com/" rel="external nofollow">Foundation</a>
+- <a href="//html5boilerplate.com/" rel="external nofollow">HTML5 Boilerplate</a>
 - <a href="https://nodejs.org/en/" rel="external nofollow">Node.js</a>
 - <a href="https://www.npmjs.com/" rel="external nofollow">Node Package Manager</a>
-- <a href="http://twitter.github.com/bootstrap/" rel="external nofollow">Twitter Bootstrap</a>
+- <a href="//twitter.github.com/bootstrap/" rel="external nofollow">Twitter Bootstrap</a>
 
 ## Learning
 
-- <a href="http://www.codecademy.com/" rel="external nofollow">Codecademy</a>
+- <a href="//www.codecademy.com/" rel="external nofollow">Codecademy</a>
 - <a href="https://www.packtpub.com/packtlib" rel="external nofollow">Packt Library</a>
 - <a href="https://referrals.trhou.se/kennyfraser" rel="external nofollow">Treehouse</a>
 - <a href="https://www.udemy.com/" rel="external nofollow">Udemy</a>
-- <a href="http://classroom.w3devcampus.com/course/category.php?id=22" rel="external nofollow">W3DevCampus</a>
+- <a href="//classroom.w3devcampus.com/course/category.php?id=22" rel="external nofollow">W3DevCampus</a>
 
 ## Podcasts
 
-- <a href="http://ctrlclickcast.com/feed" rel="external nofollow">Ctrl+Click Cast</a>
-- <a href="http://shoptalkshow.com/feed/podcast" rel="external nofollow">ShopTalk</a>
-- <a href="http://feeds.5by5.tv/webahead" rel="external nofollow">The Web Ahead</a>
-- <a href="http://feeds.feedburner.com/buzzsprout/uJEz" rel="external nofollow">Unfinished Business</a>
+- <a href="//ctrlclickcast.com/feed" rel="external nofollow">Ctrl+Click Cast</a>
+- <a href="//shoptalkshow.com/feed/podcast" rel="external nofollow">ShopTalk</a>
+- <a href="//feeds.5by5.tv/webahead" rel="external nofollow">The Web Ahead</a>
+- <a href="//feeds.feedburner.com/buzzsprout/uJEz" rel="external nofollow">Unfinished Business</a>
 
 ## Productivity
 
-- <a href="http://basecamp.com/" rel="external nofollow">Basecamp</a>
-- <a href="http://db.tt/92oSJ4R/" rel="external nofollow">Dropbox</a>
-- <a href="http://en.wikipedia.org/wiki/Getting_Things_Done/" rel="external nofollow">Getting Things Done</a> 
-- <a href="http://www.apple.com/macosx/" rel="external nofollow">Mac OS X</a>
-- <a href="http://office.microsoft.com/en-gb/excel/" rel="external nofollow">Microsoft Excel</a>
+- <a href="//basecamp.com/" rel="external nofollow">Basecamp</a>
+- <a href="//db.tt/92oSJ4R/" rel="external nofollow">Dropbox</a>
+- <a href="//en.wikipedia.org/wiki/Getting_Things_Done/" rel="external nofollow">Getting Things Done</a>
+- <a href="//www.apple.com/macosx/" rel="external nofollow">Mac OS X</a>
+- <a href="//office.microsoft.com/en-gb/excel/" rel="external nofollow">Microsoft Excel</a>
 - <a href="https://products.office.com/en-gb/sharepoint/collaboration" rel="external nofollow">Microsoft Sharepoint</a>
 - <a href="https://www.omnigroup.com/omnifocus/" rel="external nofollow">OmniFocus</a> 
-- <a href="http://pomodorotechnique.com/" rel="external nofollow">Pomodoro Technique</a>
-- <a href="http://www.quickbooks.co.uk/" rel="external nofollow">Quickbooks</a>
+- <a href="//pomodorotechnique.com/" rel="external nofollow">Pomodoro Technique</a>
+- <a href="//www.quickbooks.co.uk/" rel="external nofollow">Quickbooks</a>
 
 ## Responsive Design
 
-- <a href="http://html.adobe.com/edge/inspect/" rel="external nofollow">Adobe Edge Inspect</a>
-- <a href="http://browserstack.com/" rel="external nofollow">BrowserStack</a>
-- <a href="http://responsivepx.com/" rel="external nofollow">ResponsivePX</a>
+- <a href="//html.adobe.com/edge/inspect/" rel="external nofollow">Adobe Edge Inspect</a>
+- <a href="//browserstack.com/" rel="external nofollow">BrowserStack</a>
+- <a href="//responsivepx.com/" rel="external nofollow">ResponsivePX</a>
 
 ## Widgets
 
-- <a href="http://www.olark.com/" rel="external nofollow">Olark</a>
-- <a href="http://wufoo.com/" rel="external nofollow">Wufoo</a>
+- <a href="//www.olark.com/" rel="external nofollow">Olark</a>
+- <a href="//wufoo.com/" rel="external nofollow">Wufoo</a>
