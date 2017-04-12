@@ -29,7 +29,11 @@ I design and build [responsive websites](https://en.wikipedia.org/wiki/Responsiv
 
 I endeavour to code to [web standard best practices](http://en.wikipedia.org/wiki/Web_standards) using modern [HTML5](http://en.wikipedia.org/wiki/HTML5) and [CSS3](http://en.wikipedia.org/wiki/CSS) specifications.  I also work with [PHP](http://php.net/manual/en/intro-whatis.php), [JavaScript](http://javascript.about.com/od/reference/p/javascript.htm) and [jQuery](https://jquery.com/) where necessary.
 
-I'm often integrating code into popular [content management systems](http://en.wikipedia.org/wiki/Web_content_management_system) including [ExpressionEngine](http://ellislab.com/expressionengine), [Statamic](http://www.statamic.com), [Jekyll](http://jekyllrb.com/) and [WordPress](http://wordpress.org/), which make it easier for a non-technical end user to add content. Despite this appearing to be a great advantage, this approach isn't appropriate for all circumstances and sometimes less complex website solutions fit better.
+I'm often integrating code into popular [content management
+systems](http://en.wikipedia.org/wiki/Web_content_management_system) including
+[ExpressionEngine](http://ellislab.com/expressionengine), [Statamic](http://www.statamic.com) and
+[Jekyll](http://jekyllrb.com/), which make it easier for a non-technical end user to add content. Despite this
+appearing to be a great advantage, this approach isn't appropriate for all circumstances and sometimes less complex website solutions fit better.
 
 Some of my recent projects have involved implemention of responsive re-designs for [SellerDeck ecommerce websites](http://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop), software I've used since it was Actinic Catalog in the early 2000s.  If you're looking for a custom responsive design for a SellerDeck 2016 website, I can probably help you.
 
