@@ -1,0 +1,1 @@
+For several years I've been involved in running the Highlands & Islands branch of the medical charity [Crohn's & Colitis UK](//www.crohnsandcolitis.org.uk/get-involved/volunteering/local-group/scotland-northern-ireland/highlands-islands).

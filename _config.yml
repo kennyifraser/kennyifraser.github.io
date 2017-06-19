@@ -1,14 +1,15 @@
 # Site settings
-title: Kenny Fraser
-description: Kenny Fraser - Web Design, Front End Web Development and Digital Marketing professional based near Inverness in the Scottish Highlands.
-# >  this means to ignore newlines until "baseurl:"
-baseurl: ""                     # the subpath of your site, e.g. /blog/
-url: http://kennyfraser.com   # the base hostname & protocol for your site
+title:        Kenny Fraser
+description:  Kenny Fraser - Web Design, Front End Web Development and Digital Marketing - Inverness, Scottish Highlands
+url:          http://kennyfraser.com    # the base hostname & protocol for your site
+# baseurl:    ""                        # the subpath of your site, e.g. /blog/
+
 
 # Build settings
-markdown: kramdown
+markdown:     kramdown
 sass:
-    style: compressed
+    style:    compressed
+
 
 # Ruby Gems
 # gems:

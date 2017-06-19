@@ -7,7 +7,10 @@ quote_source: //en.wikiquote.org/wiki/The_Fountainhead
 quotee: Ayn Rand
 title: Clients
 ---
-People I've worked with over the past few years with various aspects of responsive web design and technical development.  For many of the sites listed, I've also undertaken:
+{% include availability.html %}
+
+Listed here are companies I've worked with in various aspects of responsive web design and technical development
+over the years.  For many of the sites listed, I've also undertaken:
 
 * content management & strategy
 * social media marketing
@@ -17,8 +20,6 @@ People I've worked with over the past few years with various aspects of responsi
 * payment service integration
 
 For testimonials on these projects see my [LinkedIn portfolio](//www.linkedin.com/in/kennyfraser).
-
-If you think you need this kind of work, [hire me](/hire-me).
 
 A **CMS** is a [Content Management System](//en.wikipedia.org/wiki/Content_management_system).
 

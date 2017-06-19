@@ -3,30 +3,34 @@ layout: default
 ---
 
 <div class="home">
-
+  
   <h1>Kenny Fraser</h1>
-
+  
+  {% include status.html %}
+  
+  {% include availability.html %}
+  
   <p>
-    I'm a web design, front end development and digital marketing professional.
-    Currently I work freelance from near Inverness in the Scottish Highlands. 
-    Find out more <a href="{{ '/about' | prepend: site.baseurl }}">about me</a> and the <a href="{{ '/clients' | prepend: site.baseurl }}">client companies I've worked with</a> using these <a href="{{ '/tools' | prepend: site.baseurl }}">tools and resources</a>.  
-    If you think I can help your business, <a href="{{ '/hire-me' | prepend: site.baseurl }}">send me an enquiry</a>.
+    Find out more <a href="{% link about.md %}">about me</a> and the
+    <a href="{% link clients.md %}">client companies I've worked with</a> using these
+    <a href="{% link tools.md %}">tools and resources</a>.
   </p>
-
+  
   <hr>
-
-  <h2 id="posts">Posts</h2> 
-
-  <p>Random esoteric things I discover while working that might conceivably be of use to someone else.</p> 
-
+  
+  <h2 id="posts">Posts</h2>
+  
+  <p>Just a few random, esoteric things I've discovered over the years.</p>
+  
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-hand-o-right"></i>&nbsp; {{ post.title }}</a> 
-        </h3>
-        {% comment %} ~ {{ post.date | date: "%b %-d, %Y" }} {% endcomment %}
-      </li>
+    <li>
+      <h3>
+        <a class="post-link" href="{{ post.url }}"><i class="fa fa-hand-o-right"></i>&nbsp; {{
+          post.title }}</a>
+      </h3>
+      {% comment %} ~ {{ post.date | date: "%b %-d, %Y" }} {% endcomment %}
+    </li>
     {% endfor %}
   </ul>
 

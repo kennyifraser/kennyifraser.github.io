@@ -46,26 +46,27 @@ A selection of web design, development and marketing tools and resources I've us
 
 ## Front End
 
+- <a href="//getbootstrap.com/" rel="external nofollow">Bootstrap</a>
 - <a href="//foundation.zurb.com/" rel="external nofollow">Foundation</a>
 - <a href="//html5boilerplate.com/" rel="external nofollow">HTML5 Boilerplate</a>
 - <a href="//nodejs.org/en/" rel="external nofollow">Node.js</a>
 - <a href="//www.npmjs.com/" rel="external nofollow">Node Package Manager</a>
-- <a href="//twitter.github.com/bootstrap/" rel="external nofollow">Twitter Bootstrap</a>
 
 ## Training
 
 - <a href="//www.codecademy.com/" rel="external nofollow">Codecademy</a>
-- <a href="//www.packtpub.com/packtlib" rel="external nofollow">Packt Library</a>
+- <a href="//www.lynda.com/" rel="external nofollow">Lynda.com</a>
+- <a href="//mapt.io/" rel="external nofollow">Mapt</a>
 - <a href="//referrals.trhou.se/kennyfraser" rel="external nofollow">Treehouse</a>
 - <a href="//www.udemy.com/" rel="external nofollow">Udemy</a>
 - <a href="//classroom.w3devcampus.com/course/category.php?id=22" rel="external nofollow">W3DevCampus</a>
 
 ## Podcasts
 
-- <a href="//ctrlclickcast.com/feed" rel="external nofollow">Ctrl+Click Cast</a>
-- <a href="//shoptalkshow.com/feed/podcast" rel="external nofollow">ShopTalk</a>
-- <a href="//feeds.5by5.tv/webahead" rel="external nofollow">The Web Ahead</a>
-- <a href="//feeds.feedburner.com/buzzsprout/uJEz" rel="external nofollow">Unfinished Business</a>
+- <a href="//ctrlclickcast.com/" rel="external nofollow">Ctrl+Click Cast</a>
+- <a href="//shoptalkshow.com/" rel="external nofollow">ShopTalk</a>
+- <a href="//thewebahead.net/" rel="external nofollow">The Web Ahead</a>
+- <a href="//www.unfinished.bz/" rel="external nofollow">Unfinished Business</a>
 
 ## Productivity
 
@@ -74,7 +75,6 @@ A selection of web design, development and marketing tools and resources I've us
 - <a href="//en.wikipedia.org/wiki/Getting_Things_Done/" rel="external nofollow">Getting Things Done</a>
 - <a href="//www.apple.com/macosx/" rel="external nofollow">Mac OS X</a>
 - <a href="//office.microsoft.com/en-gb/excel/" rel="external nofollow">Microsoft Excel</a>
-- <a href="//products.office.com/en-gb/sharepoint/collaboration" rel="external nofollow">Microsoft Sharepoint</a>
 - <a href="//www.omnigroup.com/omnifocus/" rel="external nofollow">OmniFocus</a>
 - <a href="//pomodorotechnique.com/" rel="external nofollow">Pomodoro Technique</a>
 - <a href="//www.quickbooks.co.uk/" rel="external nofollow">Quickbooks</a>

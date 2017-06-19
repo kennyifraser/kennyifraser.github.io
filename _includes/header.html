@@ -3,7 +3,7 @@
   <div class="wrapper">
 
     {% if page.url != '/' %}
-      <a class="site-title" href="{{ site.baseurl }}/" itemprop="url"><span itemprop=name>{{ site.title }}</span></a>
+      <a class="site-title" href="/" itemprop="url"><span itemprop=name>{{ site.title }}</span></a>
     {% endif %}
 
     <nav class="site-nav">
@@ -16,10 +16,10 @@
       </a>
 
       <div class="trigger">
-        <a class="page-link" href="{{ '/' | prepend: site.baseurl }}#posts">Posts</a>
+        <a class="page-link" href="/#posts">Posts</a>
         {% for page in site.pages %}
           {% if page.navigation %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <a class="page-link" href="{{ page.url }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
       </div>

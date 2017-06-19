@@ -2,8 +2,8 @@
 
   <div id="contact" class="wrapper">
 
-    <a href="{{ '/about' | prepend: site.baseurl }}">  
-      <img src="{{ '/img/kenny-fraser-inverness-web-designer.jpg' | prepend: site.baseurl }}" itemprop="image" alt="Kenny Fraser face, Inverness Web Designer and Developer" title="Kenny Fraser, Inverness Web Designer and Developer"> 
+    <a href="{% link about.md %}">
+      <img src="{{ '/img/kenny-fraser-inverness-web-designer.jpg' }}" itemprop="image" alt="Kenny Fraser face, Inverness Web Designer and Developer" title="Kenny Fraser, Inverness Web Designer and Developer">
       <!--https://secure.gravatar.com/avatar/f6d070fe4518a823b0905bbbfb5539cd?size=400-->
     </a>
 
@@ -41,19 +41,21 @@
           <i class="fa fa-google-plus fa-2x"></i>
         </a>
       </li>
+      {%comment%}
       <li>
-        <a href="{{ "/feed.xml" | prepend: site.baseurl }}" title="Kenny Fraser's Posts RSS feed">
+        <a href="/feed.xml" title="Kenny Fraser's Posts RSS feed">
           <i class="fa fa-rss fa-2x"></i>
-        </a>
-      </li>
-      <li>
-        <a href="skype:kennyfraser.com?chat" title="Kenny Fraser on Skype" rel="external me nofollow" itemprop="sameAs">
-          <i class="fa fa-skype fa-2x"></i>
         </a>
       </li>
       <li>
         <a href="http://instagram.com/kennyifraser" title="Kenny Fraser on Instagram" rel="external me nofollow" itemprop="sameAs">
           <i class="fa fa-instagram fa-2x"></i>
+        </a>
+      </li>
+      {%endcomment%}
+      <li>
+        <a href="skype:kennyfraser.com?chat" title="Kenny Fraser on Skype" rel="external me nofollow" itemprop="sameAs">
+          <i class="fa fa-skype fa-2x"></i>
         </a>
       </li>
       <li>
