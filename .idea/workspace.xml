@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383959f6-a946-4be0-9d7f-01c1fa31648f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/pdf/important-information-and-terms-for-clients.pdf" afterPath="$PROJECT_DIR$/_site/pdf/important-information-and-terms-for-clients.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdf/important-information-and-terms-for-clients.pdf" afterPath="$PROJECT_DIR$/pdf/important-information-and-terms-for-clients.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/availability.html" afterPath="$PROJECT_DIR$/_includes/availability.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/status.html" afterPath="$PROJECT_DIR$/_includes/status.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/amazon/rename-folders-in-S3.html" afterPath="$PROJECT_DIR$/_site/amazon/rename-folders-in-S3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/clients/index.html" afterPath="$PROJECT_DIR$/_site/clients/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/cms/upgrading-a-statamic-site-from-v1-to-v2.html" afterPath="$PROJECT_DIR$/_site/cms/upgrading-a-statamic-site-from-v1-to-v2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/github/setting-up-a-custom-domain-on-github-pages.html" afterPath="$PROJECT_DIR$/_site/github/setting-up-a-custom-domain-on-github-pages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/htaccess/301-redirect-filenames-with-spaces.html" afterPath="$PROJECT_DIR$/_site/htaccess/301-redirect-filenames-with-spaces.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/jekyll/new-portfolio-blog-site-on-github-pages.html" afterPath="$PROJECT_DIR$/_site/jekyll/new-portfolio-blog-site-on-github-pages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/learn/management-of-packt-publishing-packtlib-subscription.html" afterPath="$PROJECT_DIR$/_site/learn/management-of-packt-publishing-packtlib-subscription.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/productivity/convert-markdown-files-to-pdf.html" afterPath="$PROJECT_DIR$/_site/productivity/convert-markdown-files-to-pdf.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/productivity/extract-images-from-Word-file.html" afterPath="$PROJECT_DIR$/_site/productivity/extract-images-from-Word-file.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/thanks/index.html" afterPath="$PROJECT_DIR$/_site/thanks/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/tools/index.html" afterPath="$PROJECT_DIR$/_site/tools/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools.md" afterPath="$PROJECT_DIR$/tools.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +16,23 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="tools.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="342">
+                <caret line="18" column="72" lean-forward="false" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,11 +84,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/clients.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/tools.md" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_includes/status.html" />
         <option value="$PROJECT_DIR$/_includes/availability.html" />
+        <option value="$PROJECT_DIR$/tools.md" />
       </list>
     </option>
   </component>
@@ -272,23 +271,23 @@
       <workItem from="1493018361659" duration="3285000" />
       <workItem from="1497865565918" duration="5430000" />
       <workItem from="1498040828716" duration="100000" />
-      <workItem from="1502703563654" duration="329000" />
+      <workItem from="1502703563654" duration="481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26856000" />
+    <option name="totallyTimeSpent" value="27008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.113430485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.113430485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -575,18 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="148">
-            <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_unused/feed.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -615,6 +602,19 @@
         <state relative-caret-position="95">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="342">
+            <caret line="18" column="72" lean-forward="false" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
