@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383959f6-a946-4be0-9d7f-01c1fa31648f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/availability.html" afterPath="$PROJECT_DIR$/_includes/availability.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/status.html" afterPath="$PROJECT_DIR$/_includes/status.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -106,6 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -134,7 +135,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -256,12 +256,13 @@
       <workItem from="1493018361659" duration="3285000" />
       <workItem from="1497865565918" duration="5430000" />
       <workItem from="1498040828716" duration="100000" />
-      <workItem from="1502703563654" duration="960000" />
+      <workItem from="1502703563654" duration="1089000" />
+      <workItem from="1503226665181" duration="83000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27487000" />
+    <option name="totallyTimeSpent" value="27699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
@@ -563,7 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,9 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="643">
           <caret line="129" column="78" lean-forward="true" selection-start-line="129" selection-start-column="78" selection-end-line="129" selection-end-column="78" />
-          <folding>
-            <element signature="e#4856#4862#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,7 +586,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="342">
             <caret line="18" column="72" lean-forward="false" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
-            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -601,7 +596,7 @@
     <entry file="file://$PROJECT_DIR$/_includes/availability.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="68" lean-forward="false" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+          <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
           <folding />
         </state>
       </provider>
