@@ -115,6 +115,11 @@ Independent Scottish music label.  Responsive design with shopping cart. Design,
 Independent Scottish and Irish traditional music label featuring Battlefield Band. Design, PHP/MySQL and support. Previous work on a legacy site built with a custom CMS.  Visit
 <a href="//www.templerecords.co.uk" title="Temple Records" rel="external nofollow">Temple Records</a>.
 
+### Simpsons Home
+Inverness furniture retailer. Visit
+<a href="//www.simpsonshome.co.uk" title="Simpsons Home" rel="external nofollow">Simpsons Home</a>.
+
+
 ---
 
 ## Custom CMS Projects:
