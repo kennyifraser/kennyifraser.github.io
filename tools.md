@@ -2,9 +2,9 @@
 layout: page
 navigation: true
 permalink: /tools/
-quote: I suppose it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail.
-quote_source: //en.wikipedia.org/wiki/Law_of_the_instrument
-quotee: Abraham Maslow
+# quote: I suppose it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail.
+# quote_source: //en.wikipedia.org/wiki/Law_of_the_instrument
+# quotee: Abraham Maslow
 title: Tools
 ---
 A selection of web design, development and marketing tools and resources I've used and can generally recommend. 

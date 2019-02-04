@@ -2,9 +2,9 @@
 layout: page
 navigation: true
 permalink: /clients/
-quote: I don't intend to build in order to have clients; I intend to have clients in order to build.
-quote_source: //en.wikiquote.org/wiki/The_Fountainhead
-quotee: Ayn Rand
+# quote: I don't intend to build in order to have clients; I intend to have clients in order to build.
+# quote_source: //en.wikiquote.org/wiki/The_Fountainhead
+# quotee: Ayn Rand
 title: Clients
 ---
 {% include availability.html %}
