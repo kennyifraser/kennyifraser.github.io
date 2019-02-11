@@ -15,7 +15,7 @@ Yep that's right. Leaving, one month short of 10 years of membership.  I still i
 
 **What the... Why!?**
 
-Facebook just isn't useful, fun or rewarding enough for me any more, balanced against the time and attention it devours at regular intervals. Too much of the content I'm shown is just crap. I usually regret any time I spend on it. Not using Facebook at all is better than being part of it, in the grand scheme of things.
+Facebook just isn't useful, fun or rewarding enough for me any more, balanced against the time and attention it devours at regular intervals. Too much of the content I'm shown is just crap. It's too high maintenance and I usually regret any time I spend on it. Not using Facebook at all is better than being part of it, in the grand scheme of things.
 
 **But how will I get in touch with you in an Emergency?**
 
@@ -73,14 +73,10 @@ Use it for the benefit of mankind, as a force for good, blah blah blah.
 
 Haha! No-one would really ask this question.
 
-[Cal Newport](http://calnewport.com/) is a computing science professor who writes books and [blogs about](http://calnewport.com/blog/) using technology in healthier and more productive ways.
-
-A [guide to deleting Facebook](https://deletefacebook.com/) if you're thinking along the same lines. Has a current 'Facebook in the news' list.
-
-[Delete your account: leaving Facebook can make you happier, study finds](https://www.theguardian.com/technology/2019/feb/01/facebook-mental-health-study-happiness-delete-account)
-
-More [recent Facebook-related articles from The Guardian](https://www.theguardian.com/technology/facebook) - take your pick.
-
+* [Cal Newport](http://calnewport.com/) is a computing science professor who writes books and [blogs about](http://calnewport.com/blog/) using technology in healthier and more productive ways.
+* A [guide to deleting Facebook](https://deletefacebook.com/) with a current <em>Facebook in the news</em> list.
+* [Delete your account: leaving Facebook can make you happier, study finds](https://www.theguardian.com/technology/2019/feb/01/facebook-mental-health-study-happiness-delete-account)
+* More [recent Facebook-related articles from The Guardian](https://www.theguardian.com/technology/facebook) - take your pick.
 
 ---
 
