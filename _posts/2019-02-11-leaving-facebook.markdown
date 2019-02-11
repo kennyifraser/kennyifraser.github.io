@@ -33,13 +33,21 @@ They're pretty clever people, and they drive engagement with their platform in s
 
 Not too much, but kind of - and getting more so. There are stories every day in the media but we all make our own judgments based on our own evidence.
 
+**The government will sort out Facebook's questionable practices though.**
+
+You're kidding me, right?
+
 **Do I have to stop putting up photos of you?**
 
 I don't care about that, do what you like.
 
+**Does this mean I'll have to actually tell you about stuff, rather than rely on  you being kept informed by Facebook?**
+
+Yes. Sorry about that.
+
 **You're selfish for not giving the rest of us a window into your life!**
 
-Get out of here, nosey parker. If you're really my friend you'll be part of my life.
+Get out of here, nosey parker. If you're a friend or relative you'll be part of my life.
 
 **Don't you trust yourself to only use the good parts?**
 
@@ -47,7 +55,7 @@ No. And it's impossible to, it's been deliberately designed like that.
 
 **You'll miss out on a lot of fun stuff!**
 
-Not sure about that, but the rest of the Internet will still be there for me I suppose. If I want look at pictures of food, or videos of small animals and people falling over.
+The rest of the Internet will still be there for me I suppose. If I want look at pictures of food, videos of small animals or people falling over.
 
 **Do you think that the rest of us Facebook users are deluded then?**
 
