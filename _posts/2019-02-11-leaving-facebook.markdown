@@ -6,7 +6,7 @@
 date: 2019-02-11 12:00:00
 layout: post
 permalink: social-media/leaving-facebook
-title: "Leaving Facebook"
+title: "Leaving Facebook? What! Why?"
 ---
 
-blah blah blah
+Here's a [guide to deleting Facebook](https://deletefacebook.com/) if you're thinking along the same lines.
