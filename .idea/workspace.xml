@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383959f6-a946-4be0-9d7f-01c1fa31648f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-02-11-leaving-facebook.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-02-11-leaving-facebook.markdown" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,29 +19,12 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-02-11-leaving-facebook.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="348">
-                <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <first_editor relative-caret-position="744">
+                <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
               </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-              <folding>
-                <element signature="e#488#494#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -233,12 +215,12 @@
       <workItem from="1502703563654" duration="1089000" />
       <workItem from="1503226665181" duration="286000" />
       <workItem from="1549294354401" duration="1949000" />
-      <workItem from="1549883448912" duration="14611000" />
+      <workItem from="1549883448912" duration="14811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44462000" />
+    <option name="totallyTimeSpent" value="44662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1414" extended-state="0" />
@@ -584,8 +566,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-02-11-leaving-facebook.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="348">
-            <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <first_editor relative-caret-position="744">
+            <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />

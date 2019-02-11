@@ -45,10 +45,6 @@ I don't care about that, do what you like.
 
 Yes. Sorry about that.
 
-**You're selfish for not giving the rest of us a window into your life!**
-
-Get outta here! Nosey parker. If you're a friend or relative you'll be part of my life.
-
 **You'll miss out on a lot of fun stuff!**
 
 The rest of the Internet will still be there for me I suppose. If I want look at pictures of food, videos of small animals or people falling over.
@@ -56,10 +52,6 @@ The rest of the Internet will still be there for me I suppose. If I want look at
 **Don't you trust yourself to only use the good parts?**
 
 No. And it's impossible to, it's been deliberately designed like that.
-
-**Do you think that the rest of us Facebook users are deluded then?**
-
-We all know that vanity plays a part in our social media output, don't we now really...? Eh?
 
 **What about contact with distant friends and family?**
 
