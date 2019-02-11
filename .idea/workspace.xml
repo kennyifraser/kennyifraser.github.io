@@ -31,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-02-11-leaving-facebook.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="528">
-                <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <first_editor relative-caret-position="810">
+                <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -217,12 +217,12 @@
       <workItem from="1502703563654" duration="1089000" />
       <workItem from="1503226665181" duration="286000" />
       <workItem from="1549294354401" duration="1949000" />
-      <workItem from="1549883448912" duration="4883000" />
+      <workItem from="1549883448912" duration="5817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34734000" />
+    <option name="totallyTimeSpent" value="35668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1414" extended-state="0" />
@@ -563,8 +563,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-02-11-leaving-facebook.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="528">
-            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <first_editor relative-caret-position="810">
+            <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
