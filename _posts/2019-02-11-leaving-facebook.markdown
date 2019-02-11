@@ -13,7 +13,7 @@ Yep that's right. Leaving, one month short of 10 years of membership, it appears
 
 **WTF?**
 
-Facebook just isn't useful, fun or rewarding enough for me any more, balanced against the time and energy it devours at regular intervals.  And most of the broadly-shared content on there is crap, really. Overall, not using it at all is better than using it. That's the honest truth for me now, and I expect many others.
+Facebook just isn't useful, fun or rewarding enough for me any more, balanced against the time and energy it devours at regular intervals.  And most of the widely-shared content is crap, really. Overall, not using it at all is better than being part of it. I usually regret any time I've spent on it. That's the honest truth for me now, and I expect many others.
 
 **Aren't you just fundamentally anti-social?**
 
@@ -31,25 +31,29 @@ They're pretty clever people, and they drive engagement with their platform in s
 
 Not too much, but kind of - and getting more so I think. There are stories every day in the media but we all make our own judgments based on our own evidence.
 
+**You're selfish for not giving the rest of us a window into your life!**
+
+Get out of here, nosey parker.
+
 **Don't you trust yourself to only use the good parts?**
 
-No.
+No. And it's impossible to.
 
 **You'll miss out on a lot of fun stuff!**
 
-Not entirely sure about that, but the rest of the Internet will still be there for me I suppose, if I want look at pictures of food, or videos of small animals and people falling over.
+Not sure about that, but the rest of the Internet will still be there for me I suppose, if I want look at pictures of food, or videos of small animals and people falling over.
+
+**Do you think that the rest of us Facebook users are deluded then?**
+
+We all know that vanity plays a big part in our social media, don't we now really?
 
 **What about keeping up with distant friends and family?**
 
-I'll probably miss that the most, to be honest. But you know I still love you all x
+I'll probably miss that the most. But you know I still love you all x
 
 **What will you do with all the time you save?**
 
 Use it for the benefit of mankind, as a force for good, blah blah blah.
-
-**Do you think that the rest of us Facebook users are deluded then?**
-
-We all know that vanity plays a part in social media usage, don't we now really?
 
 **Give me a reading list!**
 

@@ -31,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-02-11-leaving-facebook.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1100">
-                <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <first_editor relative-caret-position="928">
+                <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -217,12 +217,12 @@
       <workItem from="1502703563654" duration="1089000" />
       <workItem from="1503226665181" duration="286000" />
       <workItem from="1549294354401" duration="1949000" />
-      <workItem from="1549883448912" duration="8054000" />
+      <workItem from="1549883448912" duration="8515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37905000" />
+    <option name="totallyTimeSpent" value="38366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1414" extended-state="0" />
@@ -563,8 +563,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-02-11-leaving-facebook.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1100">
-            <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <first_editor relative-caret-position="928">
+            <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
