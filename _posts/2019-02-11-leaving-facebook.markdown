@@ -47,7 +47,7 @@ Yes. Sorry about that.
 
 **You're selfish for not giving the rest of us a window into your life!**
 
-Get out of here, nosey parker. If you're a friend or relative you'll be part of my life.
+Get outta here! Nosey parker. If you're a friend or relative you'll be part of my life.
 
 **You'll miss out on a lot of fun stuff!**
 
@@ -77,7 +77,3 @@ Haha! No-one would really ask this question.
 * A [guide to deleting Facebook](https://deletefacebook.com/) with a current <em>Facebook in the news</em> list.
 * [Delete your account: leaving Facebook can make you happier, study finds](https://www.theguardian.com/technology/2019/feb/01/facebook-mental-health-study-happiness-delete-account)
 * More [recent Facebook-related articles from The Guardian](https://www.theguardian.com/technology/facebook) - take your pick.
-
----
-
-**See you on the other side!**
