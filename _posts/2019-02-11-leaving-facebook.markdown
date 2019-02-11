@@ -23,11 +23,11 @@ You might have my phone number or my email address.  I'll be on WhatsApp (I know
 
 **Aren't you just fundamentally anti-social?**
 
-Hope not, but that's for you to judge. Smiley winky face.
+Hope not, but that's for you to judge. Smiley winkyface emoji.
 
 **So what's wrong with Facebook?**
 
-They're clever people, and they drive engagement with their platform in subtle, insidious ways that aren't necessarily healthy or beneficial for us humans.
+They're clever people, and they drive engagement with their platform in subtle, insidious ways that aren't necessarily healthy or beneficial for us.
 
 **Are you concerned about privacy?**
 
@@ -49,13 +49,13 @@ Yes. Sorry about that.
 
 Get out of here, nosey parker. If you're a friend or relative you'll be part of my life.
 
-**Don't you trust yourself to only use the good parts?**
-
-No. And it's impossible to, it's been deliberately designed like that.
-
 **You'll miss out on a lot of fun stuff!**
 
 The rest of the Internet will still be there for me I suppose. If I want look at pictures of food, videos of small animals or people falling over.
+
+**Don't you trust yourself to only use the good parts?**
+
+No. And it's impossible to, it's been deliberately designed like that.
 
 **Do you think that the rest of us Facebook users are deluded then?**
 
@@ -65,7 +65,7 @@ We all know that vanity plays a part in our social media output, don't we now re
 
 I'll miss that the most. But you know I still love you all x.  We'll find other ways.
 
-**What will you do with all the time that you'll save?**
+**What will you do with all the time you'll save?**
 
 Use it for the benefit of mankind, as a force for good, blah blah blah.
 
@@ -75,9 +75,12 @@ Haha! No-one would really ask this question.
 
 [Cal Newport](http://calnewport.com/) is a computing science professor who writes books and [blogs about](http://calnewport.com/blog/) using technology in healthier and more productive ways.
 
-[Recent Facebook-related articles from The Guardian](https://www.theguardian.com/technology/facebook) - take your pick.
-
 A [guide to deleting Facebook](https://deletefacebook.com/) if you're thinking along the same lines. Has a current 'Facebook in the news' list.
+
+[Delete your account: leaving Facebook can make you happier, study finds](https://www.theguardian.com/technology/2019/feb/01/facebook-mental-health-study-happiness-delete-account)
+
+More [recent Facebook-related articles from The Guardian](https://www.theguardian.com/technology/facebook) - take your pick.
+
 
 ---
 
