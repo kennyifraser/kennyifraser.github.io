@@ -15,7 +15,7 @@ Yep that's right. Leaving, one month short of 10 years of membership.  I still i
 
 **What the... Why!?**
 
-Facebook just isn't useful, fun or rewarding enough for me any more, balanced against the time and attention it devours at regular intervals. Too much of the content I'm shown is just crap. It's too high maintenance and I usually regret any time I spend on it. Not using Facebook at all is better than being part of it, in the grand scheme of things.
+Facebook just isn't useful, fun or rewarding enough for me any more, balanced against the time and attention it devours at regular intervals. Too much of the content I'm shown is just crap. It's too high maintenance now and I usually regret any time I spend on it. Not using Facebook at all is better than being part of it, in the grand scheme of things.
 
 **But how will I get in touch with you in an Emergency?**
 
