@@ -11,6 +11,8 @@ title: "What, leaving Facebook? How dare you!"
 
 Yep that's right. Leaving, one month short of 10 years of membership, it appears.  I still intend to continue to exist in real life though.  Here's an effort to pre-empt the inevitable questions.
 
+![static](/img/static.png)
+
 **WTF?**
 
 Facebook just isn't useful, fun or rewarding enough for me any more, balanced against the time and energy it devours at regular intervals.  And most of the widely-shared content is crap, really. Overall, not using it at all is better than being part of it. I usually regret any time I've spent on it. That's the honest truth for me now, and I expect many others.
@@ -45,7 +47,7 @@ Not sure about that, but the rest of the Internet will still be there for me I s
 
 **Do you think that the rest of us Facebook users are deluded then?**
 
-We all know that vanity plays a big part in our social media, don't we now really?
+We all know that vanity plays a part in our social media usage, don't we now really?
 
 **What about keeping up with distant friends and family?**
 
@@ -55,7 +57,7 @@ I'll probably miss that the most. But you know I still love you all x
 
 Use it for the benefit of mankind, as a force for good, blah blah blah.
 
-**Give me a reading list!**
+**Can you give me a reading list?**
 
 Haha! No-one would really ask this question.
 
