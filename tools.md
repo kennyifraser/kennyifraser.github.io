@@ -7,7 +7,7 @@ permalink: /tools/
 # quotee: Abraham Maslow
 title: Tools
 ---
-A selection of web design, development and marketing tools and resources I've used.
+A selection of web design and development tools and resources I've used.
 
 ## Content Management
 
