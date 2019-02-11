@@ -15,19 +15,19 @@ Yep that's right. Leaving, one month short of 10 years of membership.  I still i
 
 **What the... Why!?**
 
-Facebook just isn't useful, fun or rewarding enough for me any more, balanced against the time and attention it devours at regular intervals.  Too much of the content I'm shown is crap. I usually regret any time I spend on it. Not using Facebook at all is better than being part of it, in the grand scheme of things.
+Facebook just isn't useful, fun or rewarding enough for me any more, balanced against the time and attention it devours at regular intervals. Too much of the content I'm shown is just crap. I usually regret any time I spend on it. Not using Facebook at all is better than being part of it, in the grand scheme of things.
+
+**But how will I get in touch with you in an Emergency?**
+
+You might have my phone number or my email address.  I'll be on WhatsApp (I know, it's owned by Facebook) and [Twitter](https://twitter.com/kennyfraser) - in a limited way for now at least. I might blog about the consequences, here. Or you might know my lovely wife who's a Facebook and Instagram ninja/addict.
 
 **Aren't you just fundamentally anti-social?**
 
 Hope not, but that's for you to judge. Smiley winky face.
 
-**But how will I get in touch with you in an Emergency?**
-
-You might have my phone number or my email address.  I'll be on WhatsApp (I know, it's owned by Facebook) and [Twitter](https://twitter.com/kennyfraser) - in a limited way for now at least. Or you might know my lovely wife who's a Facebook and Instagram ninja/addict.
-
 **So what's wrong with Facebook?**
 
-They're pretty clever people, and they drive engagement with their platform in subtle, insidious ways that aren't necessarily healthy or beneficial for us humans.
+They're clever people, and they drive engagement with their platform in subtle, insidious ways that aren't necessarily healthy or beneficial for us humans.
 
 **Are you concerned about privacy?**
 
@@ -63,7 +63,7 @@ We all know that vanity plays a part in our social media output, don't we now re
 
 **What about contact with distant friends and family?**
 
-I'll probably miss that the most. But you know I still love you all x.  We'll find other ways.
+I'll miss that the most. But you know I still love you all x.  We'll find other ways.
 
 **What will you do with all the time that you'll save?**
 
@@ -73,11 +73,11 @@ Use it for the benefit of mankind, as a force for good, blah blah blah.
 
 Haha! No-one would really ask this question.
 
-[Cal Newport](http://calnewport.com/) is a computing science professor who writes books and [blogs about](http://calnewport.com/blog/) using technology in healthy and productive ways, according to research.
+[Cal Newport](http://calnewport.com/) is a computing science professor who writes books and [blogs about](http://calnewport.com/blog/) using technology in healthier and more productive ways.
 
 [Recent Facebook-related articles from The Guardian](https://www.theguardian.com/technology/facebook) - take your pick.
 
-Here's a [guide to deleting Facebook](https://deletefacebook.com/) if you're thinking along the same lines. Has a current 'Facebook in the news' list.
+A [guide to deleting Facebook](https://deletefacebook.com/) if you're thinking along the same lines. Has a current 'Facebook in the news' list.
 
 ---
 
