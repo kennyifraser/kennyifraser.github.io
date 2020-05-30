@@ -60,7 +60,7 @@ A selection of web design and development tools and resources I've used.
 - <a href="//mapt.io/" rel="external nofollow">Mapt</a>
 - <a href="//referrals.trhou.se/kennyfraser" rel="external nofollow">Treehouse</a>
 - <a href="//www.udemy.com/" rel="external nofollow">Udemy</a>
-- <a href="//classroom.w3devcampus.com/course/category.php?id=22" rel="external nofollow">W3DevCampus</a>
+- <a href="//www.w3devcampus.com/courses/" rel="external nofollow">W3DevCampus</a>
 
 ## Podcasts
 
@@ -73,7 +73,7 @@ A selection of web design and development tools and resources I've used.
 
 - <a href="//basecamp.com/" rel="external nofollow">Basecamp</a>
 - <a href="//db.tt/92oSJ4R/" rel="external nofollow">Dropbox</a>
-- <a href="//en.wikipedia.org/wiki/Getting_Things_Done/" rel="external nofollow">Getting Things Done</a>
+- <a href="//en.wikipedia.org/wiki/Getting_Things_Done" rel="external nofollow">Getting Things Done</a>
 - <a href="//www.apple.com/macosx/" rel="external nofollow">Mac OS X</a>
 - <a href="//office.microsoft.com/en-gb/excel/" rel="external nofollow">Microsoft Excel</a>
 - <a href="//www.omnigroup.com/omnifocus/" rel="external nofollow">OmniFocus</a>

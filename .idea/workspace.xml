@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="383959f6-a946-4be0-9d7f-01c1fa31648f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/availability.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/availability.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/status.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/status.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/amazon/rename-folders-in-S3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/clients/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/clients/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/cms/upgrading-a-statamic-site-from-v1-to-v2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/github/setting-up-a-custom-domain-on-github-pages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/htaccess/301-redirect-filenames-with-spaces.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/jekyll/new-portfolio-blog-site-on-github-pages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/learn/management-of-packt-publishing-packtlib-subscription.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/productivity/convert-markdown-files-to-pdf.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/productivity/extract-images-from-Word-file.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/thanks/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/thanks/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tools/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tools/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-02-12-this-site-is-born-from-Jekyll-and-GitHub.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016-02-12-this-site-is-born-from-Jekyll-and-GitHub.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-02-11-leaving-facebook.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-02-11-leaving-facebook.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/tools.md" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,12 +46,22 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Markdown" />
   </component>
@@ -79,18 +74,6 @@
       <recent name="$PROJECT_DIR$/_unused" />
       <recent name="$PROJECT_DIR$/.unused" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="js.build_tools.gulp">
@@ -128,27 +111,31 @@
       <workItem from="1549294354401" duration="1949000" />
       <workItem from="1549883448912" duration="15038000" />
       <workItem from="1568381165801" duration="27000" />
-      <workItem from="1568381262722" duration="552000" />
+      <workItem from="1568381262722" duration="859000" />
+      <workItem from="1568387926941" duration="202000" />
+      <workItem from="1568628130572" duration="75000" />
+      <workItem from="1586166927041" duration="7000" />
+      <workItem from="1590816171235" duration="357000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
