@@ -18,7 +18,13 @@ for a wide range of [client businesses](/clients).
 These included online retailers, record companies, accommodation providers, agricultural suppliers and
 medical-scientific organisations.
 
-I live on the rural [Black Isle](//www.black-isle.info/), near Inverness in the Scottish Highlands, with my wife and two children.  I own and manage Back Brae Lodge, a [self catering holiday cottage in Tobermory](//mull.co) on the Isle of Mull.  I'm a member of the [Highland Web Group](//www.meetup.com/Highland-Web-Group/), an informal meetup of local web professionals.
+Between 2017 and 2019 I was part of the Webteam at the [University of the Highlands and Islands](//www.uhi.ac.uk/en/), working on the University's content management system, supporting users and developing the front end.
+
+I live on the rural [Black Isle](//www.black-isle.info/), near Inverness in the Scottish Highlands, with my wife and two children.  I own and manage Back Brae Lodge, a [self catering holiday cottage in Tobermory](//mull.co) on the Isle of Mull.  
+
+{% comment %}
+I'm a member of the [Highland Web Group](//www.meetup.com/Highland-Web-Group/), an informal meetup of local web professionals.
+{% endcomment %}
 
 In a former life I was a musician, performing internationally with [Salsa Celtica](//salsaceltica.com) and other bands, and teaching Scottish traditional music with [Feisean Nan Gaidheal](//feisean.org/). In an even former life, [Edinburgh University](//www.ed.ac.uk/) gave me a degree in Biochemistry.
 
