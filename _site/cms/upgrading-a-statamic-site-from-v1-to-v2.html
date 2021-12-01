@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Person" lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>Upgrading a Statamic site from v1 to v2 | Kenny Fraser</title>
+  <meta name="description" content="Web Business Services - Web Design and Front End Web Development - Inverness, Scottish Highlands">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css?v=20170619">
+  <link rel="canonical" href="http://localhost:4000/cms/upgrading-a-statamic-site-from-v1-to-v2">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-293002-9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-293002-9');
+  </script>
+
+</head>
+
+
+<body id="top">
+
+<header class="site-header">
+
+  <div class="wrapper">
+
+    
+      <a class="site-title" href="/" itemprop="url"><span itemprop=name>Kenny Fraser</span></a>
+    
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        <a class="page-link" href="/">Home</a>
+        <a class="page-link" href="/#posts">Articles</a>
+        
+          
+          <a class="page-link" href="/about/">About Me</a>
+          
+        
+          
+          <a class="page-link" href="/clients/">Clients</a>
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/tools/">Tools</a>
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+<div class="page-content">
+  <div class="wrapper">
+    <div class="post">
+
+	<header class="post-header">
+		<h1 class="post-title">Upgrading a Statamic site from v1 to v2</h1>
+		<p class="post-meta">
+			May 06, 2016
+			
+				<br><em>(last updated 18:00 May 06, 2016)</em> 
+			
+		</p>
+	</header>
+
+	<article class="post-content">
+		<p><a href="//statamic.com">Statamic</a> is a flat-file, <a href="//laravel.com/">Laravel</a>-based content management system built and supported by <a href="//wilderborn.com/">Wilderborn</a> (<a href="//twitter.com/jackmcdade">Jack McDade</a>, <a href="//twitter.com/jason_varga">Jason Varga</a> and <a href="//twitter.com/garethredfern">Gareth Redfern</a>).  It’s great to work with.  I had the opportunity to upgrade a v1 site this week, so here’s my tuppence-worth.</p>
+
+<p>The Statamic v2 documentation is excellent, taking the form of <a href="//docs.statamic.com/guides">Trail Guides</a> as walk-through processes, and <a href="//docs.statamic.com/reference">Reference</a> for the specific ingredients.  It’s written in a conversational style with a liberal sprinkling of unselfconscious humour…</p>
+
+<p>Overall it’s a case of:</p>
+
+<ul>
+  <li>setting up a clean v2 installation, which includes example content</li>
+  <li>removing the example content and files (optional)</li>
+  <li>transferring v1 files across in a sensible order - no database to worry about</li>
+</ul>
+
+<h2 id="v2-installation">v2 Installation</h2>
+
+<p><a href="//docs.statamic.com/guides/getting-started">Getting Started With Statamic</a> walks through setting up Statamic v2, and there’s a <a href="https://vimeo.com/165632057">useful video on Vimeo</a>.</p>
+
+<p><a href="//www.mamp.info/en/">Mamp Pro</a> was the tool of choice for my local installation.</p>
+
+<p>To configure URL rewrites, the sample <em>.htaccess</em> file should really be used so <em>/index.php/</em> is removed from resulting URLs.</p>
+
+<p>The <em>installer.php</em> file can be run locally to check requirements and set up a few handy things.  This seemed to cleverly delete itself after running locally, so I had to find it again to copy it up to the production server to check that.  For the production site I’m transferring hosts to get the required <em>PHP &gt;= 5.5.9</em> version, though this wasn’t unexpected and not a big deal, with performance improvements also on offer at the new host.  <em>Zip archive support for updater backups</em> failed on production, and <em>always_populate_raw_post_data=-1</em> on both production and local.  Not to worry, for now at least.</p>
+
+<p>System files can be <a href="//docs.statamic.com/reference/recipes/secure-installation">moved above webroot</a> for additional security.  There’s a bit of extra work there in adjusting default paths in settings files.</p>
+
+<p>The one-click updater tool in v2 is a potentially great time-saving addition.</p>
+
+<h2 id="clear-site-to-remove-v2-example-files">Clear Site to Remove v2 Example Files</h2>
+
+<p>There’s a handy wee command line instruction to do this, with options:</p>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php"><span class="n">php</span> <span class="n">please</span> <span class="n">clear</span><span class="o">:</span><span class="n">site</span></code></pre></figure>
+
+<p><a href="https://vimeo.com/164430243">Best described in this video</a>.  It can also create a new theme skeleton for you.</p>
+
+<p>This is optional and can be done after importing your v1 site, as I did after Jack pointed out the video.  However since it wipes <strong>all</strong> <em>/themes/</em>, <em>/collections/</em> and /<em>pages</em>/ subdirectories, in retrospect I’d recommend instead:</p>
+
+<ul>
+  <li>set up and play locally with the example files on a complete v2 site</li>
+  <li>set up a fresh v2 site and run Clear Site before the next v1 site import step</li>
+</ul>
+
+<p>If you don’t choose to Clear Site, example content <em>/pages/</em> and <em>/collections/</em> subdirectory names can be prefixed with an underscore to hide but retain them for future reference.</p>
+
+<h2 id="moving-v1-files">Moving v1 Files</h2>
+
+<p><a href="//docs.statamic.com/guides/upgrading-from-v1">You Can Get Here From There</a> clears a path through the undergrowth for an upgrade from v1.</p>
+
+<p>The v2 Control Panel is now located at <em>http://yourdomain/cp/</em> - this nugget tucked away in the docs under <em>New Defaults</em>. So <em>Tools : Import</em> then <em>Import content from Statamic v1</em> instructs you to download an <em>exporter</em> add-on for installation into your <strong>v1</strong> site.  Visit the generated URL for a JSON string which can be pasted back into your v2 control panel.  The result was:</p>
+
+<ul>
+  <li>v1 <em>Entries</em> were taken in as new v2 <em>Collections</em></li>
+  <li><em>Pages</em> are transformed to their v2 equivalents</li>
+</ul>
+
+<p>Nice.</p>
+
+<p>A few variables had to be renamed for the site to start working again - for example:</p>
+
+<p>{{ layout_content }}</p>
+
+<p>…becomes:</p>
+
+<p>{{ template_content }}</p>
+
+<p>…and underscores needed removed from various variables.</p>
+
+<p>The custom theme from the <em>/themes/</em> directory had to be moved across manually.  Assets can be similarly copied across from the v1 <em>/assets/</em> directory to the corresponding v2 location.</p>
+
+<p>Optionally (as <em>entries:listing</em> is backwards-compatible), the main change here is renaming <em>entries</em> in the template code:</p>
+
+<p>{{ entries:listing folder=”example” }}…{{ /entries:listing }}</p>
+
+<p>… as <em>collections</em>:</p>
+
+<p>{{ collection:example }}…{{ /collection:example }}</p>
+
+<hr />
+
+<p>That was it!  Up and running locally with v2.  The original v1 site wasn’t enormously complicated but I guess the principles would probably remain the same if it had been.  The main process just took a couple of hours as a first attempt, and the next v1 upgrade will go a lot quicker I’m sure.</p>
+
+<p>There’s a high degree of integrity about Statamic that makes it very reassuring to work with, and their <a href="//slack.statamic.com">Slack</a> v2 support channel is very active.</p>
+
+<p><img src="/img/statamic.png" alt="Statamic" /></p>
+
+	</article>
+	
+	
+	
+</div>
+  </div>
+</div>
+
+<footer>
+
+  <div id="contact" class="wrapper">
+  
+    
+
+    <p class="text" itemprop="description">Web Business Services - Web Design and Front End Web Development - Inverness, Scottish Highlands</p>
+
+    <ul class="social-media-list">
+
+      <li>
+        <a href="mailto:me@kennyfraser.com" title="send Kenny Fraser an email">
+          <i class="fa fa-envelope-o fa-2x"></i>&nbsp;&nbsp;<span itemprop="email">me@kennyfraser.com</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://linkedin.com/in/kennyfraser" itemprop="sameAs" rel="external me nofollow" target="_blank" title="Kenny Fraser on LinkedIn" >
+          <i class="fa fa-linkedin fa-2x"></i>&nbsp;&nbsp;LinkedIn profile
+        </a>
+      </li>
+      
+      
+
+    </ul>
+  
+    
+    
+    <p style="margin-top:3rem">
+      <a href="#top"><i class="fa fa-hand-o-up"></i>&nbsp;back to top</a>
+    </p>
+
+  </div> <!-- wrapper -->
+
+</footer>
+
+</body>
+
+</html>

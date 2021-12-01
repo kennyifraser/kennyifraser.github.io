@@ -7,14 +7,13 @@
   <meta name=viewport content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <title>Inverness Web Design, Build &amp; Maintain - Kenny
-    Fraser</title>
+  <title>Setting up a custom domain on GitHub Pages | Kenny Fraser</title>
   <meta name="description" content="Web Business Services - Web Design and Front End Web Development - Inverness, Scottish Highlands">
   
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/main.css?v=20170619">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/github/setting-up-a-custom-domain-on-github-pages">
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -48,6 +47,8 @@
 
   <div class="wrapper">
 
+    
+      <a class="site-title" href="/" itemprop="url"><span itemprop=name>Kenny Fraser</span></a>
     
 
     <nav class="site-nav">
@@ -89,84 +90,42 @@
 
 <div class="page-content">
   <div class="wrapper">
-    <div class="home">
-  
-  <h1>Kenny Fraser</h1>
-  
-  <h2>Web Business Services</h2>
-  
-  <p>
-  I design and build websites for small businesses. I also take over upgrade and management of websites that have fallen by the wayside. I'm based near Inverness in the Scottish Highlands.
-</p>
+    <div class="post">
 
-  
-  <p>
-  I'm now available for freelance work again, so get in touch if you're interested in working together. I support small
-  business clients locally, throughout Scotland and the wider UK.
-</p>
-  
-  <p>
-    Find out more <a href="/about/">about me</a> and the
-    <a href="/clients/">client companies I've worked with</a> using these
-    <a href="/tools/">tools and resources</a>.
-  </p>
-  
-  <a href="mailto:me@kennyfraser.com" title="send Kenny Fraser an email">
-    <i class="fa fa-envelope-o fa-2x"></i>&nbsp;&nbsp;<span itemprop="email">me@kennyfraser.com</span>
-  </a>
-  
-  <hr>
-  
-  <h2 id="posts">Articles</h2>
-  
-  <ul class="post-list">
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/productivity/convert-markdown-files-to-pdf"><i class="fa fa-hand-o-right"></i>&nbsp; Quickly convert Markdown files to pdf</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/cms/upgrading-a-statamic-site-from-v1-to-v2"><i class="fa fa-hand-o-right"></i>&nbsp; Upgrading a Statamic site from v1 to v2</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/productivity/extract-images-from-Word-file"><i class="fa fa-hand-o-right"></i>&nbsp; Extracting embedded images from a Word file</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/htaccess/301-redirect-filenames-with-spaces"><i class="fa fa-hand-o-right"></i>&nbsp; 301 redirects in .htaccess for filenames with spaces</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/github/setting-up-a-custom-domain-on-github-pages"><i class="fa fa-hand-o-right"></i>&nbsp; Setting up a custom domain on GitHub Pages</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/jekyll/new-portfolio-blog-site-on-github-pages"><i class="fa fa-hand-o-right"></i>&nbsp; This site is born from Jekyll and GitHub</a>
-      </h3>
-      
-    </li>
-    
-  </ul>
-  
+	<header class="post-header">
+		<h1 class="post-title">Setting up a custom domain on GitHub Pages</h1>
+		<p class="post-meta">
+			February 13, 2016
+			
+				<br><em>(last updated 07:30 May 30, 2020)</em> 
+			
+		</p>
+	</header>
+
+	<article class="post-content">
+		<p>What I wanted was <em>https://kennyfraser.com</em> to be the definitive URL of this site, and <a href="http://www.kennyfraser.com/">https://www.kennyfraser.com</a> to redirect there.</p>
+
+<p><a href="https://help.github.com/en/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site">Using the instructions here</a> I had to <a href="https://help.github.com/articles/setting-up-your-pages-site-repository/">add a CNAME <em>file</em> to my GitHub User repository</a> as well as <a href="https://help.github.com/articles/setting-up-a-custom-subdomain/">configure a CNAME <em>record</em></a> at the DNS service provider (Fasthosts).</p>
+
+<p>The GitHub CNAME file contents are just:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">kennyfraser.com</code></pre></figure>
+
+<p><strong>Don’t make this mistake</strong> in the DNS provider’s CNAME records:</p>
+
+<p><img src="/img/CNAME-records-fasthosts-github-pages.png" alt="CNAME records at Fasthosts" /></p>
+
+<p>Using a blank hostname in the CNAME records can mess up the MX routing for email, and possibly other services.</p>
+
+<p>The <em>www</em> Host Name CNAME record points to my <em>username.github.io</em>. This is the recommended <a href="https://help.github.com/en/github/working-with-github-pages/about-custom-domains-and-github-pages">custom subdomain</a> for best performance.</p>
+
+<p>Two <a href="https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site">A Records for the apex <em>(non-www)</em> domain</a> with Github IP addresses are also necessary.  GitHub Pages <a href="https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/">automatically creates a redirect</a> between the <em>www</em> and <em>non-www</em> versions of the domain, depending on the contents of the CNAME <em>file</em>.</p>
+
+	</article>
+	
+	
+	
 </div>
-
   </div>
 </div>
 

@@ -1,7 +1,7 @@
 # Site settings
 title:        Kenny Fraser
 description:  Web Business Services - Web Design and Front End Web Development - Inverness, Scottish Highlands
-url:          http://kennyfraser.com    # the base hostname & protocol for your site
+url:          https://kennyfraser.com   # the base hostname & protocol for your site
 # baseurl:    ""                        # the subpath of your site, e.g. /blog/
 
 

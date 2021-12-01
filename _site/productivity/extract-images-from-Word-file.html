@@ -7,14 +7,13 @@
   <meta name=viewport content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <title>Inverness Web Design, Build &amp; Maintain - Kenny
-    Fraser</title>
+  <title>Extracting embedded images from a Word file | Kenny Fraser</title>
   <meta name="description" content="Web Business Services - Web Design and Front End Web Development - Inverness, Scottish Highlands">
   
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/main.css?v=20170619">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/productivity/extract-images-from-Word-file">
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -48,6 +47,8 @@
 
   <div class="wrapper">
 
+    
+      <a class="site-title" href="/" itemprop="url"><span itemprop=name>Kenny Fraser</span></a>
     
 
     <nav class="site-nav">
@@ -89,84 +90,43 @@
 
 <div class="page-content">
   <div class="wrapper">
-    <div class="home">
-  
-  <h1>Kenny Fraser</h1>
-  
-  <h2>Web Business Services</h2>
-  
-  <p>
-  I design and build websites for small businesses. I also take over upgrade and management of websites that have fallen by the wayside. I'm based near Inverness in the Scottish Highlands.
-</p>
+    <div class="post">
 
-  
-  <p>
-  I'm now available for freelance work again, so get in touch if you're interested in working together. I support small
-  business clients locally, throughout Scotland and the wider UK.
-</p>
-  
-  <p>
-    Find out more <a href="/about/">about me</a> and the
-    <a href="/clients/">client companies I've worked with</a> using these
-    <a href="/tools/">tools and resources</a>.
-  </p>
-  
-  <a href="mailto:me@kennyfraser.com" title="send Kenny Fraser an email">
-    <i class="fa fa-envelope-o fa-2x"></i>&nbsp;&nbsp;<span itemprop="email">me@kennyfraser.com</span>
-  </a>
-  
-  <hr>
-  
-  <h2 id="posts">Articles</h2>
-  
-  <ul class="post-list">
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/productivity/convert-markdown-files-to-pdf"><i class="fa fa-hand-o-right"></i>&nbsp; Quickly convert Markdown files to pdf</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/cms/upgrading-a-statamic-site-from-v1-to-v2"><i class="fa fa-hand-o-right"></i>&nbsp; Upgrading a Statamic site from v1 to v2</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/productivity/extract-images-from-Word-file"><i class="fa fa-hand-o-right"></i>&nbsp; Extracting embedded images from a Word file</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/htaccess/301-redirect-filenames-with-spaces"><i class="fa fa-hand-o-right"></i>&nbsp; 301 redirects in .htaccess for filenames with spaces</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/github/setting-up-a-custom-domain-on-github-pages"><i class="fa fa-hand-o-right"></i>&nbsp; Setting up a custom domain on GitHub Pages</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/jekyll/new-portfolio-blog-site-on-github-pages"><i class="fa fa-hand-o-right"></i>&nbsp; This site is born from Jekyll and GitHub</a>
-      </h3>
-      
-    </li>
-    
-  </ul>
-  
+	<header class="post-header">
+		<h1 class="post-title">Extracting embedded images from a Word file</h1>
+		<p class="post-meta">
+			April 08, 2016
+			
+		</p>
+	</header>
+
+	<article class="post-content">
+		<p>Here’s a great wee tip <a href="http://cnedelcu.blogspot.co.uk/2013/02/top-3-ways-to-extract-images-from-word-docx-doc-document.html">which I discovered here</a>, solving an issue which has bugged me for years.</p>
+
+<p>If you need to extract images from a Word file that someone has supplied, at their original full resolution, just:</p>
+
+<ul>
+  <li>
+    <p>Open then Save it from a current version of Word as a <em>.docx</em> file</p>
+  </li>
+  <li>
+    <p>Duplicate and rename the Word file, changing the extension from <em>.docx</em> to <em>.zip</em></p>
+  </li>
+  <li>
+    <p>Open the unzipped directory and navigate to <em>/filename/word/media/</em></p>
+  </li>
+  <li>
+    <p>Voilà! There they are.</p>
+  </li>
+</ul>
+
+<p><img src="/img/extract-images-from-Word-file.png" alt="get embedded images from a Word file" /></p>
+
+	</article>
+	
+	
+	
 </div>
-
   </div>
 </div>
 

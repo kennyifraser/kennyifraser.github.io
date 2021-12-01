@@ -1,0 +1,12 @@
+I"W<p>I was working on a site where pages had originally been named using an old WYSIWYG editor, with spaces in the filenames.  These were being served up OK in the browser, which URL-encoded the space (as an <a href="http://www.w3schools.com/tags/ref_urlencode.asp">unsafe ASCII character</a>) to <em>%20</em> :</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">http://example.com/old%20filename%20with%20spaces.htm</code></pre></figure>
+
+<p>However when using this URL-encoded format in the <em>.htaccess</em> file, the server generated an error for the <em>301 Redirect</em> lines:</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">Redirect 301 /old%20filename%20with%20spaces.htm /nice-clean-new-url/</code></pre></figure>
+
+<p>The correct way to redirect filenames with spaces in <em>.htaccess</em> is by leaving the spaces, and quoting the filename:</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">Redirect 301 <span class="s2">"/old filename with spaces.htm"</span> /nice-clean-new-url/</code></pre></figure>
+:ET

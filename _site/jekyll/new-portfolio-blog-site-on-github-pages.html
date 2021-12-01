@@ -7,14 +7,13 @@
   <meta name=viewport content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <title>Inverness Web Design, Build &amp; Maintain - Kenny
-    Fraser</title>
+  <title>This site is born from Jekyll and GitHub | Kenny Fraser</title>
   <meta name="description" content="Web Business Services - Web Design and Front End Web Development - Inverness, Scottish Highlands">
   
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/main.css?v=20170619">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/jekyll/new-portfolio-blog-site-on-github-pages">
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -48,6 +47,8 @@
 
   <div class="wrapper">
 
+    
+      <a class="site-title" href="/" itemprop="url"><span itemprop=name>Kenny Fraser</span></a>
     
 
     <nav class="site-nav">
@@ -89,84 +90,58 @@
 
 <div class="page-content">
   <div class="wrapper">
-    <div class="home">
-  
-  <h1>Kenny Fraser</h1>
-  
-  <h2>Web Business Services</h2>
-  
-  <p>
-  I design and build websites for small businesses. I also take over upgrade and management of websites that have fallen by the wayside. I'm based near Inverness in the Scottish Highlands.
-</p>
+    <div class="post">
 
-  
-  <p>
-  I'm now available for freelance work again, so get in touch if you're interested in working together. I support small
-  business clients locally, throughout Scotland and the wider UK.
-</p>
-  
-  <p>
-    Find out more <a href="/about/">about me</a> and the
-    <a href="/clients/">client companies I've worked with</a> using these
-    <a href="/tools/">tools and resources</a>.
-  </p>
-  
-  <a href="mailto:me@kennyfraser.com" title="send Kenny Fraser an email">
-    <i class="fa fa-envelope-o fa-2x"></i>&nbsp;&nbsp;<span itemprop="email">me@kennyfraser.com</span>
-  </a>
-  
-  <hr>
-  
-  <h2 id="posts">Articles</h2>
-  
-  <ul class="post-list">
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/productivity/convert-markdown-files-to-pdf"><i class="fa fa-hand-o-right"></i>&nbsp; Quickly convert Markdown files to pdf</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/cms/upgrading-a-statamic-site-from-v1-to-v2"><i class="fa fa-hand-o-right"></i>&nbsp; Upgrading a Statamic site from v1 to v2</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/productivity/extract-images-from-Word-file"><i class="fa fa-hand-o-right"></i>&nbsp; Extracting embedded images from a Word file</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/htaccess/301-redirect-filenames-with-spaces"><i class="fa fa-hand-o-right"></i>&nbsp; 301 redirects in .htaccess for filenames with spaces</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/github/setting-up-a-custom-domain-on-github-pages"><i class="fa fa-hand-o-right"></i>&nbsp; Setting up a custom domain on GitHub Pages</a>
-      </h3>
-      
-    </li>
-    
-    <li>
-      <h3>
-        <a class="post-link" href="/jekyll/new-portfolio-blog-site-on-github-pages"><i class="fa fa-hand-o-right"></i>&nbsp; This site is born from Jekyll and GitHub</a>
-      </h3>
-      
-    </li>
-    
-  </ul>
-  
+	<header class="post-header">
+		<h1 class="post-title">This site is born from Jekyll and GitHub</h1>
+		<p class="post-meta">
+			February 12, 2016
+			
+				<br><em>(last updated 21:00 March 30, 2016)</em> 
+			
+		</p>
+	</header>
+
+	<article class="post-content">
+		<p>I was considering moving my simple portfolio site at <em>kennyfraser.com</em> to a more streamlined publishing setup.  I wanted to get away from hand-coded HTML/CSS files and FTP, and add simple blog functionality.</p>
+
+<p>After hearing good things about <a href="https://jekyllrb.com/">Jekyll</a> via <a href="https://css-tricks.com/">CSS-Tricks</a> and seeing how tightly coupled it can be with <a href="https://pages.github.com/">GitHub Pages</a>, I forged ahead.  Ironically, after beginning the installation process, my existing VPS host went down due to a power outage, taking my email forwarding with it.  No emails for more than 24 hours.  So managed to get a <em>lot</em> done…</p>
+
+<p>Jekyll seems to be the <a href="https://www.staticgen.com/">most popular static site generator</a> out there at the moment.  Experience of building sites with the content management system <a href="http://statamic.com/">Statamic</a> has been very good so far.  Statamic needs PHP on the server but the flat file construction looks on the surface pretty similar to Jekyll (which doesn’t require any server scripting).</p>
+
+<p>Installation of Jekyll involved delving into the command line on OS X - I mainly used documentation at <a href="http://jekyllrb.com/docs/installation/">Jekyll</a> and <a href="https://gorails.com/setup/osx/10.11-el-capitan">Go Rails</a> (with Homebrew). <a href="https://nodejs.org/en/">Node.js</a> is also needed.</p>
+
+<p>The advantages pretty quicky made themselves clear:</p>
+
+<ul>
+  <li><a href="https://daringfireball.net/projects/markdown/">Markdown</a> for writing blog posts and page content - as it should be</li>
+  <li>easily generates a local server at <em>http://localhost:4000/</em> to preview the entire site, via the command line <em>jekyll serve</em></li>
+  <li>support for <a href="http://sass-lang.com/">Sass</a> generation of stylesheets</li>
+  <li>code syntax highlighting</li>
+  <li>fast performance and no database overhead</li>
+</ul>
+
+<p>My GitHub command line skills aren’t yet fully formed, so I’m using <a href="https://desktop.github.com/">GitHub Desktop</a> to commit changes to local files then sync them with GitHub Pages.  Highlights here are:</p>
+
+<ul>
+  <li><em>everything</em> is easily version controllable</li>
+  <li>quick and easy publishing with <em>Sync</em></li>
+  <li>speedy and reliable hosting</li>
+</ul>
+
+<p>Will I run into limitations later? Probably. But right now things are <em>quick and easy</em> - I like it.</p>
+
+<p><a href="http://jekyllrb.com/"><img src="/img/jekyll-logo.png" alt="Jekyll static site generator" /></a></p>
+
+<p>Eduardo Bouças has written a good <a href="https://davidwalsh.name/introduction-static-site-generators">comparison of static vs dynamic site generators</a>.</p>
+
+<p>Treehouse has a short workshop on how to <a href="https://teamtreehouse.com/library/create-a-jekyll-site-on-github">Create a Jekyll Site on Github</a>. This assumes that Github is doing the work in generating your site from remote source files, rather than running a local version.</p>
+
+	</article>
+	
+	
+	
 </div>
-
   </div>
 </div>
 
