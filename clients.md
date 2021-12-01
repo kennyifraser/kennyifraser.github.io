@@ -45,6 +45,9 @@ Self catering holiday accommodation, Tobermory, Isle of Mull.  A responsive desi
 ### Greentrax Recordings
 Independent Scottish music label.  Responsive design with shopping cart. Design, development, shopping cart and payment service integration, music samples, content management, email marketing and support. Visit [Greentrax Recordings](//www.greentrax.com).
 
+### Chanonry View
+Self catering holiday accommodation on the Black Isle in the Highlands.  Responsive design with PayPal button integration for booking. Visit [Chanonry View](//fortroseholidaylet.co.uk).
+
 ---
 
 ## Shopify ecommerce CMS Projects
