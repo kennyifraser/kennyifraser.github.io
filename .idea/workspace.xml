@@ -5,48 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="383959f6-a946-4be0-9d7f-01c1fa31648f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/0b/909ed4bd57ef5dda13fc49fc8fa2e3e201ffe9d22dada2706a0623adb23b5f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/28/6dc7e2bea9528f973b1932f9118a13f1bd1558feacb60ba9d60eb5fe77deca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/5b/74f17551fb7a28e31791cb9bffd52b551d7b26a06fdf78c4eec9763e663be6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/81/332be81accd0d93504a68f78eb0e7d7b2c3b7a052642f6879e90abb94fb93b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/9f/6bda9d1d10b1de928ee65ee2f0a46ec9ecee376ed68023f95105d5d080b39b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/b6/e89527317042c15c23c123a613506cdcd95a905af59891e8b3640c12988505" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/c9/da8af7a81f1a7f81e2284b1f29f52afe65985ef0516994c76042b2e83104ff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e0/5f8431dd6d250d5075f9b50e05dfbb9b42ef3360142aac433aa66acad3b8b3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/e9/a7c7fa2ae04f9086cf6354b05b5cf587f49bdb0367cafc7d5058dc527b0450" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/android-chrome-384x384.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/cms/upgrading-a-statamic-site-from-v1-to-v2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/css/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/github/setting-up-a-custom-domain-on-github-pages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/htaccess/301-redirect-filenames-with-spaces.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/jekyll/new-portfolio-blog-site-on-github-pages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/productivity/convert-markdown-files-to-pdf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/productivity/extract-images-from-Word-file.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/site.webmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/kennyifraser.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kennyifraser.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/_site/CNAME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/_site/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/clients/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/clients/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/social-media/leaving-facebook.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/thanks/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tools/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tools/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients.md" beforeDir="false" afterPath="$PROJECT_DIR$/clients.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +141,7 @@
       <workItem from="1638296967090" duration="597000" />
       <workItem from="1638361748445" duration="282000" />
       <workItem from="1638362284870" duration="89000" />
-      <workItem from="1638366171727" duration="236000" />
+      <workItem from="1638366171727" duration="3349000" />
     </task>
     <servers />
   </component>

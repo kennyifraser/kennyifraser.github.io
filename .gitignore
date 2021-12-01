@@ -1,5 +1,4 @@
 .DS_Store
-/.idea
-/.jekyll-cache
-/.sass-cache
+/.idea/
+/.sass-cache/
 /.jekyll-cache/
