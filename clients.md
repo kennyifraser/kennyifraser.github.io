@@ -27,7 +27,7 @@ A **CMS** is a [Content Management System](//en.wikipedia.org/wiki/Content_manag
 
 ## Statamic CMS Projects
 
-[Statamic](//statamic.com/) is a fast, flexible and powerful PHP-based flat file content management system.
+[Statamic](//statamic.com/) is a fast, flexible and powerful Laravel-based flat file content management system.
 
 ### Chromatin Lab
 Genetics research team in Edinburgh.  Responsive design, development and content management. Visit
@@ -43,7 +43,7 @@ Genetics research team in Edinburgh.  Responsive design, development and content
 Self catering holiday accommodation, Tobermory, Isle of Mull.  A responsive design, adapting from mobile to widescreen. Design, development, content management, shopping cart and payment service integration, email marketing and AdWords. Visit [Tobermory Self Catering at Back Brae Lodge](//mull.co).
 
 ### Greentrax Recordings
-Independent Scottish music label.  Responsive design with shopping cart. Design, development, shopping cart and payment service integration, content management, email marketing and support. Visit [Greentrax Recordings](//www.greentrax.com).
+Independent Scottish music label.  Responsive design with shopping cart. Design, development, shopping cart and payment service integration, music samples, content management, email marketing and support. Visit [Greentrax Recordings](//www.greentrax.com).
 
 ---
 
@@ -52,7 +52,7 @@ Independent Scottish music label.  Responsive design with shopping cart. Design,
 [Shopify](//www.shopify.co.uk/) offers a hosted online store with a Content Delivery Network (CDN).
 
 ### Music Scotland
-Specialist Scottish and Celtic music CD, DVD and book retail website based in Oban, West Highlands of Scotland. Migrated from [SellerDeck Desktop](//www.sellerdeck.co.uk/how-we-can-help/website-design-and-development/sellerdeck-desktop/) in February 2021.  Design, development, payment service integration, email & social media marketing, pay-per-click advertising (Google AdWords) and business support. Visit [Music Scotland](//www.musicscotland.com).
+Specialist Scottish and Celtic music CD, DVD and book retail website based in Oban, West Highlands of Scotland. Migrated from [SellerDeck Desktop](//www.sellerdeck.co.uk/how-we-can-help/website-design-and-development/sellerdeck-desktop/) in February 2021.  Design, development, payment service integration, music samples, email & social media marketing, pay-per-click advertising (Google AdWords) and business support. Visit [Music Scotland](//www.musicscotland.com).
 
 ### Temple Records
 Independent Scottish and Irish traditional music label featuring Battlefield Band. Design, PHP/MySQL and support. Previous work on a legacy site built with a custom CMS.  Visit [Temple Records](//www.templerecords.co.uk).
@@ -71,7 +71,7 @@ B&B accommodation on the Black Isle, between Dingwall and Inverness. Design and 
 [Netherton Farm Bed & Breakfast](//www.nethertonfarm.co.uk).
 
 ### Kenny Fraser
-This personal portfolio and blog at [kennyfraser.com](kennyfraser.com), hosted on GitHub Pages.
+This personal portfolio and blog at [kennyfraser.com](//kennyfraser.com), hosted on GitHub Pages.
 
 ---
 
@@ -95,14 +95,11 @@ Easter Ross art dealer. WordPress content management, payment service integratio
 
 ## Superceded Projects
 
-### Highland Innovation Centre Ltd
-Complete design of a fully responsive multi-domain profile site for this Scottish-based medical scientific device company. Featuring the BREAST-i device for detection of breast disease.
-
 ### Bright Seeds
 Wiltshire agricultural supplier [Bright Seeds](//www.brightseeds.co.uk/).  
 
 #### Bright Seeds
-Fully responsive front end re-design of an existing site built in a custom CMS.
+Fully responsive front end re-design of the existing main ecommerce site built with an in-house CMS.
 
 #### Tractorman's Guide
 Visit [Bright Seeds Tractorman's Guide](//m.brightseeds.co.uk/). Mobile web app built with HTML5, [jQuery Mobile](//jquerymobile.com/) and PHP - a catalogue of seed crops.  Applications for Apple iOS App Store and Android Google Play Store.
@@ -112,6 +109,9 @@ Companion to main site.
 
 ### FindAFishingBoat
 Nationwide boat sales listing site. Visit [FindAFishingBoat](//www.findafishingboat.com/).
+
+### Highland Innovation Centre Ltd
+Complete design of a fully responsive multi-domain profile site for this Scottish-based medical scientific device company. Featuring the BREAST-i device for detection of breast disease.
 
 ### SellerDeck E-commerce CMS Projects
 
@@ -127,7 +127,7 @@ London-based lighting company dealing in commercial lighting for shops, stores, 
 Bradford-based company dealing in security products such as padlocks, chains, cashboxes, door and window locks. Upgrade of existing Sterling Shop store to SellerDeck 2014, with third-party add-ons. Implementation of a customised responsive design for all screen sizes. Visit [Sterling Shop](//www.sterlingshop.co.uk/).
 
 #### For More Ltd
-Surrey-based dealer in house and garden products. Upgrade of three separate stores to SellerDeck 2014. Customisation of the Smart Responsive theme for all screen sizes, using a common custom stylesheet for a consistent appearance. Visit [For Food Smokers](//www.forfoodsmokers.co.uk/), [For Stove Glass](//www.forstoveglass.co.uk/) and [For Your Fireside](//www.foryourfireside.co.uk/).
+Surrey-based dealer in house and garden products. Upgrade of three separate stores to SellerDeck 2014. Customisation of the Smart Responsive theme for all screen sizes, using a common custom stylesheet for a consistent appearance. Visit [For Stove Glass](//www.forstoveglass.co.uk/) and [For Your Fireside](//www.foryourfireside.co.uk/).
 
 ---
 
@@ -135,16 +135,16 @@ Surrey-based dealer in house and garden products. Upgrade of three separate stor
 
 People I worked with in the early days of website promotion in the Scottish cultural arena included:
 
-- [Carnyx &amp; Co](//www.carnyxscotland.co.uk/)
+- [Carnyx &amp; Co](http://carnyx.org.uk/)
 - [Ceolas](//www.ceolas.co.uk/)
-- [The Chipolatas](//www.chipolatas.com/)
+- [The Chipolatas](//chipolatas.com/)
 - [Christine Kydd](//www.christinekydd.com/)
 - [Daimh](//www.daimh.net/)
 - [Feisean Nan Gaidheal](//www.feisean.org/)
 - [Garvie Bagpipes](//www.garviebagpipes.co.uk/)
-- [Hamish Moore](//www.hamishmoore.org/)
+- Hamish Moore
 - [Mairi MacInnes](//www.mairimacinnes.com/)
-- [Martyn Bennett](//www.martynbennett.com/)
-- [Salsa Celtica](//www.salsaceltica.com/)
+- [Martyn Bennett](http://www.martynbennett.com/)
+- [Salsa Celtica](//salsaceltica.com/)
 - [Scots Fiddle Festival](//www.scotsfiddlefestival.com/)
 - [Shooglenifty](//www.shoogle.com/)

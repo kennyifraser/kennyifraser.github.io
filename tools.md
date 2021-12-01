@@ -21,8 +21,8 @@ A selection of web design and development tools and resources I've used.
 
 ## Design &amp; Coding
 
-- <a href="//www.adobe.com/products/creativesuite.html" rel="external nofollow">Adobe Creative Suite</a>
-- <a href="//incident57.com/codekit/" rel="external nofollow">Codekit</a>
+- <a href="//www.adobe.com/creativecloud.html" rel="external nofollow">Adobe Creative Cloud</a>
+- <a href="//codekitapp.com" rel="external nofollow">Codekit</a>
 - <a href="//compass-style.org/" rel="external nofollow">Compass</a>
 - <a href="//www.mamp.info/" rel="external nofollow">MAMP</a>
 - <a href="//sass-lang.com/" rel="external nofollow">Sass</a>
@@ -67,7 +67,6 @@ A selection of web design and development tools and resources I've used.
 - <a href="//ctrlclickcast.com/" rel="external nofollow">Ctrl+Click Cast</a>
 - <a href="//shoptalkshow.com/" rel="external nofollow">ShopTalk</a>
 - <a href="//thewebahead.net/" rel="external nofollow">The Web Ahead</a>
-- <a href="//www.unfinished.bz/" rel="external nofollow">Unfinished Business</a>
 
 ## Productivity
 
