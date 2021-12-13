@@ -1,0 +1,14 @@
+<hr>
+
+<h2 id="posts">Articles</h2>
+
+<ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+        <h3>
+            <a class="post-link" href="{{ post.url }}"><i class="fa fa-hand-o-right"></i>&nbsp; {{ post.title }}</a>
+        </h3>
+        {% comment %} ~ {{ post.date | date: "%b %-d, %Y" }} {% endcomment %}
+    </li>
+    {% endfor %}
+</ul>
