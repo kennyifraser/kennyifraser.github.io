@@ -2,90 +2,96 @@
 layout: page
 navigation: true
 permalink: /tools/
-# quote: I suppose it is tempting, if the only tool you have is a hammer, to treat everything as if it were a nail.
-# quote_source: //en.wikipedia.org/wiki/Law_of_the_instrument
-# quotee: Abraham Maslow
 title: Tools
 ---
-A selection of web design and development tools and resources I've used.
+A selection of web design and development tools which I use on a regular basis.
 
-## Content Management
+## Core Web Coding
 
-- <a href="//expressionengine.com/" rel="external nofollow">ExpressionEngine</a>
-- <a href="//jekyllrb.com/" rel="external nofollow">Jekyll</a>
-- <a href="//grabaperch.com/" rel="external nofollow">Perch</a>
-- <a href="//www.spanglefish.com/" rel="external nofollow">Spanglefish</a>
-- <a href="//statamic.com" rel="external nofollow">Statamic</a>
-- <a href="//www.terminalfour.com/" rel="external nofollow">TerminalFOUR</a>
-- <a href="//www.wordpress.org/" rel="external nofollow">WordPress</a>
+- [HTML](//en.wikipedia.org/wiki/HTML)
+- [CSS](//en.wikipedia.org/wiki/CSS)
+- [JavaScript](//en.wikipedia.org/wiki/JavaScript)
+- [PHP](//www.php.net)
 
-## Design &amp; Coding
+## Content Management Systems
 
-- <a href="//www.adobe.com/creativecloud.html" rel="external nofollow">Adobe Creative Cloud</a>
-- <a href="//codekitapp.com" rel="external nofollow">Codekit</a>
-- <a href="//compass-style.org/" rel="external nofollow">Compass</a>
-- <a href="//www.mamp.info/" rel="external nofollow">MAMP</a>
-- <a href="//sass-lang.com/" rel="external nofollow">Sass</a>
-- <a href="//www.sublimetext.com/" rel="external nofollow">Sublime Text</a>
-- <a href="//www.panic.com/" rel="external nofollow">Transmit</a>
-- <a href="//www.jetbrains.com/webstorm/" rel="external nofollow">WebStorm</a>
+- [ExpressionEngine](//expressionengine.com)
+- [Jekyll](//jekyllrb.com)
+- [Statamic](//statamic.com)
 
 ## eCommerce
 
-- <a href="//cartthrob.com/" rel="external nofollow">CartThrob</a>
-- <a href="//exp-resso.com/store/" rel="external nofollow">Exp:resso Store</a>
-- <a href="//www.paypal.com/" rel="external nofollow">PayPal</a>
-- <a href="//www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop" rel="external nofollow">SellerDeck Desktop</a>
-- <a href="//www.shopify.co.uk/" rel="external nofollow">Shopify</a>
-- <a href="//www.worldpay.com/" rel="external nofollow">WorldPay</a>
+- [CartThrob](//www.cartthrob.com)
+- [PayPal](//www.paypal.com)
+- [Shopify](//www.shopify.co.uk)
+- [WorldPay](//www.fisglobal.com/en-gb/merchant-solutions-worldpay)
 
-## Marketing
+## Design, Coding &amp; Site Building
 
-- <a href="//www.facebook.com/business/" rel="external nofollow">Facebook Pages &amp; Ads</a>
-- <a href="//adwords.google.co.uk/" rel="external nofollow">Google AdWords</a>
-- <a href="//hootsuite.com/en-gb" rel="external nofollow">Hootsuite</a>
-
-## Front End
-
-- <a href="//getbootstrap.com/" rel="external nofollow">Bootstrap</a>
-- <a href="//foundation.zurb.com/" rel="external nofollow">Foundation</a>
-- <a href="//html5boilerplate.com/" rel="external nofollow">HTML5 Boilerplate</a>
-- <a href="//nodejs.org/en/" rel="external nofollow">Node.js</a>
-- <a href="//www.npmjs.com/" rel="external nofollow">Node Package Manager</a>
-
-## Training
-
-- <a href="//www.codecademy.com/" rel="external nofollow">Codecademy</a>
-- <a href="//www.lynda.com/" rel="external nofollow">Lynda.com</a>
-- <a href="//mapt.io/" rel="external nofollow">Mapt</a>
-- <a href="//referrals.trhou.se/kennyfraser" rel="external nofollow">Treehouse</a>
-- <a href="//www.udemy.com/" rel="external nofollow">Udemy</a>
-- <a href="//www.w3devcampus.com/courses/" rel="external nofollow">W3DevCampus</a>
-
-## Podcasts
-
-- <a href="//ctrlclickcast.com/" rel="external nofollow">Ctrl+Click Cast</a>
-- <a href="//shoptalkshow.com/" rel="external nofollow">ShopTalk</a>
-- <a href="//thewebahead.net/" rel="external nofollow">The Web Ahead</a>
+- [Codekit](//codekitapp.com)
+- [Github Desktop](//desktop.github.com)
+- [MAMP](//www.mamp.info)
+- [Node.js](//nodejs.org/en)
+- [Node Package Manager (npm)](//www.npmjs.com)
+- [PHPStorm](//www.jetbrains.com/phpstorm)
+- [Sass](//sass-lang.com)
+- [Sublime Text](//www.sublimetext.com)
+- [Transmit](//www.panic.com/transmit)
 
 ## Productivity
 
-- <a href="//basecamp.com/" rel="external nofollow">Basecamp</a>
-- <a href="//db.tt/92oSJ4R/" rel="external nofollow">Dropbox</a>
-- <a href="//en.wikipedia.org/wiki/Getting_Things_Done" rel="external nofollow">Getting Things Done</a>
-- <a href="//www.apple.com/macosx/" rel="external nofollow">Mac OS X</a>
-- <a href="//office.microsoft.com/en-gb/excel/" rel="external nofollow">Microsoft Excel</a>
-- <a href="//www.omnigroup.com/omnifocus/" rel="external nofollow">OmniFocus</a>
-- <a href="//pomodorotechnique.com/" rel="external nofollow">Pomodoro Technique</a>
-- <a href="//www.quickbooks.co.uk/" rel="external nofollow">Quickbooks</a>
+- [Dropbox](//www.dropbox.com)
+- [macOS](//www.apple.com/macos)
+- [Microsoft 365](//www.microsoft.com/en-gb/microsoft-365)
+- [OmniFocus](//www.omnigroup.com/omnifocus)
+- [Quickbooks Desktop](//www.quickbooks.co.uk)
 
-## Responsive Design
+---
 
-- <a href="//html.adobe.com/edge/inspect/" rel="external nofollow">Adobe Edge Inspect</a>
-- <a href="//browserstack.com/" rel="external nofollow">BrowserStack</a>
-- <a href="//responsivepx.com/" rel="external nofollow">ResponsivePX</a>
+## Other References
 
-## Widgets
+Resources I've had experience of using in the past.
 
-- <a href="//www.olark.com/" rel="external nofollow">Olark</a>
-- <a href="//wufoo.com/" rel="external nofollow">Wufoo</a>
+### Front End Frameworks
+- [Bootstrap](//getbootstrap.com)
+- [Foundation](//get.foundation)
+- [HTML5 Boilerplate](//html5boilerplate.com)
+
+### Content Management &amp; eCommerce
+- [Expresso Store](//exp-resso.com/store)
+- [Perch](//grabaperch.com)
+- [SellerDeck Desktop](//www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop)
+- [Spanglefish](//www.spanglefish.com)
+- [TerminalFOUR](//www.terminalfour.com)
+- [WordPress](//wordpress.org)
+
+### Responsive Design
+- [Adobe Creative Cloud](//www.adobe.com/uk/creativecloud.html)
+- [BrowserStack](//www.browserstack.com)
+- [Compass](//compass-style.org)
+- [ResponsivePX](//responsivepx.com)
+
+### Web Marketing
+- [Facebook Pages &amp; Ads](//www.facebook.com/business)
+- [Google Ads](//ads.google.com)
+- [Hootsuite](//hootsuite.com)
+- [Olark](//www.olark.com)
+- [Wufoo](//www.wufoo.com)
+
+### Productivity
+- [Basecamp](//basecamp.com)
+- [Getting Things Done](//en.wikipedia.org/wiki/Getting_Things_Done)
+- [Pomodoro Technique](//pomodorotechnique.com)
+
+### Podcasts
+- [Ctrl+Click Cast](//ctrlclickcast.com)
+- [ShopTalk](//shoptalkshow.com)
+- [The Web Ahead](//thewebahead.net)
+
+### Training
+- [Codecademy](//www.codecademy.com)
+- [LinkedIn Learning](//www.linkedin.com/learning/)
+- [Packt Publishing](//www.packtpub.com/)
+- [Treehouse](//teamtreehouse.com)
+- [Udemy](//www.udemy.com)
+- [W3DevCampus](//w3cx.org)
