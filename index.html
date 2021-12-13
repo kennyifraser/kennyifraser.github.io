@@ -3,39 +3,35 @@ layout: default
 ---
 
 <div class="home">
-  
-  <h1>Kenny Fraser</h1>
-  
-  <h2>Web Business Services</h2>
-  
-  {% include status.html %}
-  
-  {% include availability.html %}
-  
-  <p>
-    Find out more <a href="{% link about.md %}">about me</a> and the
-    <a href="{% link clients.md %}">client companies I've worked with</a> using these
-    <a href="{% link tools.md %}">tools and resources</a>.
-  </p>
-  
-  <a href="mailto:me@kennyfraser.com" title="send Kenny Fraser an email">
-    <i class="fa fa-envelope-o fa-2x"></i>&nbsp;&nbsp;<span itemprop="email">me@kennyfraser.com</span>
-  </a>
-  
-  <hr>
-  
-  <h2 id="posts">Articles</h2>
-  
-  <ul class="post-list">
-    {% for post in site.posts %}
-    <li>
-      <h3>
-        <a class="post-link" href="{{ post.url }}"><i class="fa fa-hand-o-right"></i>&nbsp; {{
-          post.title }}</a>
-      </h3>
-      {% comment %} ~ {{ post.date | date: "%b %-d, %Y" }} {% endcomment %}
-    </li>
-    {% endfor %}
-  </ul>
-  
+    
+    <h1>Kenny Fraser</h1>
+    
+    <h2>Web Business Services</h2>
+    
+    {% include status.html %}
+    
+    {% include availability.html %}
+    
+    <p>
+        Find out more <a href="{% link about.md %}">about me</a> and the <a href="{% link clients.md %}">client companies I've worked with</a> using these <a href="{% link tools.md %}">tools and resources</a>.
+    </p>
+    
+    <a href="mailto:me@kennyfraser.com" title="send Kenny Fraser an email"> <i class="fa fa-envelope-o fa-2x"></i>&nbsp;&nbsp;<span itemprop="email">me@kennyfraser.com</span> </a>
+    
+    {% comment %}
+    <hr>
+    
+    <h2 id="posts">Articles</h2>
+    
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+            <h3>
+                <a class="post-link" href="{{ post.url }}"><i class="fa fa-hand-o-right"></i>&nbsp; {{ post.title }}</a>
+            </h3>
+            {% comment %} ~ {{ post.date | date: "%b %-d, %Y" }} {% endcomment %}
+        </li>
+        {% endfor %}
+    </ul>
+    {% endcomment %}
 </div>
