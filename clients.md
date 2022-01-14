@@ -1,25 +1,15 @@
 ---
-layout: page
-navigation: true
-permalink: /clients/
-# quote: I don't intend to build in order to have clients; I intend to have clients in order to build.
-# quote_source: //en.wikiquote.org/wiki/The_Fountainhead
-# quotee: Ayn Rand
-title: Clients
+layout: page  
+navigation: true  
+permalink: /clients/  
+title: Clients  
 ---
-{% include availability.html %}
 
-Listed here are companies I've worked with in various aspects of responsive web design and technical development
-over the years.  For many of the sites listed, I've also undertaken:
+I'm available for freelance work, so get in touch if you're interested in working together. I support small business clients locally, throughout Scotland and the wider UK.
 
-* content management & strategy
-* social media marketing
-* search engine optimisation
-* pay-per-click advertising
-* email marketing
-* payment service integration
+Listed here are companies I've worked with in various aspects of responsive web design and technical development over the years.  For testimonials on these projects see my [LinkedIn portfolio](//www.linkedin.com/in/kennyfraser).
 
-For testimonials on these projects see my [LinkedIn portfolio](//www.linkedin.com/in/kennyfraser).
+These days my main interest is in building sites under the [Jamstack](https://jamstack.org/) architecture.
 
 A **CMS** is a [Content Management System](//en.wikipedia.org/wiki/Content_management_system).
 
@@ -134,7 +124,19 @@ Surrey-based dealer in house and garden products. Upgrade of three separate stor
 
 ---
 
-## Other Clients
+## Web marketing
+
+For clients in the past I've undertaken web marketing work including:
+
+* content management & strategy
+* social media marketing
+* search engine optimisation
+* pay-per-click advertising
+* email marketing
+
+---
+
+## Other clients
 
 People I worked with in the early days of website promotion in the Scottish cultural arena included:
 
