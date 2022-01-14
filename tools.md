@@ -4,7 +4,7 @@ navigation: true
 permalink: /tools/
 title: Tools
 ---
-A selection of web design and development tools which I use on a regular basis.
+A selection of web design and development tools and resources which I use on a regular basis.
 
 ## Core Web Coding
 
