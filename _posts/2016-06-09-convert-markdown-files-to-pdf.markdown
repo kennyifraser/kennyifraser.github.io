@@ -9,7 +9,7 @@ permalink: productivity/convert-markdown-files-to-pdf
 title: "Quickly convert Markdown files to pdf"
 ---
 
-These days I try and use [Markdown](//daringfireball.net/projects/markdown/) wherever possible to apply a basic level of formatting to text content, quickly and easily.  The content for this [Jekyll](https://jekyllrb.com/)-based site is mostly written in Markdown.  I use it for formatting template-based transactional emails, with Adam Pritchard's [Markdown Here](https://github.com/adam-p/markdown-here) Chrome extension.  It's also good for content creation in [Statamic](https://v1.statamic.com/learn/core-concepts/content-files).  
+These days I try and use [Markdown](https://daringfireball.net/projects/markdown/) wherever possible to apply a basic level of formatting to text content, quickly and easily.  The content for this [Jekyll](https://jekyllrb.com/)-based site is mostly written in Markdown.  I use it for formatting template-based transactional emails, with Adam Pritchard's [Markdown Here](https://github.com/adam-p/markdown-here) Chrome extension.  It's also good for content creation in [Statamic](https://v1.statamic.com/learn/core-concepts/content-files).  
 
 Adam's written a [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) and there are other guides for Markdown usage on [Github](https://help.github.com/articles/basic-writing-and-formatting-syntax/) and [Stack Overflow](http://stackoverflow.com/editing-help). 
 

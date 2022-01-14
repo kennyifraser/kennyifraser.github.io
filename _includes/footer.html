@@ -2,10 +2,10 @@
     
     <div class="wrapper" id="contact">
         
-        <a href="{% link about.md %}">
+        <a href="/about">
         <img
           alt="Kenny Fraser face, Black Isle Web Designer and Developer" itemprop="image"
-          src="{{ '/img/kenny-fraser.jpg' }}"
+          src="/img/kenny-fraser.jpg"
           title="Kenny Fraser, Black Isle Web Designer and Developer"
         >
         <!--https://secure.gravatar.com/avatar/f6d070fe4518a823b0905bbbfb5539cd?size=400-->
@@ -18,13 +18,19 @@
             <li>
                 <a href="mailto:me@kennyfraser.com" title="send Kenny Fraser an email"> <i
                   class="fa fa-envelope-o fa-2x"
-                ></i>&nbsp;&nbsp;<span itemprop="email">me@kennyfraser.com</span> </a>
+                ></i>&nbsp;&nbsp;<span itemprop="email">me@kennyfraser.com</span></a>
             </li>
             <li>
                 <a
                   href="http://linkedin.com/in/kennyfraser" itemprop="sameAs" rel="external me nofollow" target="_blank"
                   title="Kenny Fraser on LinkedIn"
-                > <i class="fa fa-linkedin fa-2x"></i>&nbsp;&nbsp;LinkedIn profile </a>
+                > <i class="fa fa-linkedin fa-2x"></i>&nbsp;&nbsp;LinkedIn</a>
+            </li>
+            <li>
+                <a
+                  href="https://github.com/kennyifraser" itemprop="sameAs" rel="external me nofollow"
+                  title="Kenny Fraser on GitHub"
+                > <i class="fa fa-github fa-2x"></i>&nbsp;&nbsp;GitHub</a>
             </li>
             
             {% comment %}
@@ -52,7 +58,7 @@
                 > <i class="fa fa-google-plus fa-2x"></i> </a>
             </li>
             <li>
-                <a href="/feed.xml" title="Kenny Fraser's Posts RSS feed"> <i class="fa fa-rss fa-2x"></i> </a>
+                <a href="" title="Kenny Fraser's Posts RSS feed"> <i class="fa fa-rss fa-2x"></i> </a>
             </li>
             <li>
                 <a
@@ -71,12 +77,6 @@
                   href="https://www.youtube.com/user/kennyfraserdotcom" itemprop="sameAs"
                   rel="external me nofollow" title="Kenny Fraser on YouTube"
                 > <i class="fa fa-youtube-play fa-2x"></i> </a>
-            </li>
-            <li>
-                <a
-                  href="https://github.com/kennyifraser" itemprop="sameAs" rel="external me nofollow"
-                  title="Kenny Fraser on GitHub"
-                > <i class="fa fa-github fa-2x"></i> </a>
             </li>
             <li>
                 <a
@@ -146,11 +146,5 @@
         
         </ul>
         {% endcomment %}
-        
-        <p style="margin-top:3rem">
-            <a href="#top"><i class="fa fa-hand-o-up"></i>&nbsp;back to top</a>
-        </p>
-    
     </div> <!-- wrapper -->
-
 </footer>
