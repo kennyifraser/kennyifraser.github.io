@@ -1,6 +1,4 @@
-# For Sale
-
-## 2018 SEAT Leon FR Technology 2.0 TDI (150bhp) 
+# 2018 SEAT Leon FR Technology 2.0 TDI (150bhp) 
 
 5-door grey diesel hatchback
 
