@@ -5,6 +5,7 @@
 5-door grey diesel hatchback
 
 ## Vehicle summary
+
 |                  |            |
 |------------------|------------|
 | Doors            | 5          |  
