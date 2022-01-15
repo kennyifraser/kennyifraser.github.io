@@ -1,6 +1,6 @@
 ---
 layout: page    
-title: For Sale - 2018 SEAT Leon FR Technology 2.0 TDI (150bhp)  
+title: For Sale - 2018 SEAT Leon FR Technology 2.0 TDI 150bhp  
 permalink: /for-sale/SEAT-Leon/2018-SEAT-Leon-FR-Technology-2.0-TDI-150bhp-5dr-grey-diesel-hatchback/  
 navigation: false
 ---
@@ -15,24 +15,24 @@ Bodywork, interior and engine in excellent condition.  Full service history, no 
 
 **Payment accepted:** bank transfer 
 
-|                                                |                 |
-|------------------------------------------------|-----------------|
-| Doors                                          | 5               |  
-| Body type                                      | Hatchback       |  
-| Colour                                         | Grey            |
-| Current mileage                                | 23136           |  
-| Year                                           | 2018            |  
-| Registration                                   | MF18 JZW        |
-| Fuel                                           | Diesel          |  
-| Gears                                          | Manual          |
-| Engine                                         | 1968 cc         |
-| Dimensions                                     | L4.28m W1.82m   |
-| MPG (stated, lab test, combined)               | 64.2            |
-| MPG (actual average measured during ownership) | 48.1            |
-| CO2 emissions                                  | 112.0 g/km      |
-| Range                                          | 704 miles       |
-| Insurance group                                | 21              |
-| Road tax                                       | £155            |  
+|                                       |               |
+|---------------------------------------|---------------|
+| Doors                                 | 5             |  
+| Body type                             | Hatchback     |  
+| Colour                                | Grey          |
+| Current mileage                       | 23136         |  
+| Year                                  | 2018          |  
+| Registration                          | MF18 JZW      |
+| Fuel                                  | Diesel        |  
+| Gears                                 | Manual        |
+| Engine                                | 1968 cc       |
+| Dimensions                            | L4.28m W1.82m |
+| MPG (stated, lab test, combined)      | 64.2          |
+| MPG (actual average during ownership) | 48.1          |
+| CO2 emissions                         | 112.0 g/km    |
+| Range                                 | 704 miles     |
+| Insurance group                       | 21            |
+| Road tax                              | £155          |  
 
 ## Specification
 
@@ -83,6 +83,7 @@ Bodywork, interior and engine in excellent condition.  Full service history, no 
 - Auto start/stop
 - Cruise control
 - Steering audio and display control
+- Driver modes
 - Twin exhaust pipes
 - 17 inch alloy wheels
 - XDS electronic differential lock
@@ -98,7 +99,7 @@ Bodywork, interior and engine in excellent condition.  Full service history, no 
 - [SEAT Leon user manual](../User-Manual--LEON_11_18_EN.pdf)
 
 ## Defects
-- Seven small chips ~4mm on tailgate (see photo)
+- Seven small chips ~3mm each on tailgate (see photo)
 - Two scrapes by driverside wheel arch (see photo)
 - Minor wear and tear on allow wheels (see photos)
 
