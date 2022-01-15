@@ -4,6 +4,7 @@ title: For Sale - 2018 SEAT Leon FR Technology 2.0 TDI 150bhp
 permalink: /for-sale/SEAT-Leon/2018-SEAT-Leon-FR-Technology-2.0-TDI-150bhp-5dr-grey-diesel-hatchback/  
 navigation: false
 ---
+![](side-left-front-front.jpg)
 
 > _"The SEAT Leon offers the tech and driving experience of the VW Golf, but for a lower price"_
 
@@ -126,6 +127,30 @@ These have already been factored in to the asking price.
 - [AutoExpress review](https://www.autoexpress.co.uk/seat/leon/85288/seat-leon-fr-review)
 
 ## Photos
+![](side-left-front.jpg)
+![](wheel-right-front.jpg)
+![](front-closer.jpg)
+![](front.jpg)
+![](side-ride-rear-closer.jpg)
+![](sill-right.jpg)
+![](rear.jpg)
+![](seats-front-left.jpg)
+![](roof.jpg)
+![](seats-rear-left.jpg)
+![](side-left-front-closer.jpg)
+![](side-left-rear-closer.jpg)
+![](rear-closer.jpg)
+![](seats-rear-driver.jpg)
+![](side-left-rear.jpg)
+![](sill-left.jpg)
+![](side-right-front-closer.jpg)
+![](wheel-left-front.jpg)
+![](wheel-right-rear.jpg)
+![](side-right-rear-rear.jpg)
+![](side-right-closer.jpg)
+![](wheel-left-rear.jpg)
+![](seats-front-driver.jpg)
+![](side-left-rear-rear.jpg)
 ![](dash-front-closer.jpg)
 ![](dash-front-driver.jpg)
 ![](dash-front-left.jpg)
