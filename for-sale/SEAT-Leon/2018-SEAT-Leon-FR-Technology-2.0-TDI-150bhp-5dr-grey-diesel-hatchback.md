@@ -101,15 +101,15 @@ Bodywork, interior and engine in excellent condition.  Full service history, no 
 - [SEAT Leon user manual](../User-Manual--LEON_11_18_EN.pdf)
 
 ## Defects
-- Eight small chips ~3mm each on tailgate (see photo)
+- Eight small chips 1-4mm on tailgate (see photo)
 - Two scrapes by driverside wheel arch (see photo)
 - Minor wear and tear on allow wheels (see photos)
 
-These have already been factored in to the asking price.
+[//]: # (These have already been factored in to the asking price.)
 
 ## Independent checks
 
-<a href="#contact-me">Contact me</a> for the Vehicle Identification Number (VIN) and V5C/logbook details if needed.
+<a href="#contact-me">Contact me</a> for the Vehicle Identification Number (VIN) and V5C/logbook details if wanted for a check.
 
 - [Check MOT/road tax status here](https://www.gov.uk/check-vehicle-tax)
 - Run an [independent HPI check](https://www.hpi.co.uk/) with the VIN.
