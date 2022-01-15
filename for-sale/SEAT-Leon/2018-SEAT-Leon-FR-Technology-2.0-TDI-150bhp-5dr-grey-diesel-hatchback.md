@@ -6,17 +6,15 @@ navigation: false
 ---
 ![](side-left-front-front.jpg)
 
+[See all photos](#photos)
+
 > _"The SEAT Leon offers the tech and driving experience of the VW Golf, but for a lower price"_
 
 Bodywork, interior and engine in excellent condition.  Full service history, no outstanding issues.  Professionally valeted throughout by [Highland Valeting](https://www.highlandvaleting.co.uk/) and with a full tank of fuel. Selling due to working from home, no need for second car.
 
-[See all photos](#photos)
-
 **Private sale: £14,500**
 
 <span id="contact-me">**Contact:**</span> send an email to <a href="mailto:me@kennyfraser.com">me@kennyfraser.com</a> or text/WhatsApp/leave a message on <a href="tel:+447779769003">0777 976 9003</a>
-
-**Payment accepted:** bank transfer 
 
 |                                       |               |
 |---------------------------------------|---------------|
@@ -144,7 +142,6 @@ These have already been factored in to the asking price.
 ![](side-right-front-closer.jpg)
 ![](front.jpg)
 ![](front-closer.jpg)
-![](boot.jpg)
 ![](dash-front-closer.jpg)
 ![](dash-front-driver.jpg)
 ![](seats-front-driver.jpg)
@@ -152,6 +149,7 @@ These have already been factored in to the asking price.
 ![](seats-front-left.jpg)
 ![](seats-rear-driver.jpg)
 ![](seats-rear-left.jpg)
+![](boot.jpg)
 ![](display-full.jpg)
 ![](display-mileage.jpg)
 ![](display-mpg.jpg)
