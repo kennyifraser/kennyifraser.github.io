@@ -127,5 +127,7 @@ These have already been factored in to the asking price.
 
 ## Photos
 
+![](bonnet.jpg)
+![](boot.jpg)
 ![](bodywork-right-front.jpg)
 ![](bodywork-rear.jpg)
