@@ -1,47 +1,115 @@
 ---
 layout: page    
-title: For Sale - 2018 SEAT Leon FR Technology 2.0 TDI (150bhp)
+title: For Sale - 2018 SEAT Leon FR Technology 2.0 TDI (150bhp)  
 permalink: /for-sale/SEAT-Leon/2018-SEAT-Leon-FR-Technology-2.0-TDI-150bhp-5dr-grey-diesel-hatchback/  
 navigation: false
 ---
 
 > _"The SEAT Leon offers the tech and driving experience of the VW Golf, but for a lower price"_
 
-|                           |                 |
-|---------------------------|-----------------|
-| Private sale asking price | £14,400         | 
-| Doors                     | 5               |  
-| Body type                 | Hatchback       |  
-| Colour                    | Grey            |
-| Current mileage           | 23136           |  
-| Year                      | 2018            |  
-| Registration              | MF18 JZW        |
-| Fuel                      | Diesel          |  
-| Gears                     | Manual          |
-| Engine                    | 1968 cc         |
-| Dimensions                | L4.28m W1.82m   |
-| MPG (stated, combined)         | 64.2            |
-| MPG (actual measured, average) | 48.1            |
-| CO2 emissions                  | 112.0 g/km      |
-| Range                          | 704 miles       |
-| Insurance group                | 21              |
-| Road tax                       | £155            |  
-| next MOT (2nd) due by          | March 7th, 2022 |  
+Bodywork, interior and engine in excellent condition.  Full service history, no outstanding issues.  Professionally valeted throughout by [Highland Valeting](https://www.highlandvaleting.co.uk/).  Sale due to working from home, no need for second car.
+
+**Private sale: £14,500**
+
+<span id="contact-me">**Contact:**</span> send an email to <a href="mailto:me@kennyfraser.com">me@kennyfraser.com</a> or text/WhatsApp/leave a message on <a href="tel:+447779769003">0777 976 9003</a>
+
+**Payment:** bank transfer only
+
+|                                                |                 |
+|------------------------------------------------|-----------------|
+| Doors                                          | 5               |  
+| Body type                                      | Hatchback       |  
+| Colour                                         | Grey            |
+| Current mileage                                | 23136           |  
+| Year                                           | 2018            |  
+| Registration                                   | MF18 JZW        |
+| Fuel                                           | Diesel          |  
+| Gears                                          | Manual          |
+| Engine                                         | 1968 cc         |
+| Dimensions                                     | L4.28m W1.82m   |
+| MPG (stated, lab test, combined)               | 64.2            |
+| MPG (actual average measured during ownership) | 48.1            |
+| CO2 emissions                                  | 112.0 g/km      |
+| Range                                          | 704 miles       |
+| Insurance group                                | 21              |
+| Road tax                                       | £155            |  
 
 ## Specification
+
+### Tech, entertainment
 - 8" touch screen
-- Bluetooth Handsfree Phone Connection
-- Rear parking sensors
-- Voice control system
+- Bluetooth handsfree phone connection
 - Bluetooth audio streaming
+- Full Link: AndroidAuto / Apple Carplay / MirrorLink
+- Voice control system
+- 2x front USB sockets, 2x rear
+- 2x SD card slots
+- CD player
 - DAB Digital radio
-- Dark tinted rear windows
+- 12V power
+
+### Safety
+- ABS + traction control
+- Active pedestrian safety system
+- Rear parking sensors
 - LED daytime running lights
 - LED front fog lights
-- LED Headlights
-- Twin exhaust pipes
+- LED headlights
 - Collision mitigation braking system
 - Hill hold control
+- 3x height-adjustible rear headrests (active head restraints)
+- 3x 3-point rear seatbelts
+- Childproof door locks
+- Automatic handbrake
+- Airbag
+- Isofix rear seats
+
+### Security
+- Remote central locking + deadlocks
+- Engine immobiliser
+- 2x folding remote keys with window open/close
+- Locking wheel bolt
+- Volumetric alarm with backup horn
+
+### Interior
+- Dual zone digital climate control
+- Electric windows
+- Chrome trim
+- 60/40 split folding rear seat
+- Dark tinted rear windows
+- Multicolour LED cabin lighting
+
+### Other
+- Auto start/stop
+- Cruise control
+- Steering audio and display control
+- Twin exhaust pipes
+- 17 inch alloy wheels
+- XDS electronic differential lock
+- Folding wing mirros
+
+## Servicing, MOT, road tax
+- Two new front tyres fitted 28th Dec 2021 (Bridgestone Potenza Sport) with wheel alignment
+- Rear tyres have plenty of life
+- Last service 16th Nov 2021
+- Service history book included (servicing at Arnold Clark from Dec 2019 and Bannerman SEAT, Inverness)
+- Next MOT (second) due by Mar 7th, 2022
+- Road tax to renew on sale
+- [SEAT Leon user manual](../User-Manual--LEON_11_18_EN.pdf)
+
+## Defects
+- Seven small chips ~4mm on tailgate (see photo)
+- Two scrapes by driverside wheel arch (see photo)
+- Minor wear and tear on allow wheels (see photos)
+
+These have already been factored in to the asking price.
+
+## Independent checks
+
+<a href="#contact-me">Contact me</a> for the Vehicle Identification Number (VIN) and V5C/logbook details if needed.
+
+- [Check MOT/road tax status here](https://www.gov.uk/check-vehicle-tax)
+- Run an [independent HPI check](https://www.hpi.co.uk/) with the VIN.
 
 ## Similar vehicles on other listings 
 
@@ -55,4 +123,3 @@ navigation: false
 - [Mat Watson (carwow) on YouTube](https://www.youtube.com/watch?v=1XsZBfe2Kak)
 - [RAC used car review](https://www.rac.co.uk/drive/car-reviews/seat/leon/leon-2017-2020/)
 - [AutoExpress review](https://www.autoexpress.co.uk/seat/leon/85288/seat-leon-fr-review)
-
