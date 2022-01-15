@@ -4,7 +4,7 @@ title: For Sale - 2018 SEAT Leon FR Technology 2.0 TDI 150bhp
 permalink: /for-sale/SEAT-Leon/2018-SEAT-Leon-FR-Technology-2.0-TDI-150bhp-5dr-grey-diesel-hatchback/  
 navigation: false
 ---
-![](bodywork-rear.jpg)
+
 > _"The SEAT Leon offers the tech and driving experience of the VW Golf, but for a lower price"_
 
 Bodywork, interior and engine in excellent condition.  Full service history, no outstanding issues.  Professionally valeted throughout by [Highland Valeting](https://www.highlandvaleting.co.uk/) and with a full tank of fuel. Selling due to working from home, no need for second car.
@@ -124,3 +124,8 @@ These have already been factored in to the asking price.
 - [Mat Watson (carwow) on YouTube](https://www.youtube.com/watch?v=1XsZBfe2Kak)
 - [RAC used car review](https://www.rac.co.uk/drive/car-reviews/seat/leon/leon-2017-2020/)
 - [AutoExpress review](https://www.autoexpress.co.uk/seat/leon/85288/seat-leon-fr-review)
+
+## Photos
+
+![](bodywork-right-front.jpg)
+![](bodywork-rear.jpg)
