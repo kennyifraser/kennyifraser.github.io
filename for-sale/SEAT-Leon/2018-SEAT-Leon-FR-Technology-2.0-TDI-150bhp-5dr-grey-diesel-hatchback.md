@@ -13,7 +13,7 @@ Bodywork, interior and engine in excellent condition.  Full service history, no 
 
 <span id="contact-me">**Contact:**</span> send an email to <a href="mailto:me@kennyfraser.com">me@kennyfraser.com</a> or text/WhatsApp/leave a message on <a href="tel:+447779769003">0777 976 9003</a>
 
-**Payment:** bank transfer only
+**Payment accepted:** bank transfer 
 
 |                                                |                 |
 |------------------------------------------------|-----------------|
