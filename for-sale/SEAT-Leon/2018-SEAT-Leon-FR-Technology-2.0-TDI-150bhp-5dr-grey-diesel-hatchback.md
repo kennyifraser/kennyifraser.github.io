@@ -86,7 +86,7 @@ Bodywork, interior and engine in excellent condition.  Full service history, no 
 - Steering audio and display control
 - Driver modes
 - Twin exhaust pipes
-- 17 inch alloy wheels
+- 17-inch alloy wheels
 - XDS electronic differential lock
 - Folding wing mirros
 
