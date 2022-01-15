@@ -126,7 +126,16 @@ These have already been factored in to the asking price.
 - [AutoExpress review](https://www.autoexpress.co.uk/seat/leon/85288/seat-leon-fr-review)
 
 ## Photos
-
+![](dash-front-closer.jpg)
+![](dash-front-driver.jpg)
+![](dash-front-left.jpg)
+![](dash-front-left-closer.jpg)
+![](display-full.jpg)
+![](display-link.jpg)
+![](display-mileage.jpg)
+![](display-mpg.jpg)
+![](display-wheel-left.jpg)
+![](display-wheel-right.jpg)
 ![](bonnet.jpg)
 ![](boot.jpg)
 ![](bodywork-right-front.jpg)
