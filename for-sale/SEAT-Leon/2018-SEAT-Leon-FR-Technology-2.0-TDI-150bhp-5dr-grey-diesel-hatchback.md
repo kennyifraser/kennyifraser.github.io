@@ -11,11 +11,13 @@ navigation: false
 
 > _"The SEAT Leon offers the tech and driving experience of the VW Golf, but for a lower price"_
 
-Bodywork, interior and engine in excellent condition.  Full service history, no outstanding issues.  Professionally valeted throughout by [Highland Valeting](https://www.highlandvaleting.co.uk/) and with a full tank of fuel. Selling due to working from home, no need for second car.
+Bodywork, interior and engine in excellent condition.  Full service history, no outstanding issues.  Professionally valeted throughout by [Highland Valeting](https://www.highlandvaleting.co.uk/). 
 
 **Private sale: £14,500**
 
 <span id="contact-me">**Contact:**</span> send an email to <a href="mailto:me@kennyfraser.com">me@kennyfraser.com</a> or text/WhatsApp/leave a message on <a href="tel:+447779769003">0777 976 9003</a>
+
+Selling due to working from home, no need for second car.
 
 |                                       |               |
 |---------------------------------------|---------------|
@@ -23,8 +25,8 @@ Bodywork, interior and engine in excellent condition.  Full service history, no 
 | Body type                             | Hatchback     |  
 | Colour                                | Grey          |
 | Current mileage                       | 23136         |  
-| Year                                  | 2018          |  
-| Registration                          | MF18 JZW      |
+| First registered                      | March 2018    |  
+| Registration number                   | MF18 JZW      |
 | Fuel                                  | Diesel        |  
 | Gears                                 | Manual        |
 | Engine                                | 1968 cc       |
@@ -35,6 +37,23 @@ Bodywork, interior and engine in excellent condition.  Full service history, no 
 | Range                                 | 704 miles     |
 | Insurance group                       | 21            |
 | Road tax                              | £155          |  
+| Previous owners (excluding current)   | 1             |  
+
+## Servicing, MOT, road tax
+- Two new front tyres fitted 28th Dec 2021 (Bridgestone Potenza Sport) with wheel alignment
+- Rear tyres have plenty of life
+- Last service 16th Nov 2021
+- Service history book included (servicing at Arnold Clark from Dec 2019 and Bannerman SEAT, Inverness)
+- Next MOT (second) due by Mar 7th, 2022
+- Road tax to renew on sale
+- [SEAT Leon user manual](../User-Manual--LEON_11_18_EN.pdf)
+
+## Defects
+- Eight small chips 1-4mm on tailgate (see photo)
+- Three 6cm scrapes on plastic bumper panel by driverside wheel arch (see photo)
+- Minor wear and tear on alloy wheels (see photos)
+
+[//]: # (These have already been factored in to the asking price.)
 
 ## Specification
 
@@ -46,6 +65,7 @@ Bodywork, interior and engine in excellent condition.  Full service history, no 
 - Voice control system
 - 2x front USB sockets, 2x rear
 - 2x SD card slots
+- SEAT Navigation SD card
 - CD player
 - DAB Digital radio
 - 12V power
@@ -53,7 +73,7 @@ Bodywork, interior and engine in excellent condition.  Full service history, no 
 ### Safety
 - ABS + traction control
 - Active pedestrian safety system
-- Rear parking sensors
+- Parking sensors
 - LED daytime running lights
 - LED front fog lights
 - LED headlights
@@ -90,22 +110,7 @@ Bodywork, interior and engine in excellent condition.  Full service history, no 
 - 17-inch alloy wheels
 - XDS electronic differential lock
 - Folding wing mirros
-
-## Servicing, MOT, road tax
-- Two new front tyres fitted 28th Dec 2021 (Bridgestone Potenza Sport) with wheel alignment
-- Rear tyres have plenty of life
-- Last service 16th Nov 2021
-- Service history book included (servicing at Arnold Clark from Dec 2019 and Bannerman SEAT, Inverness)
-- Next MOT (second) due by Mar 7th, 2022
-- Road tax to renew on sale
-- [SEAT Leon user manual](../User-Manual--LEON_11_18_EN.pdf)
-
-## Defects
-- Eight small chips 1-4mm on tailgate (see photo)
-- Two scrapes by driverside wheel arch (see photo)
-- Minor wear and tear on allow wheels (see photos)
-
-[//]: # (These have already been factored in to the asking price.)
+- Full tank of fuel
 
 ## Independent checks
 
