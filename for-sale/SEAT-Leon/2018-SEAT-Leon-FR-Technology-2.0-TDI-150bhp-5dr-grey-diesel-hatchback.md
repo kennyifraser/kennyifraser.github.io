@@ -19,6 +19,9 @@ Bodywork, interior and engine in excellent condition.  Full service history, no 
 
 Selling due to working from home, no need for second car.
 
+- [Listed on eBay Motors here](https://www.ebay.co.uk/itm/304314180759)
+- [Listed on Gumtree Motors here](https://www.gumtree.com/p/seat/2018-seat-leon-fr-technology-2.0-tdi-150bhp-hatchback-5dr/1423671979)
+
 |                                       |               |
 |---------------------------------------|---------------|
 | Doors                                 | 5             |  
