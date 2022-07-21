@@ -2,170 +2,179 @@
  * Wrapper
  */
 
-.wrapper 
-    //@extend %clearfix
-    padding-right: $spacing-unit / 2
-    padding-left: $spacing-unit / 2 
-    +mq(1025px) 
-        max-width: 1024px
-        margin: 0 auto 
-    .page-content & 
-        background-color: $secondary-color-light
-        padding: $spacing-unit 5%
-        +mq(1025px)   
-            border-radius: $spacing-unit
-            padding: $spacing-unit
+.wrapper
+  //@extend %clearfix
+  display: flex
+  padding-right: $spacing-unit / 2
+  padding-left: $spacing-unit / 2
+  +mq(1025px)
+    max-width: 1024px
+    margin: 0 auto
+  .page-content &
+    background-color: $secondary-color-light
+    padding: $spacing-unit 5%
+    +mq(1025px)
+      border-radius: $spacing-unit
+      padding: $spacing-unit
 
 
 /**
  * Site header
  */
 
-.site-header 
-    min-height: 56px
-    // Positioning context for the mobile navigation icon
-    position: relative
+.site-header
+  min-height: 56px
+  // Positioning context for the mobile navigation icon
+  position: relative
 
-.site-title 
-    float: left
-    font-size: 26px
-    letter-spacing: -1px
+.site-title
+  float: left
+  font-size: 26px
+  letter-spacing: -1px
+  line-height: 56px
+  margin-bottom: 0
+
+.site-nav
+  +mq(600px)
+    float: right
     line-height: 56px
-    margin-bottom: 0
+  +mqx(599px)
+    position: absolute
+    top: 9px
+    right: 30px
+    background-color: $background-color
+    border-radius: 5px
+    text-align: right
+    .trigger
+      clear: both
+      display: none
+    &:hover .trigger
+      display: block
+      padding-bottom: 5px
 
-.site-nav 
-    +mq(600px)
-        float: right
-        line-height: 56px
-    +mqx(599px)
-        position: absolute
-        top: 9px
-        right: 30px
-        background-color: $background-color
-        border-radius: 5px
-        text-align: right
-        .trigger 
-            clear: both
-            display: none    
-        &:hover .trigger 
-            display: block
-            padding-bottom: 5px 
+.menu-icon
+  +mq(600px)
+    display: none
+  +mqx(599px)
+    display: block
+    float: right
+    width: 36px
+    height: 36px
+    line-height: 0
+    padding-top: 10px
+    text-align: center
+    > svg
+      width: 18px
+      height: 15px
 
-.menu-icon 
-    +mq(600px)
-        display: none
-    +mqx(599px)
-        display: block
-        float: right
-        width: 36px
-        height: 36px
-        line-height: 0
-        padding-top: 10px
-        text-align: center
-        > svg 
-            width: 18px
-            height: 15px
-            path 
-                fill: $text-color 
+      path
+        fill: $text-color
 
-.page-link 
-    +mq(600px)
-        line-height: $base-line-height
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) 
-            margin-left: 20px
-    +mqx(599px)
-        display: block
-        padding: 5px 10px
+.page-link
+  +mq(600px)
+    line-height: $base-line-height
+    // Gaps between nav items, but not on the first one
+    &:not(:first-child)
+      margin-left: 20px
+  +mqx(599px)
+    display: block
+    padding: 5px 10px
 
-.footer-heading 
-    font-size: 18px
-    margin-bottom: $spacing-unit / 2
+.footer-heading
+  font-size: 18px
+  margin-bottom: $spacing-unit / 2
 
 .contact-list,
-.social-media-list 
-    list-style: none
-    margin-left: 0
+.social-media-list
+  list-style: none
+  margin-left: 0
 
 .list--footer li
-    display: block
-    margin: $spacing-unit/2 $spacing-unit/2 0 0
+  display: block
+  margin: $spacing-unit/2 $spacing-unit/2 0 0
 
-.icon 
-    > svg 
-        display: inline-block
-        width: 16px
-        height: 16px
-        vertical-align: middle
-        path 
-            fill: $text-color
+.icon
+  > svg
+    display: inline-block
+    width: 16px
+    height: 16px
+    vertical-align: middle
+
+    path
+      fill: $text-color
 
 
 /**
  * Page content
  */
 
-.page-content 
-    padding-bottom: $spacing-unit
-    & p a 
-        border-bottom: 1px dotted $brand-color
-        &:hover 
-            border-bottom: 1px solid $text-color
+.page-content
+  padding-bottom: $spacing-unit
+
+  & p a
+    border-bottom: 1px dotted $brand-color
+
+    &:hover
+      border-bottom: 1px solid $text-color
 
 
 /**
  * Posts
  */
 
-.post-list 
-    margin-top: $spacing-unit
-    list-style: none
-    h3
-        display: inline-block
-        margin: 0 0 $spacing-unit / 4 0
-        padding: 0
-    > li 
-        margin-bottom: $spacing-unit     
+.post-list
+  margin-top: $spacing-unit
+  list-style: none
 
-.post-link 
-    display: block
-    font-size: 24px
+  h3
+    display: inline-block
+    margin: 0 0 $spacing-unit / 4 0
+    padding: 0
 
-.post-header 
+  > li
     margin-bottom: $spacing-unit
 
-.post-title 
-    font-size: 42px
-    letter-spacing: -1px
-    line-height: 1
-    +mqx(799px) 
-        font-size: 36px
+.post-link
+  display: block
+  font-size: 24px
 
-.post-content 
-    h2 
-        font-size: 32px
-        +mqx(799px) 
-            font-size: 28px
-    h3 
-        font-size: 26px
-        +mqx(799px) 
-            font-size: 22px
-    h4 
-        font-size: 20px
-        +mqx(799px) 
-            font-size: 18px
+.post-header
+  margin-bottom: $spacing-unit
+
+.post-title
+  font-size: 42px
+  letter-spacing: -1px
+  line-height: 1
+  +mqx(799px)
+    font-size: 36px
+
+.post-content
+  h2
+    font-size: 32px
+    +mqx(799px)
+      font-size: 28px
+
+  h3
+    font-size: 26px
+    +mqx(799px)
+      font-size: 22px
+
+  h4
+    font-size: 20px
+    +mqx(799px)
+      font-size: 18px
 
 
 /**
  * Other
  */
 
-+mqx(599px) 
-    .twitter-widget 
-        margin: 0 $spacing-unit
++mqx(599px)
+  .twitter-widget
+    margin: 0 $spacing-unit
 
 .mt-3
-    margin-top: 3rem
+  margin-top: 3rem
 
 .underline-none
-    text-decoration: none
+  text-decoration: none
