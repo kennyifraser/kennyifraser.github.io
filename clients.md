@@ -5,11 +5,10 @@ permalink: /clients/
 title: Clients  
 ---
 
-I'm available for freelance work, so get in touch if you're interested in working together. I support small business clients locally, throughout Scotland and the wider UK.
+Here are companies I've worked with in various aspects of responsive web design and technical development over the years.  For testimonials on these projects see my [LinkedIn portfolio](https://www.linkedin.com/in/kennyfraser).
 
-Listed here are companies I've worked with in various aspects of responsive web design and technical development over the years.  For testimonials on these projects see my [LinkedIn portfolio](https://www.linkedin.com/in/kennyfraser).
-
-These days my main interest is in building sites under the [Jamstack](https://jamstack.org/) architecture.
+[//]: # (I'm available for freelance work, so get in touch if you're interested in working together. I support small business clients locally, throughout Scotland and the wider UK.)
+[//]: # (These days my main interest is in building sites under the [Jamstack]&#40;https://jamstack.org/&#41; architecture.)
 
 A **CMS** is a [Content Management System](https://en.wikipedia.org/wiki/Content_management_system).
 
@@ -145,17 +144,13 @@ People I worked with in the early days of website promotion in the Scottish cult
 
 ---
 
-# Web marketing services
-
-For clients in the past I've undertaken web marketing work including:
+# Previous web marketing services
 
 * content management & strategy
 * social media marketing
 * search engine optimisation (beyond code-level best practice)
 * pay-per-click advertising
 * email marketing
-
-These aren't services I offer to undertake now, but I may be able to advise. 
 
 ---
 

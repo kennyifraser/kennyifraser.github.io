@@ -5,7 +5,7 @@ layout: default
     
 I live on the bonnie Black Isle, near Inverness in the Scottish Highlands.
 
-I've mainly built websites as a career, and travelled Scotland and other parts of the world playing Scottish music. 
+I've mainly built websites as a [career](/about), and travelled Scotland and other parts of the world playing Scottish music. 
   
 I also host holiday guests at Back Brae Lodge, a [self catering cottage in Tobermory](https://mull.co) on the Isle of Mull.
 
