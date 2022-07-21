@@ -6,9 +6,9 @@ This is Kenny Fraser's personal site.
 
 No build step.
 
-Commit and Push to GitHub Pages.
+Commit and Push to GitHub Pages in kennyifraser account.
 
-Frontend page updates take < 1 minute.
+Frontend page updates take ~ 1 minute.
 
 [//]: # (Web Business Services portfolio )
 [//]: # (freelance front end web developer in the Scottish Highlands.)
