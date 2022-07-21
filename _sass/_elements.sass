@@ -5,15 +5,15 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure
-    margin: 0
-    padding: 0
+  margin: 0
+  padding: 0
 
 // universal box sizing
 html
-    box-sizing: border-box
+  box-sizing: border-box
 
 *, *:before, *:after
-    box-sizing: inherit
+  box-sizing: inherit
 
 
 /**
@@ -21,17 +21,17 @@ html
  */
 
 body
-    font-family: $base-font-family
-    font-size: $base-font-size
-    line-height: $base-line-height
-    font-weight: 400
-    color: $text-color
-    background-color: $background-color
-    background-image: $background-image
-    background-attachment: fixed
-    -webkit-text-size-adjust: 100%
-    text-rendering: optimizeLegibility
-    -webkit-font-smoothing: antialiased
+  font-family: $base-font-family
+  font-size: $base-font-size
+  line-height: $base-line-height
+  font-weight: 400
+  color: $text-color
+  background-color: $background-color
+  background-image: $background-image
+  background-attachment: fixed
+  -webkit-text-size-adjust: 100%
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -40,7 +40,7 @@ body
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure
-    margin-bottom: $spacing-unit / 2
+  margin-bottom: $spacing-unit / 2
 
 
 /**
@@ -48,17 +48,17 @@ ul, ol, dl, figure
  */
 
 img
-    max-width: 100%
-    vertical-align: middle
+  max-width: 100%
+  vertical-align: middle
 
-    a &
-        vertical-align: bottom
+  a &
+    vertical-align: bottom
 
 figure > img
-    display: block
+  display: block
 
 figcaption
-    font-size: $small-font-size
+  font-size: $small-font-size
 
 
 /**
@@ -66,9 +66,9 @@ figcaption
  */
 
 li
-    > ul,
-    > ol
-        margin-bottom: 0
+  > ul,
+  > ol
+    margin-bottom: 0
 
 
 /**
@@ -76,15 +76,15 @@ li
  */
 
 h1, h2, h3, h4, h5, h6
-    font-weight: 400
-    padding-top: $spacing-unit / 2
-    line-height: 1.2
+  font-weight: 400
+  padding-top: $spacing-unit / 2
+  line-height: 1.2
 
 hr
-    background-color: $background-color
-    border: none
-    height: 4px
-    margin: $spacing-unit 0
+  background-color: $background-color
+  border: none
+  height: 4px
+  margin: $spacing-unit 0
 
 
 /**
@@ -92,11 +92,11 @@ hr
  */
 
 a
-    color: $brand-color
-    text-decoration: none
+  color: $brand-color
+  text-decoration: none
 
-    &:hover
-        color: $text-color
+  &:hover
+    color: $text-color
 
 
 /**
@@ -104,16 +104,16 @@ a
  */
 
 blockquote
-    // font-size: $base-font-size
-    // letter-spacing: -1px
-    font-style: italic
-    float: right
-    text-align: right
-    +mq(400px)
-        padding-left: 33%
+  // font-size: $base-font-size
+  // letter-spacing: -1px
+  font-style: italic
+  float: right
+  text-align: right
+  +mq(400px)
+    padding-left: 33%
 
-    > :last-child
-        margin-bottom: 0
+  > :last-child
+    margin-bottom: 0
 
 
 /**
@@ -125,31 +125,31 @@ label,
 option,
 select,
 textarea
-    border: none
-    display: block
-    font-size: $base-font-size
-    width: 100%
+  border: none
+  display: block
+  font-size: $base-font-size
+  width: 100%
 
 input,
 select,
 textarea
-    background-color: $secondary-color-lightest
-    border-radius: $border-radius
-    margin-bottom: $spacing-unit
-    padding: $spacing-unit/2
+  background-color: $secondary-color-lightest
+  border-radius: $border-radius
+  margin-bottom: $spacing-unit
+  padding: $spacing-unit/2
 
-    &:focus
-        background-color: white
+  &:focus
+    background-color: white
 
 input[type="submit"]
-    &:hover
-        background-color: white
+  &:hover
+    background-color: white
 
 label
-    margin-bottom: $spacing-unit/2
+  margin-bottom: $spacing-unit/2
 
 textarea
-    height: $spacing-unit*5
+  height: $spacing-unit*5
 
 
 /**
@@ -158,20 +158,20 @@ textarea
 
 pre,
 code
-    font-size: 15px
-    border: 1px solid $background-color
+  font-size: 15px
+  border: 1px solid $background-color
 
 code
-    padding: 1px 5px
+  padding: 1px 5px
 
 pre
-    padding: 8px 12px
-    overflow-x: scroll
+  padding: 8px 12px
+  overflow-x: scroll
 
-    > code
-        border: 0
-        padding-right: 0
-        padding-left: 0
+  > code
+    border: 0
+    padding-right: 0
+    padding-left: 0
 
 
 /**
@@ -179,19 +179,20 @@ pre
  */
 
 footer
-    padding: $spacing-unit 0
-    font-size: $small-font-size
+  display: flex
+  padding: $spacing-unit 0
+  font-size: $small-font-size
 
-    img
-        border-radius: 50%
-        display: block
-        margin-bottom: $spacing-unit / 2
-        width: 150px
-        +mq(500px)
-            float: left
-            margin-right: $spacing-unit
-        +mq(1025px)
-            opacity: .7
-            transition: .4s
-            &:hover
-                opacity: 1
+  img
+    border-radius: 50%
+    display: block
+    margin-bottom: $spacing-unit / 2
+    width: 150px
+    +mq(500px)
+      float: left
+      margin-right: $spacing-unit
+    +mq(1025px)
+      opacity: .7
+      transition: .4s
+      &:hover
+        opacity: 1
