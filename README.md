@@ -1,3 +1,14 @@
 # kennyfraser.com
 
-This is the portfolio site for Kenny Fraser (Web Business Services), a freelance front end web developer in the Scottish Highlands.
+This is Kenny Fraser's personal site.
+
+## Git and Deployment
+
+No build step.
+
+Commit and Push to GitHub Pages.
+
+
+
+[//]: # (Web Business Services portfolio )
+[//]: # (freelance front end web developer in the Scottish Highlands.)
