@@ -1,16 +1,16 @@
 ---
 layout: page  
-navigation: true  
+navigation: false  
 permalink: /clients/  
 title: Clients  
 ---
 
-Here are companies I've worked with in various aspects of responsive web design and technical development over the years.  For testimonials on these projects see my [LinkedIn portfolio](https://www.linkedin.com/in/kennyfraser).
+Here are companies I've worked with in various aspects of technical web development over the years, including responsive web design, content management and strategy, social media marketing, search engine optimisation, pay-per-click advertising and email marketing.  For testimonials on these projects see my [LinkedIn portfolio](https://www.linkedin.com/in/kennyfraser).
 
 [//]: # (I'm available for freelance work, so get in touch if you're interested in working together. I support small business clients locally, throughout Scotland and the wider UK.)
 [//]: # (These days my main interest is in building sites under the [Jamstack]&#40;https://jamstack.org/&#41; architecture.)
 
-A **CMS** is a [Content Management System](https://en.wikipedia.org/wiki/Content_management_system).
+A **CMS** is a [Content Management System](https://en.wikipedia.org/wiki/Content_management_system) - here's a list of [web software and resources](/tools.md) I've found useful over the years.
 
 ---
 
@@ -85,19 +85,10 @@ Easter Ross art dealer. WordPress content management, payment service integratio
 
 ---
 
-## Superceded Projects
+## Other Projects
 
 ### Bright Seeds
-Wiltshire agricultural supplier [Bright Seeds](https://www.brightseeds.co.uk/).  
-
-#### Bright Seeds
-Fully responsive front end re-design of the existing main ecommerce site built with an in-house CMS.
-
-#### Tractorman's Guide
-Visit [Bright Seeds Tractorman's Guide](https://m.brightseeds.co.uk/). Mobile web app built with HTML5, [jQuery Mobile](https://jquerymobile.com/) and PHP - a catalogue of seed crops.  Applications for Apple iOS App Store and Android Google Play Store.
-
-#### Bright Wildflowers
-Companion to main site.
+Wiltshire agricultural supplier [Bright Seeds](https://www.brightseeds.co.uk/).  Responsive front end re-design of the existing main ecommerce site built with an in-house CMS.  Tractorman's Guide mobile web app built with HTML5, [jQuery Mobile](https://jquerymobile.com/) and PHP - a catalogue of seed crops.  Apps for Apple iOS App Store and Android Google Play Store. Bright Wildflowers companion to main site.
 
 ### FindAFishingBoat
 Nationwide boat sales listing site. Visit [FindAFishingBoat](https://www.findafishingboat.com/).
@@ -107,13 +98,13 @@ Complete design of a fully responsive multi-domain profile site for this Scottis
 
 ### SellerDeck E-commerce CMS Projects
 
-[SellerDeck Desktop](https://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop) is at the heart of thousands of businesses selling online today.  Offline site generation, with Perl-based server scripts.
+[SellerDeck Desktop](https://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop) ecommerce application.  Offline site generation, with Perl-based server scripts.
 
 #### SellerDeck Ltd
 I worked with [SellerDeck Ltd](https://www.sellerdeck.co.uk) to assess and build shop sites for their clients.
 
 #### Toplightco Ltd
-London-based lighting company dealing in commercial lighting for shops, stores, galleries and homes. Upgrade of existing Toplightco store to SellerDeck 2014, with third-party add-ons. Implementation of a customised responsive design for all screen sizes. Visit [Toplightco Ltd](https://www.toplightco.com/).
+London-based lighting company dealing in commercial lighting for shops, stores, galleries and homes. Upgrade of Toplightco store with third-party add-ons. Implementation of a customised responsive design for all screen sizes. Visit [Toplightco Ltd](https://www.toplightco.com/).
 
 #### Sterling Shop
 Bradford-based company dealing in security products such as padlocks, chains, cashboxes, door and window locks. Upgrade of existing Sterling Shop store to SellerDeck 2014, with third-party add-ons. Implementation of a customised responsive design for all screen sizes. Visit [Sterling Shop](https://www.sterlingshop.co.uk/).
@@ -141,16 +132,6 @@ People I worked with in the early days of website promotion in the Scottish cult
 - [Salsa Celtica](https://salsaceltica.com/)
 - [Scots Fiddle Festival](https://www.scotsfiddlefestival.com/)
 - [Shooglenifty](https://www.shoogle.com/)
-
----
-
-# Previous web marketing services
-
-* content management & strategy
-* social media marketing
-* search engine optimisation (beyond code-level best practice)
-* pay-per-click advertising
-* email marketing
 
 ---
 

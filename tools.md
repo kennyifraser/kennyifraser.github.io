@@ -1,10 +1,10 @@
 ---
 layout: page
-navigation: true
+navigation: false
 permalink: /tools/
 title: Tools
 ---
-A selection of web design and development tools and resources which I use on a regular basis.
+A selection of web design and development tools and resources which I work with and find useful.
 
 ## Web Coding
 
