@@ -10,7 +10,7 @@ Here are companies I've worked with in various aspects of technical web developm
 [//]: # (I'm available for freelance work, so get in touch if you're interested in working together. I support small business clients locally, throughout Scotland and the wider UK.)
 [//]: # (These days my main interest is in building sites under the [Jamstack]&#40;https://jamstack.org/&#41; architecture.)
 
-A **CMS** is a [Content Management System](https://en.wikipedia.org/wiki/Content_management_system) - here's a list of [web software and resources](/tools.md) I've found useful over the years.
+A **CMS** is a [Content Management System](https://en.wikipedia.org/wiki/Content_management_system) - see a list of [web software and resources](/tools.md) I've found useful over the years.
 
 ---
 
