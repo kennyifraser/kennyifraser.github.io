@@ -5,12 +5,9 @@ permalink: /clients/
 title: Clients  
 ---
 
-Here are companies I've worked with in various aspects of technical web development over the years, including responsive web design, content management and strategy, social media marketing, search engine optimisation, pay-per-click advertising and email marketing.  For testimonials on these projects see my [LinkedIn portfolio](https://www.linkedin.com/in/kennyfraser).
+Here are companies I've worked with in various aspects of web development and promotion over the years, including responsive web design, content management and strategy, social media marketing, search engine optimisation, pay-per-click advertising and email marketing.  For more about these projects see my [LinkedIn profile](https://www.linkedin.com/in/kennyfraser).
 
-[//]: # (I'm available for freelance work, so get in touch if you're interested in working together. I support small business clients locally, throughout Scotland and the wider UK.)
-[//]: # (These days my main interest is in building sites under the [Jamstack]&#40;https://jamstack.org/&#41; architecture.)
-
-A **CMS** is a [Content Management System](https://en.wikipedia.org/wiki/Content_management_system) - see a list of [web software and resources](/tools.md) I've found useful over the years.
+A **CMS** is a [Content Management System](https://en.wikipedia.org/wiki/Content_management_system).  See a list of [web software and resources](/tools) I've found useful over the years.
 
 ---
 
@@ -69,7 +66,7 @@ This personal portfolio and blog at [kennyfraser.com](https://kennyfraser.com), 
 
 ## Perch CMS Projects
 
-[Perch](https://grabaperch.com/) calls itself *the original really little CMS*.
+[Perch](https://grabaperch.com/) calls itself *the really little content management system*.
 
 ### Inverness Tree Services Ltd
 Tree surgery and consultancy, based on the Black Isle near Inverness in the Scottish Highlands.  Full responsive design. Visit [Inverness Tree Services Ltd](https://invernesstreeservices.com).
@@ -101,13 +98,13 @@ Complete design of a fully responsive multi-domain profile site for this Scottis
 [SellerDeck Desktop](https://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop) ecommerce application.  Offline site generation, with Perl-based server scripts.
 
 #### SellerDeck Ltd
-I worked with [SellerDeck Ltd](https://www.sellerdeck.co.uk) to assess and build shop sites for their clients.
+I worked with [SellerDeck](https://www.sellerdeck.co.uk) to assess and build shop sites for their clients.
 
 #### Toplightco Ltd
 London-based lighting company dealing in commercial lighting for shops, stores, galleries and homes. Upgrade of Toplightco store with third-party add-ons. Implementation of a customised responsive design for all screen sizes. Visit [Toplightco Ltd](https://www.toplightco.com/).
 
 #### Sterling Shop
-Bradford-based company dealing in security products such as padlocks, chains, cashboxes, door and window locks. Upgrade of existing Sterling Shop store to SellerDeck 2014, with third-party add-ons. Implementation of a customised responsive design for all screen sizes. Visit [Sterling Shop](https://www.sterlingshop.co.uk/).
+Bradford-based company dealing in security products such as padlocks, chains, cashboxes, door and window locks. Upgrade of existing Sterling Shop store to SellerDeck 2014, with third-party add-ons. Implementation of a customised responsive design for all screen sizes.
 
 #### For More Ltd
 Surrey-based dealer in house and garden products. Upgrade of three separate stores to SellerDeck 2014. Customisation of the Smart Responsive theme for all screen sizes, using a common custom stylesheet for a consistent appearance. Visit [For Stove Glass](https://www.forstoveglass.co.uk/) and [For Your Fireside](https://www.foryourfireside.co.uk/).
@@ -116,7 +113,7 @@ Surrey-based dealer in house and garden products. Upgrade of three separate stor
 
 ## Early clients
 
-People I worked with in the early days of website promotion in the Scottish cultural arena during the late 1990s and early 2000s included:
+People I worked with in the Scottish cultural world, during the early days of promotion through websites in the late 1990s and early 2000s, included:
 
 - [Alasdair Fraser (Culburnie Records)](https://www.culburnie.com/)
 - [Carnyx &amp; Co](http://carnyx.org.uk/)
@@ -125,7 +122,7 @@ People I worked with in the early days of website promotion in the Scottish cult
 - [Christine Kydd](https://www.christinekydd.com/)
 - [Daimh](https://www.daimh.net/)
 - [Feisean Nan Gaidheal](https://www.feisean.org/)
-- [Garvie Bagpipes](https://www.garviebagpipes.co.uk/)
+- [Garvie Bagpipes](http://www.garviebagpipes.co.uk/)
 - [Hamish Moore](https://en.wikipedia.org/wiki/Hamish_Moore)
 - [Mairi MacInnes](https://www.mairimacinnes.com/)
 - [Martyn Bennett](http://www.martynbennett.com/)

@@ -4,7 +4,7 @@ navigation: false
 permalink: /tools/
 title: Tools
 ---
-A selection of web design and development tools and resources which I work with and find useful.
+A selection of web design and development tools and resources which I've worked with recently.
 
 ## Web Coding
 
@@ -24,11 +24,9 @@ A selection of web design and development tools and resources which I work with 
 - [CartThrob](https://www.cartthrob.com)
 - [PayPal](https://www.paypal.com)
 - [Shopify](https://www.shopify.co.uk)
-- [WorldPay](https://www.fisglobal.com/en-gb/merchant-solutions-worldpay)
 
 ## Design, Coding &amp; Site Building
 
-- [Codekit](https://codekitapp.com)
 - [Github Desktop](https://desktop.github.com)
 - [MAMP](https://www.mamp.info)
 - [Node.js](https://nodejs.org/en)
@@ -48,9 +46,7 @@ A selection of web design and development tools and resources which I work with 
 
 ---
 
-## Other References
-
-Resources I've had experience of using in the past.
+## Other Resources
 
 ### Front End Frameworks
 - [Bootstrap](https://getbootstrap.com)
@@ -58,12 +54,15 @@ Resources I've had experience of using in the past.
 - [HTML5 Boilerplate](https://html5boilerplate.com)
 
 ### Content Management &amp; eCommerce
+- [Codekit](https://codekitapp.com)
 - [Expresso Store](https://exp-resso.com/store)
 - [Perch](https://grabaperch.com)
 - [SellerDeck Desktop](https://www.sellerdeck.co.uk/index.php/ecommerce-software/category/sellerdeck-desktop)
 - [Spanglefish](https://www.spanglefish.com)
 - [TerminalFOUR](https://www.terminalfour.com)
 - [WordPress](https://wordpress.org)
+- [WorldPay](https://www.fisglobal.com/en-gb/merchant-solutions-worldpay)
+
 
 ### Responsive Design
 - [Adobe Creative Cloud](https://www.adobe.com/uk/creativecloud.html)
