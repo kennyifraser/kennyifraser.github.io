@@ -5,7 +5,7 @@ permalink: /about/
 navigation: true  
 ---
 
-I went to school at [Fortrose Academy](https://www.fortroseacademy.co.uk/) on the Black Isle, and during the early 1990s studied for a biochemistry degree at [The University of Edinburgh](https://www.ed.ac.uk/).
+I went to school at [Fortrose Academy](https://www.fortroseacademy.co.uk/) on the Black Isle, and during the early 1990s gained a degree in biochemistry at [The University of Edinburgh](https://www.ed.ac.uk/).
 
 In <time datetime="1999">1999</time> I created the Scottish and Celtic music specialist retail website [Music Scotland](https://www.musicscotland.com/).  I ran this business as owner-manager from locations in Edinburgh, Stirling and the Isle of Mull.  In <time datetime="2005">2005</time> the business won the <span itemprop="award">Scots Trad Music Awards Services To Industry Award</span>.  In <time datetime="2011">2011</time> it was sold as a going concern to another Scottish music store, Oban Music, and still trades today.  Music Scotland has sent CDs, DVDs and books to tens of thousands of customers worldwide, most of this music created by Scottish artists.
 
