@@ -11,8 +11,8 @@ In <time datetime="1999">1999</time> I created the Scottish and Celtic music spe
 
 During the 2000s I was also working as a musician, performing internationally with [Salsa Celtica](https://salsaceltica.com) and other bands, and teaching Scottish traditional music with the Gaelic cultural organisation [Feisean Nan Gaidheal](https://feisean.org/).
 
-In 2008 I converted my music shop in Tobermory into a self catering property, [Back Brae Lodge](https://mull.co).  Since then, the house has been holiday accommodation for hundreds of guests visiting the Isle of Mull. 
+In 2008 I converted my music shop in Tobermory into a self catering holiday property, [Back Brae Lodge](https://mull.co).  Since then, the house has accommodated hundreds of guests visiting the Isle of Mull. 
 
-Between <time datetime="2011">2011</time> and <time datetime="2022">2022</time> I worked freelance as a web designer and developer, creating and/or supporting an operational web presence for a wide range of [client businesses](/clients).  These included record companies and other online retailers, accommodation providers, agricultural suppliers and medical-scientific organisations.
+Between <time datetime="2011">2011</time> and <time datetime="2022">2022</time> I worked freelance as a web designer and developer, creating and/or supporting an operational web presence for a wide range of [small business clients](/clients).  These included record companies and other online retailers, accommodation providers, agricultural suppliers and medical-scientific organisations.
 
-Between <time datetime="2017">2017</time> and <time datetime="2017">2019</time> I was part of the web team at the [University of the Highlands and Islands](https://www.uhi.ac.uk/en/), working on the University's content management system, supporting users and developing the front end of the website.
+Between <time datetime="2017">2017</time> and <time datetime="2017">2019</time> I was part of the web team at the [University of the Highlands and Islands](https://www.uhi.ac.uk/en/), working on the University's content management system, supporting users and developing the front end of the site.
