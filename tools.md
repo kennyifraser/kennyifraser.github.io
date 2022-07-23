@@ -95,4 +95,6 @@ A selection of web design and development tools and resources which I've worked 
 - [Udemy](https://www.udemy.com)
 - [W3DevCampus](https://w3cx.org)
 
+---
+
 {% include back-to-top.html %}

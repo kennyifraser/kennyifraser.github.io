@@ -5,9 +5,11 @@ permalink: /clients/
 title: Clients  
 ---
 
-Here are companies I've worked with in various aspects of web development and promotion over the years, including responsive web design, content management and strategy, social media marketing, search engine optimisation, pay-per-click advertising and email marketing.  For testimonials and more about these projects see my [LinkedIn profile](https://www.linkedin.com/in/kennyfraser).
+Here are companies I worked with in various aspects of web development and promotion over the years, including responsive web design, content management and strategy, social media marketing, search engine optimisation, pay-per-click advertising and email marketing.  For testimonials and more about these projects see [my LinkedIn profile](https://www.linkedin.com/in/kennyfraser).
 
-A **CMS** is a [Content Management System](https://en.wikipedia.org/wiki/Content_management_system).  See a list of [web software and resources](/tools) I've found useful over the years.
+A **CMS** is a [Content Management System](https://en.wikipedia.org/wiki/Content_management_system).  
+
+See a list of [web software and resources](/tools) I've found useful over the years.
 
 ---
 
