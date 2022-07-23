@@ -17,6 +17,6 @@ bundle exec jekyll serve --livereload
 
 ## Git and Deployment
 
-Commit and Push to GitHub Pages in kennyifraser account.
+Commit (cmd-K) and Push (shift-cmd-K) to GitHub Pages in kennyifraser account.
 
 Frontend page updates take ~ 1 minute.
