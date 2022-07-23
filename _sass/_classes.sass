@@ -4,17 +4,17 @@
 
 .wrapper
   //@extend %clearfix
-  padding-right: $spacing-unit / 2
-  padding-left: $spacing-unit / 2
+  padding-right: $space / 2
+  padding-left: $space / 2
   +mq(1025px)
     max-width: 1024px
     margin: 0 auto
   .page-content &
     background-color: $secondary-color-light
-    padding: $spacing-unit 5%
+    padding: $space 5%
     +mq(1025px)
-      border-radius: $spacing-unit
-      //padding: $spacing-unit
+      border-radius: $space
+      //padding: $space
 
 
 /**
@@ -23,6 +23,7 @@
 
 .site-header
   min-height: 56px
+  margin-bottom: $space
   // Positioning context for the mobile navigation icon
   position: relative
 
@@ -81,16 +82,12 @@
 
 .footer-heading
   font-size: 18px
-  margin-bottom: $spacing-unit / 2
+  margin-bottom: $space / 2
 
 .contact-list,
 .social-media-list
   list-style: none
   margin-left: 0
-
-.list--footer li
-  display: block
-  margin: $spacing-unit/2 $spacing-unit/2 0 0
 
 .icon
   > svg
@@ -108,7 +105,7 @@
  */
 
 .page-content
-  padding-bottom: $spacing-unit
+  padding-bottom: $space
 
   & p a
     border-bottom: 1px dotted $brand-color
@@ -122,23 +119,23 @@
  */
 
 .post-list
-  margin-top: $spacing-unit
+  margin-top: $space
   list-style: none
 
   h3
     display: inline-block
-    margin: 0 0 $spacing-unit / 4 0
+    margin: 0 0 $space / 4 0
     padding: 0
 
   > li
-    margin-bottom: $spacing-unit
+    margin-bottom: $space
 
 .post-link
   display: block
   font-size: 24px
 
 .post-header
-  margin-bottom: $spacing-unit
+  margin-bottom: $space
 
 .post-title
   font-size: 42px
@@ -170,7 +167,7 @@
 
 +mqx(599px)
   .twitter-widget
-    margin: 0 $spacing-unit
+    margin: 0 $space
 
 .mt-3
   margin-top: 3rem
