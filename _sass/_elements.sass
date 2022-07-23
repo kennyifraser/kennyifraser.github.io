@@ -65,6 +65,9 @@ figcaption
  * Lists
  */
 
+ul
+  padding-left: $spacing-unit
+
 li
   > ul,
   > ol
@@ -179,22 +182,27 @@ pre
  */
 
 footer
-  padding: $spacing-unit 0
+  display: flex
   font-size: $small-font-size
+  flex-direction: column
+  padding: $spacing-unit 0
   +mq(500px)
-    display: flex
+    flex-direction: row
+    justify-content: center
 
   > a
-    padding-right: $spacing-unit
+    margin: 0 auto
+    +mq(500px)
+      margin: 0
 
   img
     border-radius: 50%
     display: block
     margin-bottom: $spacing-unit / 2
     width: 150px
-    +mq(500px)
-      float: left
-      margin-right: $spacing-unit
+    //+mq(500px)
+    //  float: left
+    //  margin-right: $spacing-unit
     +mq(1025px)
       opacity: .7
       transition: .4s
