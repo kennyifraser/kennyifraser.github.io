@@ -5,10 +5,8 @@ layout: default
     
 I live on the bonnie Black Isle, near Inverness in the Scottish Highlands.
 
-As a [career](/about/) I've helped build and manage websites, and travelled the world with bands playing music. 
+I've been the Web Manager at [NHS Highland](https://www.nhshighland.scot.nhs.uk/) since August 2022.
 
-I've recently taken up the post of Web Manager at [NHS Highland](https://www.nhshighland.scot.nhs.uk/).
+As a [career](/about) I've helped build and manage websites, managed a self catering cottage in Tobermory on the Isle of Mull, and travelled the world with bands playing music. 
   
-[//]: # (Our small team hosts holiday guests at Back Brae Lodge, a [self catering cottage in Tobermory]&#40;https://mull.co/&#41; on the Isle of Mull.)
-
 I'm one third of the [Black Isle Ceilidh Band](https://blackisle.band/).
